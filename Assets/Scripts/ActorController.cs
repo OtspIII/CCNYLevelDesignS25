@@ -422,7 +422,7 @@ public class ActorController : MonoBehaviour
         {
             SpinSpeed = amt;
         }
-        else if (act == "RandomWalkNew")
+        else if (act == "RandomWalk")
         {
             Vector3 endPos = new Vector3(Random.Range(-5.5f,5.5f),Random.Range(-2.5f,2.5f));
             SetDesiredPos(endPos,MoveStyle.Lerp);
