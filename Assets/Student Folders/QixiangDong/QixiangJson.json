@@ -1,0 +1,11 @@
+{
+  "Title": "NightCore",
+  "Author": "Qixiang Dong",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 2,"Action": "”VelPlayer”"},
+    {"Time": 3,"Who": "Monster (1)","Anim": "SpinShoot","Action": "Shake","Amt": 1},
+    {"Time": 4,"Who": "Monster (1)","Anim": "SpinShoot","Action": "Shake","Amt": 1},
+    {"Time": 12}
+  ]
+}
