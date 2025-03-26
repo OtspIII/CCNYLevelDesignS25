@@ -1,0 +1,25 @@
+{
+  "Title": "Level 1",
+  "Author": "Chanse",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 1,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 2,"Action": "RandomWalk"},
+    {"Time": 4,"Action": "RandomWalk"},
+    {"Time": 5.5,"Action": "Shake", "Amt": 5},
+    {"Time": 5.5,"Who":"Blue Monster","Action": "Shake", "Amt": 5},
+    {"Time": 8,"Dialogue": "Hello"},
+    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 10,"Dialogue": "Whoa"},
+    {"Time": 11,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 12,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 13,"Action": "RandomWalk"},
+    {"Time": 15,"Action": "RandomWalk"},
+    {"Time": 16.5,"Action": "Shake", "Amt": 5},
+    {"Time": 16.5,"Who":"Blue Monster","Action": "Shake", "Amt": 5},
+    {"Time": 19,"Dialogue": "Hello"},
+    {"Time": 19,"Who":"Player","Action": "Flash"},
+    {"Time": 20,"Dialogue": "Whoa"},
+    {"Time": 21}
+  ]
+}
