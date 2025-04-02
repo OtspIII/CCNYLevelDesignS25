@@ -1,0 +1,15 @@
+{
+  "Title": "Sway To The Beat",
+  "Author": "AdamD.",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 2,"Action": "RandomWalk"},
+    {"Time": 4,"Action": "RandomWalk"},
+    {"Time": 5.5,"Action": "Shake", "Amt": 3},
+    {"Time": 8,"Dialogue": ""},
+    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 9,"Dialogue": "Mend your pace, sway to the beat"},
+    {"Time": 10,"Dialogue": "Hands up! Embrace who you wanna be"},
+    {"Time": 165}
+  ]
+}

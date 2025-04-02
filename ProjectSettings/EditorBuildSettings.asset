@@ -9,9 +9,13 @@ EditorBuildSettings:
     path: Assets/Student Folders/Example/Example Level.unity
     guid: 32f8192b7fb6e464c84de48b1518ae7b
   - enabled: 1
+    path: Assets/Student Folders/AdamD/New Scene.unity
+    guid: 77f7a3ca9953bfe4cb47a90e0d63828b
+  - enabled: 1
     path: Assets/Generic Assets/You Win.unity
     guid: 91cfb6caa580edb4aa5894a0cb132bc1
   - enabled: 1
     path: Assets/Generic Assets/You Lose.unity
     guid: 44c9c043ab0c1d045b5f53f6f89f610a
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
