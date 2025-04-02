@@ -1,0 +1,14 @@
+{
+  "Title": "Example Level",
+  "Author": "Example Student",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 2,"Action": "RandomWalk"},
+    {"Time": 4,"Action": "RandomWalk"},
+    {"Time": 5.5,"Action": "Shake", "Amt": 3},
+    {"Time": 8,"Dialogue": "Hello"},
+    {"Time": 8,"Who":"Player","Action": "Flash"},
+    {"Time": 10,"Dialogue": ""},
+    {"Time": 12}
+  ]
+}
