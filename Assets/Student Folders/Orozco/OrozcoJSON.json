@@ -2,13 +2,16 @@
   "Title": "System -Chester Bennington",
   "Author": "Ethan Orozco",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 1,"Dialogue": "Get Ready"},
+    {"Time": 4,"Dialogue": "3"},
+    {"Time": 5,"Dialogue": "2"},
+    {"Time": 6,"Dialogue": "1"},
+    {"Time": 6.3,"Dialogue": ""},
+    {"Time": 7,"Who":"Red Beast","Action": "Flash", "Amt":0.4},
+    {"Time": 7.9,"Who":"Red Beast","Action": "MoveRight", "Amt":2},
+    {"Time": 8, "Who":"Red Beast", "Action": "Shake", "Amt":0.2},
+    {"Time": 8.3, "Who":"Red Beast", "Action": "ShootAtPlayer"},
+    {}
+
   ]
 }
