@@ -20,6 +20,15 @@
     {"Time": 19,"Dialogue": "Hello"},
     {"Time": 19,"Who":"Player","Action": "Flash"},
     {"Time": 20,"Dialogue": "Whoa"},
-    {"Time": 21}
+    {"Time": 22,"Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 23,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 24,"Action": "RandomWalk"},
+    {"Time": 26,"Action": "RandomWalk"},
+    {"Time": 27.5,"Action": "Shake", "Amt": 5},
+    {"Time": 27.5,"Who":"Blue Monster","Action": "Shake", "Amt": 5},
+    {"Time": 30,"Dialogue": "Hello"},
+    {"Time": 30,"Who":"Player","Action": "Flash"},
+    {"Time": 32,"Dialogue": "Whoa"},
+    {"Time": 33}
   ]
 }
