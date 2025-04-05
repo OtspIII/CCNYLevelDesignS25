@@ -225,6 +225,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1890110879168800929, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987230211881240155, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3987230211881240155, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3987230211881240155, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
@@ -269,6 +281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Projectile
       objectReference: {fileID: 0}
+    - target: {fileID: 9116517385344089623, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -9197601209572012561, guid: fd8408510599c8146ae0f472595077dd, type: 3}
     - target: {fileID: 9116517385344089623, guid: b5341b019219a9c46a5b7ef31867f319, type: 3}
       propertyPath: m_SortingOrder
       value: 9
@@ -483,7 +499,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4767788705003977246, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4862524930679800595, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_Name
@@ -491,7 +507,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5647928174839634916, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6455494334478137059, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_LocalPosition.x
@@ -535,11 +551,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7098888259490275120, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8027108241420572797, guid: 7947f510a1296414e89dbc7a30362b98, type: 3}
       propertyPath: m_SortingOrder
-      value: 9
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
