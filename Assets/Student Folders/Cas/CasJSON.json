@@ -2,13 +2,69 @@
   "Title": "Ordinary Level",
   "Author": "Cas Ammerman",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0.1,"Anim": "SpinShoot"},
+    {"Time": 0.26,"Anim": "SpinShoot"},
+    {"Time": 0.42,"Anim": "SpinShoot"},
+    {"Time": 0.58,"Anim": "SpinShoot"},
+
+    {"Time": 0.74,"Anim": "SpinShoot"},
+    {"Time": 0.90,"Anim": "SpinShoot"},
+    {"Time": 1.06,"Anim": "SpinShoot"},
+    {"Time": 1.22,"Anim": "SpinShoot"},
+
+    {"Time": 1.38,"Anim": "SpinShoot"},
+    {"Time": 1.54,"Anim": "SpinShoot"},
+    {"Time": 1.70,"Anim": "SpinShoot"},
+    {"Time": 1.86,"Anim": "SpinShoot"},
+
+    {"Time": 2.02,"Anim": "SpinShoot"},
+    {"Time": 2.18,"Anim": "SpinShoot"},
+    {"Time": 2.14,"Anim": "SpinShoot"},
+    {"Time": 2.30,"Anim": "SpinShoot"},
+
+    {"Time": 2.46,"Anim": "SpinShoot"},
+    {"Time": 2.62,"Anim": "SpinShoot"},
+    {"Time": 2.78,"Anim": "SpinShoot"},
+    {"Time": 2.94,"Anim": "SpinShoot"},
+
+    {"Time": 3.10,"Anim": "SpinShoot"},
+    {"Time": 3.26,"Anim": "SpinShoot"},
+    {"Time": 3.42,"Anim": "SpinShoot"},
+    {"Time": 3.58,"Anim": "SpinShoot"},
+
+    {"Time": 3.74,"Anim": "SpinShoot"},
+    {"Time": 3.90,"Anim": "SpinShoot"},
+    {"Time": 4.06,"Anim": "SpinShoot"},
+    {"Time": 4.22,"Anim": "SpinShoot"},
+
+    {"Time": 4.38,"Anim": "SpinShoot"},
+    {"Time": 4.54,"Anim": "SpinShoot"},
+    {"Time": 4.70,"Anim": "SpinShoot"},
+
+    {"Time": 4.8,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 9,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 10.5,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 12.35,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 13.7,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 14.3,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 15.2,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 16.4,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 18,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+    {"Time": 26,"Anim": "SpinShoot","Action": "MoveToPlayer"},
+
+ 
+    {"Time": 20,"Dialogue": ""},
+    {"Time": 20,"Dialogue": ""},
+    {"Time": 20,"Dialogue": ""},
+    {"Time": 30} 
   ]
 }
