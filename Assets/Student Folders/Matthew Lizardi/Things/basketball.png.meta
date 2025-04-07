@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 37324d4ec400f3f4e97a8e89e1ad7544
+guid: fd8408510599c8146ae0f472595077dd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4666485715778765785
-    second: court_0
+      213: -9197601209572012561
+    second: basketball_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,40 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: court_0
+      name: basketball_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 19
-        width: 974
-        height: 525
+        x: 37
+        y: 45
+        width: 406
+        height: 405
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72c729137ff4d3fb0800000000000000
-      internalID: -4666485715778765785
+      spriteID: fedc1cd4e6e8b5080800000000000000
+      internalID: -9197601209572012561
       vertices: []
       indices: 
       edges: []
@@ -138,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 30eac9086bf384246831f5d58d87337a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      court_0: -4666485715778765785
+      basketball_0: -9197601209572012561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
