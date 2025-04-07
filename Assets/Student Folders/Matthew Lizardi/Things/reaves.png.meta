@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: fd8408510599c8146ae0f472595077dd
+guid: 8f2bdaa6bd012a044807c101c6245f86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9197601209572012561
-    second: basketball_0
+      213: 2116929239733504777
+    second: reaves_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: basketball_0
+      name: reaves_0
       rect:
         serializedVersion: 2
-        x: 37
-        y: 45
-        width: 406
-        height: 405
+        x: 54
+        y: 0
+        width: 265
+        height: 228
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fedc1cd4e6e8b5080800000000000000
-      internalID: -9197601209572012561
+      spriteID: 90b04f47de7d06d10800000000000000
+      internalID: 2116929239733504777
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      basketball_0: -9197601209572012561
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
