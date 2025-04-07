@@ -2,50 +2,119 @@
   "Title": "Memories",
   "Author": "Chanse",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 1,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 1,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shoot", "Amt": 4},
-    {"Time": 5.5,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
-    {"Time": 6,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": "Whoa"},
-    {"Time": 11,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 12,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 12,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 13,"Action": "RandomWalk"},
-    {"Time": 15,"Action": "RandomWalk"},
-    {"Time": 16.5,"Action": "Shoot", "Amt": 4},
-    {"Time": 16.5,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
-    {"Time": 17,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 19,"Dialogue": "Hello"},
-    {"Time": 19,"Who":"Player","Action": "Flash"},
-    {"Time": 20,"Dialogue": "Whoa"},
-    {"Time": 22,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 23,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 23,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 24,"Action": "RandomWalk"},
-    {"Time": 26,"Action": "RandomWalk"},
-    {"Time": 27.5,"Action": "Shoot", "Amt": 4},
-    {"Time": 27.5,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
+    {"Time": 0,"Action": "RandomWalk"},
+
+    {"Time": 1.5,"Action": "RandomWalk"},
+
+    {"Time": 2,"Anim": "SpinShoot"},
+
+    {"Time": 2,"Anim": "SpinShoot"},
+
+    {"Time": 3.5,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 3.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 4.5,"Action": "RandomWalk", "Amt": 5},
+
+    {"Time": 4.5,"Action": "RandomWalk", "Amt": 5},
+
+    {"Time": 5,"Action": "ShootAtPlayer"},
+
+    {"Time": 5.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 8,"Action": "ShootAtPlayer"},
+
+    {"Time": 8.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 9,"Action": "ShootAtPlayer", "Amt": 3},
+
+    {"Time": 9.5,"Action": "ShootAtPlayer", "Amt": 3},
+
+    {"Time": 11,"Anim": "SpinShoot"},
+
+    {"Time": 11.5,"Anim": "SpinShoot"},
+
+    {"Time": 12,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 12.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 13,"Dialogue": "Still Alive?"},
+
+    {"Time": 14,"Who":"Player","Action": "Flash"},
+
+    {"Time": 14.5,"Dialogue": "Keep Going"},
+
+    {"Time": 15,"Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 16,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 16,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 18,"Action": "RandomWalk"},
+    {"Time": 18,"Action": "RandomWalk"},
+
+    {"Time": 20,"Action": "ShootAtPlayer"},
+    {"Time": 20,"Action": "ShootAtPlayer"},
+
+    {"Time": 22,"Action": "ShootAtPlayer"},
+    {"Time": 22,"Action": "ShootAtPlayer"},
+
+    {"Time": 24,"Action": "ShootAtPlayer", "Amt": 3},
+    {"Time": 24,"Action": "ShootAtPlayer", "Amt": 3},
+
+    {"Time": 28,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
     {"Time": 28,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 30,"Dialogue": "Hello"},
-    {"Time": 30,"Who":"Player","Action": "Flash"},
-    {"Time": 32,"Dialogue": "Whoa"},
-    {"Time": 33,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 34,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 34,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 35,"Action": "RandomWalk"},
-    {"Time": 37,"Action": "RandomWalk"},
-    {"Time": 38.5,"Action": "Shoot", "Amt": 4},
-    {"Time": 38.5,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
-    {"Time": 39,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 41,"Dialogue": "Hello"},
-    {"Time": 41,"Who":"Player","Action": "Flash"},
-    {"Time": 43,"Dialogue": "Whoa"},
-    {"Time": 44}
+
+    {"Time": 34,"Dialogue": "Still Alive?"},
+    {"Time": 36,"Who":"Player","Action": "Flash"},
+    {"Time": 37,"Dialogue": "Keep Going"},
+
+    {"Time": 40,"Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 45,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 45,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 50,"Action": "RandomWalk"},
+    {"Time": 50,"Action": "RandomWalk"},
+
+    {"Time": 55,"Action": "ShootAtPlayer"},
+    {"Time": 55,"Action": "ShootAtPlayer"},
+
+    {"Time": 60,"Action": "ShootAtPlayer"},
+    {"Time": 60,"Action": "ShootAtPlayer"},
+
+    {"Time": 65,"Action": "ShootAtPlayer", "Amt": 3},
+    {"Time": 65,"Action": "ShootAtPlayer", "Amt": 3},
+
+    {"Time": 70,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
+    {"Time": 70,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 75,"Dialogue": "Still Alive?"},
+    {"Time": 80,"Who":"Player","Action": "Flash"},
+    {"Time": 85,"Dialogue": "Keep Going"},
+
+    {"Time": 90,"Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 95,"Who": "Blue Monster","Anim": "SpinShoot","Action": "RandomWalk"},
+    {"Time": 95,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 100,"Action": "RandomWalk"},
+    {"Time": 100,"Action": "RandomWalk"},
+
+    {"Time": 105,"Action": "ShootAtPlayer"},
+    {"Time": 105,"Action": "ShootAtPlayer"},
+
+    {"Time": 110,"Action": "ShootAtPlayer"},
+    {"Time": 110,"Action": "ShootAtPlayer"},
+
+    {"Time": 115,"Action": "ShootAtPlayer", "Amt": 3},
+    {"Time": 115,"Action": "ShootAtPlayer", "Amt": 3},
+
+    {"Time": 120,"Who":"Blue Monster","Anim": "SpinShoot", "Action": "RandomWalk"},
+    {"Time": 120,"Who": "Blue Monster 2","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 125,"Dialogue": "Still Alive?"},
+    {"Time": 130,"Who":"Player","Action": "Flash"},
+    {"Time": 135,"Dialogue": "Keep Going"},
+    {"Time": 145}
   ]
 }
