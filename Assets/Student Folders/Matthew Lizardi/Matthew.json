@@ -49,8 +49,8 @@
     {"Time": 26.11,"Dialogue": ""},
     {"Time": 26.24,"Action": "RandomWalk"},
 
-    {"Time": 27.28,"Dialogue": "As I, go to my living room"},
-    {"Time": 27.29,"Action": "RandomWalk"},
+    {"Time": 27.40,"Action": "RandomWalk"},
+    {"Time": 27.29,"Dialogue": "As I, go to my living room"},
 
     {"Time": 29.02,"Action": "RandomWalk"},
 
@@ -61,33 +61,47 @@
 
     {"Time": 32.17,"Action": "RandomWalk"},
 
+    {"Time": 33.22,"Dialogue": "If I hear he ain't gon' play."},
     {"Time": 33.22,"Action": "RandomWalk"},
 
+    {"Time": 36,"Dialogue": ""},
     {"Time": 36.02,"Action": "RandomWalk"},
 
+    {"Time": 37.02,"Dialogue": "Cause I made a bet, or two,"},
+    
     {"Time": 38.11,"Action": "RandomWalk"},
+
+    {"Time": 39.02,"Dialogue": "That hes gonna shoot,"},
 
     {"Time": 40.21,"Action": "RandomWalk"},
 
+    {"Time": 41.02,"Dialogue": "Ten 3s, get ten re's,"},
+
     {"Time": 42.29,"Action": "RandomWalk"},
+
+    {"Time": 43.02,"Dialogue": "And then the Lakers ain't gon' lose."},
 
     {"Time": 45.10,"Action": "RandomWalk"},
 
+    {"Time": 46.10,"Dialogue": ""},
+
     {"Time": 47.20,"Action": "RandomWalk"},
+    {"Time": 47.20,"Dialogue": "And they got Luka Don,"},
 
     {"Time": 49.30,"Action": "RandomWalk"},
+    {"Time": 49.30,"Dialogue": "A. Reaves, and then LeBron,"},
 
     {"Time": 52.08,"Action": "RandomWalk"},
+    {"Time": 52.08,"Dialogue": "The real big 3."},
 
     {"Time": 54.18,"Action": "RandomWalk"},
 
     {"Time": 56.25,"Action": "RandomWalk"},
+    {"Time": 56.02,"Dialogue": "They gave up A.D. because they needed change,"},
 
     {"Time": 59.03,"Action": "RandomWalk"},
 
-    {"Time": 20,"Action": "Shake", "Amt": 3},
-
-    {"Time": 22,"Dialogue": "LeBron"},
+    {"Time": 61,"Action": "Shake", "Amt": 3},
 
     {"Time": 24,"Who":"Player","Action": "Flash"},
 
