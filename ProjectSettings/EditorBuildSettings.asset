@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Student Folders/Example/Example Level.unity
     guid: 32f8192b7fb6e464c84de48b1518ae7b
   - enabled: 1
+    path: Assets/Student Folders/DerekL/Derek.unity
+    guid: 6b96f6c0375a0384c9013cba87d89e0f
+  - enabled: 1
     path: Assets/Generic Assets/You Win.unity
     guid: 91cfb6caa580edb4aa5894a0cb132bc1
   - enabled: 1
