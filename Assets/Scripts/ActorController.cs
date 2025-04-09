@@ -106,7 +106,7 @@ public class ActorController : MonoBehaviour
         else if (ChasingDesiredPos == MoveStyle.Lerp)
         {
             transform.position = Vector3.Lerp(transform.position, DesiredPos, Speed * Time.deltaTime);
-            transform.position = Vector3.MoveTowards(transform.position, DesiredPos, 0.01f);
+            transform.position = Vector3.MoveTowards(transform.position, DesiredPos, Speed * 0.001f);
             if (Vector2.Distance(transform.position, DesiredPos) < 0.01f)
             {
                 ChasingDesiredPos = MoveStyle.None;
@@ -124,7 +124,7 @@ public class ActorController : MonoBehaviour
         else if (ChasingDesiredRot == MoveStyle.Lerp)
         {
             transform.rotation = Quaternion.Euler(0,0,Mathf.LerpAngle(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * Time.deltaTime));
-            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, 0.1f));
+            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, Speed * 0.01f));
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
