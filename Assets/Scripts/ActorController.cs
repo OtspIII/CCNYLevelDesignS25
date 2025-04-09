@@ -19,6 +19,7 @@ public class ActorController : MonoBehaviour
     protected float MaxHealth;
     public float Speed = 5;
     public float SpinSpeed = 5;
+    public float SizeSpeed = 5;
     // public float LerpSpeed = 0.1f;
     
     //Your default projectile. Leave null if this object doesn't shoot
@@ -39,6 +40,8 @@ public class ActorController : MonoBehaviour
     protected  MoveStyle ChasingDesiredPos = MoveStyle.None;
     protected  float DesiredRot;
     protected  MoveStyle ChasingDesiredRot = MoveStyle.None;
+    protected Vector3 DesiredSize;
+    protected  MoveStyle ChasingDesiredSize = MoveStyle.None;
 
     protected Color FadeColor;
     protected float IFrames = 0;
@@ -124,10 +127,27 @@ public class ActorController : MonoBehaviour
         else if (ChasingDesiredRot == MoveStyle.Lerp)
         {
             transform.rotation = Quaternion.Euler(0,0,Mathf.LerpAngle(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * Time.deltaTime));
-            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, Speed * 0.01f));
+            transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * 0.01f));
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
+            }
+        }
+        if (ChasingDesiredSize == MoveStyle.Linear)
+        {
+            transform.localScale = Vector3.MoveTowards(transform.localScale, DesiredSize, SizeSpeed * Time.deltaTime);
+            if (Vector2.Distance(transform.localScale, DesiredSize) < 0.1f)
+            {
+                ChasingDesiredSize = MoveStyle.None;
+            }
+        }
+        else if (ChasingDesiredSize == MoveStyle.Lerp)
+        {
+            transform.localScale = Vector3.Lerp(transform.localScale, DesiredSize, SizeSpeed * Time.deltaTime);
+            transform.localScale = Vector3.MoveTowards(transform.localScale, DesiredSize, SizeSpeed * 0.001f);
+            if (Vector2.Distance(transform.localScale, DesiredSize) < 0.01f)
+            {
+                ChasingDesiredSize = MoveStyle.None;
             }
         }
     }
@@ -139,12 +159,19 @@ public class ActorController : MonoBehaviour
         DesiredPos = where;
         ChasingDesiredPos = how;
     }
-    
+
     ///Sets where the character wants to be rotated and how
     public void SetDesiredRot(float rot, MoveStyle how)
     {
         DesiredRot = rot;
         ChasingDesiredRot = how;
+    }
+
+    ///Sets where the character wants to be sized and how
+    public void SetDesiredSize(Vector3 size, MoveStyle how)
+    {
+        DesiredSize = size;
+        ChasingDesiredSize = how;
     }
     
     /// Deals damage to an actor, killing them if they hit 0 health
@@ -414,6 +441,50 @@ public class ActorController : MonoBehaviour
         {
             SetDesiredRot(amt,MoveStyle.Lerp);
         }
+        else if (act == "ToSize")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.x = amt;
+            size.y = amt;
+            SetDesiredSize(size,MoveStyle.Linear);
+        }
+        else if (act == "SizeToX")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.x = amt;
+            SetDesiredSize(size,MoveStyle.Linear);
+        }
+        else if (act == "SizeToY")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.y = amt;
+            SetDesiredSize(size,MoveStyle.Linear);
+        }
+        else if (act == "LerpToSize")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.x = amt;
+            size.y = amt;
+            SetDesiredSize(size,MoveStyle.Lerp);
+        }
+        else if (act == "SizeLerpToX")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.x = amt;
+            SetDesiredSize(size,MoveStyle.Lerp);
+        }
+        else if (act == "SizeLerpToY")
+        {
+            Vector3 size = transform.localScale;
+            if (ChasingDesiredSize != MoveStyle.None) size = DesiredSize;
+            size.y = amt;
+            SetDesiredSize(size,MoveStyle.Lerp);
+        }
         else if (act == "SetSpeed")
         {
             Speed = amt;
@@ -421,6 +492,10 @@ public class ActorController : MonoBehaviour
         else if (act == "SetSpinSpeed")
         {
             SpinSpeed = amt;
+        }
+        else if (act == "SetSizeSpeed")
+        {
+            SizeSpeed = amt;
         }
         else if (act == "RandomWalk")
         {
