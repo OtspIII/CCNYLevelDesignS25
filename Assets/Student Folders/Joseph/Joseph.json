@@ -36,7 +36,7 @@
     {"Time": 11.4,"Action": "ShootAtPlayer"},
     {"Time": 12.3,"Action": "LerpToX", "Amt":-6},
     {"Time": 12.3,"Action": "LerpToY", "Amt":-3},
-    {"Time": 12.3,"Action": "SetSpeed", "Amt":0},
+    {"Time": 12.3,"Action": "SetSpeed", "Amt":12},
     {"Time": 12.3,"Action": "ShootAtPlayer"},
     {"Time": 15,"Action": "LerpToX", "Amt":6},
     {"Time": 15,"Action": "LerpToY", "Amt":-3},
