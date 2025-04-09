@@ -185,7 +185,7 @@ MonoBehaviour:
   Coll: {fileID: 0}
   Anim: {fileID: 0}
   Health: 0
-  Speed: 20
+  Speed: 10
   SpinSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
