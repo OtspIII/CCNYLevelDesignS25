@@ -1,0 +1,114 @@
+{
+  "Title": "Man on the Lakers",
+  "Author": "Matthew Lizardi",
+  "Events": [
+    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 2,"Action": "RandomWalk"},
+
+    {"Time": 4,"Action": "RandomWalk"},
+
+    {"Time": 7.5,"Action": "Shake", "Amt": 2},
+
+    {"Time": 10,"Dialogue": "His name is LeBron James,"},
+    {"Time": 10,"Who":"Player","Action": "Flash"},
+    {"Time": 10.17,"Action": "RandomWalk"},
+    
+    {"Time": 11.21,"Action": "RandomWalk"},
+
+    {"Time": 12.23,"Dialogue": "And he plays for LA."},
+    {"Time": 12.27,"Action": "RandomWalk"},
+    
+    {"Time": 14.01,"Action": "RandomWalk"},
+
+    {"Time": 15.05,"Action": "RandomWalk"},
+    {"Time": 15.05,"Dialogue": ""},
+
+    {"Time": 16.11,"Action": "RandomWalk"},
+
+    {"Time": 17.16,"Action": "RandomWalk"},
+
+    {"Time": 18.20,"Action": "RandomWalk"},
+    {"Time": 18.20,"Dialogue": "It would feel so good,"},
+
+    {"Time": 19.25,"Action": "RandomWalk"},
+
+    {"Time": 20.22,"Dialogue": "It'd make a big difference,"},
+
+    {"Time": 21,"Action": "RandomWalk"},
+
+    {"Time": 22.03,"Action": "RandomWalk"},
+    {"Time": 22.10,"Dialogue": "If I could see him play."},
+
+    {"Time": 23.09,"Action": "RandomWalk"},
+
+    {"Time": 24.14,"Action": "RandomWalk"},
+
+    {"Time": 25.19,"Action": "RandomWalk"},
+
+    {"Time": 26.11,"Dialogue": ""},
+    {"Time": 26.24,"Action": "RandomWalk"},
+
+    {"Time": 27.40,"Action": "RandomWalk"},
+    {"Time": 27.29,"Dialogue": "As I, go to my living room"},
+
+    {"Time": 29.02,"Action": "RandomWalk"},
+
+    {"Time": 30.08,"Action": "RandomWalk"},
+
+    {"Time": 31.02,"Dialogue": "Dont know what I'm gon' do,"},
+    {"Time": 31.13,"Action": "RandomWalk"},
+
+    {"Time": 32.17,"Action": "RandomWalk"},
+
+    {"Time": 33.22,"Dialogue": "If I hear he ain't gon' play."},
+    {"Time": 33.22,"Action": "RandomWalk"},
+
+    {"Time": 36,"Dialogue": ""},
+    {"Time": 36.02,"Action": "RandomWalk"},
+
+    {"Time": 37.02,"Dialogue": "Cause I made a bet, or two,"},
+    
+    {"Time": 38.11,"Action": "RandomWalk"},
+
+    {"Time": 39.02,"Dialogue": "That hes gonna shoot,"},
+
+    {"Time": 40.21,"Action": "RandomWalk"},
+
+    {"Time": 41.02,"Dialogue": "Ten 3s, get ten re's,"},
+
+    {"Time": 42.29,"Action": "RandomWalk"},
+
+    {"Time": 43.02,"Dialogue": "And then the Lakers ain't gon' lose."},
+
+    {"Time": 45.10,"Action": "RandomWalk"},
+
+    {"Time": 46.10,"Dialogue": ""},
+
+    {"Time": 47.20,"Action": "RandomWalk"},
+    {"Time": 47.20,"Dialogue": "And they got Luka Don,"},
+
+    {"Time": 49.30,"Action": "RandomWalk"},
+    {"Time": 49.30,"Dialogue": "A. Reaves, and then LeBron,"},
+
+    {"Time": 52.08,"Action": "RandomWalk"},
+    {"Time": 52.08,"Dialogue": "The real big 3."},
+
+    {"Time": 54.18,"Action": "RandomWalk"},
+
+    {"Time": 56.25,"Action": "RandomWalk"},
+    {"Time": 56.02,"Dialogue": "They gave up A.D. because they needed change,"},
+
+    {"Time": 59.03,"Action": "RandomWalk"},
+
+    {"Time": 61,"Action": "Shake", "Amt": 3},
+
+    {"Time": 24,"Who":"Player","Action": "Flash"},
+
+    {"Time": 26,"Dialogue": ""},
+
+
+     
+    {"Time": 9999999999}
+  ]
+}

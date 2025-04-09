@@ -12,10 +12,6 @@ public class ExampleMonster : HazardController
         {
             StartCoroutine(FourSquare());
         }
-        if (act == "RandomWalk")
-        {
-            StartCoroutine(RandomWalk());
-        }
     }
 
     //Get big and move to each corner of the screen
@@ -116,22 +112,4 @@ public class ExampleMonster : HazardController
         }
     }
     
-    //Go to a random place on the screen
-    //Notice how the action after this one plays out different than normal
-    public IEnumerator RandomWalk()
-    {
-        //I use this to track movement speed
-        float moveSpeed = 5;
-        //This works a lot like the FourSquare movement blocks, but it's just one
-        Vector3 endPos = new Vector3(Random.Range(-5.5f,5.5f),Random.Range(-2.5f,2.5f));
-        while (transform.position != endPos)
-        {
-            //Move a percentage of the way there each frame
-            transform.position = Vector3.Lerp(transform.position, endPos,moveSpeed*Time.deltaTime);
-            //Because Lerp will never actually reach my target, I need to put a tiny MoveTowards in the segment
-            //Otherwise I'll end up 0.000001 units away from my target, forever
-            transform.position = Vector3.MoveTowards(transform.position, endPos,0.1f*Time.deltaTime);
-            yield return null;
-        }
-    }
 }
