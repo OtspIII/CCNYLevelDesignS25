@@ -497,6 +497,24 @@ public class ActorController : MonoBehaviour
         {
             SizeSpeed = amt;
         }
+        else if (act == "Stop")
+        {
+            ChasingDesiredPos = MoveStyle.None;
+            ChasingDesiredRot = MoveStyle.None;
+            ChasingDesiredSize = MoveStyle.None;
+        }
+        else if (act == "StopMove")
+        {
+            ChasingDesiredPos = MoveStyle.None;
+        }
+        else if (act == "StopRot")
+        {
+            ChasingDesiredRot = MoveStyle.None;
+        }
+        else if (act == "StopSize")
+        {
+            ChasingDesiredSize = MoveStyle.None;
+        }
         else if (act == "RandomWalk")
         {
             Vector3 endPos = new Vector3(Random.Range(-5.5f,5.5f),Random.Range(-2.5f,2.5f));
