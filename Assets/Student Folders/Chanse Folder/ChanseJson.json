@@ -2,206 +2,1026 @@
   "Title": "Memories",
   "Author": "Chanse",
   "Events": [
-    {"Time": 0,"Action": "RandomWalk"},
+    {"Time": 0.9,"Action": "RandomWalk"},
 
-    {"Time": 1.5,"Action": "RandomWalk"},
-
-    {"Time": 2,"Anim": "SpinShoot"},
+    {"Time": 1.9,"Action": "RandomWalk"},
 
     {"Time": 2,"Anim": "SpinShoot"},
 
-    {"Time": 3.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 2.4,"Anim": "SpinShoot"},
 
-    {"Time": 3.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 2.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 4.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 3.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 4.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 4.9,"Action": "RandomWalk"},
 
-    {"Time": 5,"Action": "ShootAtPlayer"},
+    {"Time": 5.9,"Action": "RandomWalk"},
 
-    {"Time": 5.5,"Action": "ShootAtPlayer"},
+    {"Time": 6.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 8,"Action": "ShootAtPlayer"},
+    {"Time": 6.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 8.5,"Action": "ShootAtPlayer"},
+    {"Time": 6.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 9,"Action": "ShootAtPlayer"},
+    {"Time": 6.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 9.5,"Action": "ShootAtPlayer"},
+    {"Time": 6.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 6.6,"Action": "ShootAtPlayer"},
     
     
-    {"Time": 10,"Action": "RandomWalk"},
+    {"Time": 6.9,"Action": "RandomWalk"},
 
-    {"Time": 10.5,"Action": "RandomWalk"},
+    {"Time": 7.9,"Action": "RandomWalk"},
 
-    {"Time": 11,"Anim": "SpinShoot"},
+    {"Time": 8.4,"Anim": "SpinShoot"},
 
-    {"Time": 11,"Anim": "SpinShoot"},
+    {"Time": 8.5,"Anim": "SpinShoot"},
 
-    {"Time": 12.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 8.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 12.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 9.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 12.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 10.9,"Action": "RandomWalk"},
 
-    {"Time": 12.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 11.9,"Action": "RandomWalk"},
 
-    {"Time": 14,"Action": "ShootAtPlayer"},
+    {"Time": 12.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 15,"Action": "ShootAtPlayer"},
+    {"Time": 12.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 15.5,"Action": "ShootAtPlayer"},
+    {"Time": 12.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 16,"Action": "ShootAtPlayer"},
+    {"Time": 12.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 16.5,"Action": "ShootAtPlayer"},
+    {"Time": 12.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 16.5,"Action": "ShootAtPlayer"},
+    {"Time": 12.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 12.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 12.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 12.9,"Action": "RandomWalk"},
     
 
-    {"Time": 17,"Action": "RandomWalk"},
+    {"Time": 13.9,"Action": "RandomWalk"},
 
-    {"Time": 17,"Action": "RandomWalk"},
+    {"Time": 14.9,"Action": "RandomWalk"},
 
-    {"Time": 18,"Anim": "SpinShoot"},
+    {"Time": 15.1,"Anim": "SpinShoot"},
 
-    {"Time": 18,"Anim": "SpinShoot"},
+    {"Time": 15.2,"Anim": "SpinShoot"},
 
-    {"Time": 18.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 15.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 18.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 16.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 19,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 17.9,"Action": "RandomWalk"},
 
-    {"Time": 19,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 18.9,"Action": "RandomWalk"},
 
-    {"Time": 20,"Action": "ShootAtPlayer"},
+    {"Time": 19.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 20.5,"Action": "ShootAtPlayer"},
+    {"Time": 19.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 22,"Action": "ShootAtPlayer"},
+    {"Time": 19.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 22.5,"Action": "ShootAtPlayer"},
+    {"Time": 19.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 25,"Action": "ShootAtPlayer"},
+    {"Time": 19.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 25.5,"Action": "ShootAtPlayer"},
+    {"Time": 19.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 19.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 19.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 19.9,"Action": "RandomWalk"},
     
 
-    {"Time": 28,"Action": "RandomWalk"},
+    {"Time": 20.9,"Action": "RandomWalk"},
 
-    {"Time": 28,"Action": "RandomWalk"},
+    {"Time": 21.9,"Action": "RandomWalk"},
 
-    {"Time": 29,"Anim": "SpinShoot"},
+    {"Time": 22.1,"Anim": "SpinShoot"},
 
-    {"Time": 29,"Anim": "SpinShoot"},
+    {"Time": 22.2,"Anim": "SpinShoot"},
 
-    {"Time": 32.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 22.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 32.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 23.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 34,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 24.9,"Action": "RandomWalk"},
 
-    {"Time": 36,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 25.9,"Action": "RandomWalk"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 37,"Action": "ShootAtPlayer"},
+    {"Time": 26.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 26.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 26.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 26.9,"Action": "RandomWalk"},
 
 
-    {"Time": 40,"Anim": "SpinShoot"},
 
-    {"Time": 40.5,"Anim": "SpinShoot"},
+    {"Time": 27.9,"Action": "RandomWalk"},
 
-    {"Time": 45,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 28.9,"Action": "RandomWalk"},
 
-    {"Time": 45,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 29.1,"Anim": "SpinShoot"},
 
-    {"Time": 46.2,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 29.2,"Anim": "SpinShoot"},
 
-    {"Time": 47.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 29.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 50,"Action": "RandomWalk"},
+    {"Time": 30.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 50,"Action": "RandomWalk"},
+    {"Time": 31.9,"Action": "RandomWalk"},
 
-    {"Time": 55,"Action": "ShootAtPlayer"},
+    {"Time": 32.9,"Action": "RandomWalk"},
 
-    {"Time": 55.5,"Action": "ShootAtPlayer"},
+    {"Time": 33.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 60,"Action": "ShootAtPlayer"},
+    {"Time": 33.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 60.5,"Action": "ShootAtPlayer"},
+    {"Time": 33.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 65,"Action": "ShootAtPlayer"},
+    {"Time": 33.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 65,"Action": "ShootAtPlayer"},
+    {"Time": 33.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 70,"Anim": "SpinShoot"},
+    {"Time": 33.6,"Action": "ShootAtPlayer"},
 
-    {"Time": 70.5,"Anim": "SpinShoot"},
+    {"Time": 33.7,"Action": "ShootAtPlayer"},
 
-    {"Time": 72.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 33.8,"Action": "ShootAtPlayer"},
 
-    {"Time": 73.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 33.9,"Action": "RandomWalk"},
 
-    {"Time": 75,"Dialogue": "Still Alive?"},
 
-    {"Time": 80,"Who":"Player","Action": "Flash"},
+    {"Time": 34.9,"Action": "RandomWalk"},
 
-    {"Time": 85,"Dialogue": "Keep Going"},
+    {"Time": 35.9,"Action": "RandomWalk"},
 
-    {"Time": 90,"Anim": "SpinShoot"},
+    {"Time": 36.1,"Anim": "SpinShoot"},
+
+    {"Time": 36.2,"Anim": "SpinShoot"},
+
+    {"Time": 36.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 37.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 38.3,"Dialogue": "Still Alive?"},
+
+    {"Time": 38.5,"Who":"Player","Action": "Flash"},
+
+    {"Time": 38.7,"Dialogue": "Keep Going"},
+
+    {"Time": 38.9,"Action": "RandomWalk"},
+
+    {"Time": 39.9,"Action": "RandomWalk"},
+
+    {"Time": 40.9,"Action": "RandomWalk"},
+
+    {"Time": 41.9,"Action": "RandomWalk"},
+
+    {"Time": 42.9,"Action": "RandomWalk"},
+
+    {"Time": 43.9,"Action": "RandomWalk"},
+
+    {"Time": 43.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 43.9,"Action": "RandomWalk"},
+
+
+
+
+    {"Time": 44.9,"Action": "RandomWalk"},
+
+    {"Time": 45.9,"Action": "RandomWalk"},
+
+    {"Time": 46.1,"Anim": "SpinShoot"},
+
+    {"Time": 46.2,"Anim": "SpinShoot"},
+
+    {"Time": 46.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 47.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 48.9,"Action": "RandomWalk"},
+
+    {"Time": 49.9,"Action": "RandomWalk"},
+
+    {"Time": 50.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 50.9,"Action": "RandomWalk"},
+
+
+    {"Time": 51.9,"Action": "RandomWalk"},
+
+    {"Time": 52.9,"Action": "RandomWalk"},
+
+    {"Time": 52.1,"Anim": "SpinShoot"},
+
+    {"Time": 52.2,"Anim": "SpinShoot"},
+
+    {"Time": 53.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 54.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 55.9,"Action": "RandomWalk"},
+
+    {"Time": 56.9,"Action": "RandomWalk"},
+
+    {"Time": 57.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 57.9,"Action": "RandomWalk"},
+
+    {"Time": 58.9,"Action": "RandomWalk"},
+
+    {"Time": 59.9,"Action": "RandomWalk"},
+
+    {"Time": 60.9,"Action": "RandomWalk"},
+
+
+    {"Time": 61.9,"Action": "RandomWalk"},
+
+    {"Time": 62.9,"Action": "RandomWalk"},
+
+    {"Time": 62.1,"Anim": "SpinShoot"},
+
+    {"Time": 62.2,"Anim": "SpinShoot"},
+
+    {"Time": 63.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 64.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 65.9,"Action": "RandomWalk"},
+
+    {"Time": 66.9,"Action": "RandomWalk"},
+
+    {"Time": 67.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 67.9,"Action": "RandomWalk"},
+
+    {"Time": 68.9,"Action": "RandomWalk"},
+
+    {"Time": 69.9,"Action": "RandomWalk"},
+
+    {"Time": 70.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 71.9,"Action": "RandomWalk"},
+
+    {"Time": 72.9,"Action": "RandomWalk"},
+
+    {"Time": 72.1,"Anim": "SpinShoot"},
+
+    {"Time": 72.2,"Anim": "SpinShoot"},
+
+    {"Time": 73.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 74.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 75.9,"Action": "RandomWalk"},
+
+    {"Time": 76.9,"Action": "RandomWalk"},
+
+    {"Time": 77.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 77.9,"Action": "RandomWalk"},
+
+    {"Time": 78.9,"Action": "RandomWalk"},
+
+    {"Time": 79.9,"Action": "RandomWalk"},
+
+    {"Time": 80.9,"Action": "RandomWalk"},
+
+
+    {"Time": 81.9,"Action": "RandomWalk"},
+
+    {"Time": 82.9,"Action": "RandomWalk"},
+
+    {"Time": 82.1,"Anim": "SpinShoot"},
+
+    {"Time": 82.2,"Anim": "SpinShoot"},
+
+    {"Time": 83.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 84.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 85.9,"Action": "RandomWalk"},
+
+    {"Time": 86.9,"Action": "RandomWalk"},
+
+    {"Time": 87.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 87.9,"Action": "RandomWalk"},
+
+    {"Time": 88.9,"Action": "RandomWalk"},
+
+    {"Time": 89.9,"Action": "RandomWalk"},
+
+    {"Time": 90.9,"Action": "RandomWalk"},
+
+
+
+
+
 
     {"Time": 91.5,"Anim": "SpinShoot"},
 
-    {"Time": 95,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 91.6,"Anim": "SpinShoot"},
 
-    {"Time": 95.5,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 91.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
-    {"Time": 96.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 92.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
-    {"Time": 97.5,"Action": "RandomWalk", "Amt": 5},
+    {"Time": 93.9,"Action": "RandomWalk"},
 
-    {"Time": 100,"Action": "RandomWalk"},
+    {"Time": 94.9,"Action": "RandomWalk"},
 
-    {"Time": 100,"Action": "RandomWalk"},
+    {"Time": 95.9,"Action": "RandomWalk"},
 
-    {"Time": 105,"Action": "ShootAtPlayer"},
+    {"Time": 96.9,"Action": "RandomWalk"},
 
-    {"Time": 105,"Action": "ShootAtPlayer"},
+    {"Time": 97.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 110,"Action": "ShootAtPlayer"},
+    {"Time": 97.2,"Action": "ShootAtPlayer"},
 
-    {"Time": 110,"Action": "ShootAtPlayer"},
+    {"Time": 97.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 115,"Action": "ShootAtPlayer"},
+    {"Time": 97.4,"Action": "ShootAtPlayer"},
 
-    {"Time": 115,"Action": "ShootAtPlayer"},
+    {"Time": 97.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 120,"Anim": "SpinShoot"},
+    {"Time": 97.6,"Action": "ShootAtPlayer"},
 
-    {"Time": 121.5,"Anim": "SpinShoot"},
+    {"Time": 97.7,"Action": "ShootAtPlayer"},
 
-    {"Time": 122.5,"Who": "Blue Monster","Action": "RandomWalk"},
+    {"Time": 97.8,"Action": "ShootAtPlayer"},
 
-    {"Time": 123.2,"Who": "Blue Monster 2","Action": "RandomWalk"},
+    {"Time": 97.9,"Action": "RandomWalk"},
 
-    {"Time": 125,"Dialogue": "Still Alive?"},
 
-    {"Time": 130,"Who":"Player","Action": "Flash"},
+    {"Time": 98.9,"Action": "RandomWalk"},
 
-    {"Time": 135,"Dialogue": "Keep Going"},
+    {"Time": 99.9,"Action": "RandomWalk"},
 
-    {"Time": 145}
+    {"Time": 100.1,"Anim": "SpinShoot"},
+
+    {"Time": 100.2,"Anim": "SpinShoot"},
+
+    {"Time": 100.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 101.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 102.9,"Action": "RandomWalk"},
+
+    {"Time": 103.9,"Action": "RandomWalk"},
+
+    {"Time": 103.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 103.9,"Action": "RandomWalk"},
+
+    {"Time": 104.9,"Action": "RandomWalk"},
+
+    {"Time": 105.9,"Action": "RandomWalk"},
+
+    {"Time": 106.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 107.9,"Action": "RandomWalk"},
+
+    {"Time": 108.9,"Action": "RandomWalk"},
+
+    {"Time": 108.1,"Anim": "SpinShoot"},
+
+    {"Time": 108.2,"Anim": "SpinShoot"},
+
+    {"Time": 108.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 109.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 110.9,"Action": "RandomWalk"},
+
+    {"Time": 111.9,"Action": "RandomWalk"},
+
+    {"Time": 112.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 112.9,"Action": "RandomWalk"},
+
+    {"Time": 113.9,"Action": "RandomWalk"},
+
+    {"Time": 114.9,"Action": "RandomWalk"},
+
+    {"Time": 115.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 116.9,"Action": "RandomWalk"},
+
+    {"Time": 117.9,"Action": "RandomWalk"},
+
+    {"Time": 118,"Anim": "SpinShoot"},
+
+    {"Time": 118.4,"Anim": "SpinShoot"},
+
+    {"Time": 118.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 119.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 120.9,"Action": "RandomWalk"},
+
+    {"Time": 121.9,"Action": "RandomWalk"},
+
+    {"Time": 122.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.8,"Action": "ShootAtPlayer"},
+
+    {"Time": 122.9,"Action": "RandomWalk"},
+
+    {"Time": 123.9,"Action": "RandomWalk"},
+
+    {"Time": 124.9,"Action": "RandomWalk"},
+
+    {"Time": 125.9,"Action": "RandomWalk"},
+
+
+    {"Time": 126.9,"Action": "RandomWalk"},
+
+    {"Time": 127.9,"Action": "RandomWalk"},
+
+    {"Time": 128.9,"Action": "RandomWalk"},
+
+    {"Time": 129.9,"Action": "RandomWalk"},
+
+    {"Time": 130.9,"Action": "RandomWalk"},
+
+    {"Time": 131.9,"Action": "RandomWalk"},
+
+    {"Time": 132.9,"Action": "RandomWalk"},
+
+    {"Time": 133.9,"Action": "RandomWalk"},
+
+    {"Time": 134.9,"Action": "RandomWalk"},
+
+    {"Time": 135.9,"Action": "RandomWalk"},
+
+
+    {"Time": 136.9,"Action": "RandomWalk"},
+
+    {"Time": 137.9,"Action": "RandomWalk"},
+
+    {"Time": 138.9,"Action": "RandomWalk"},
+
+    {"Time": 139.9,"Action": "RandomWalk"},
+
+    {"Time": 140.9,"Action": "RandomWalk"},
+
+    {"Time": 141.9,"Action": "RandomWalk"},
+
+    {"Time": 142.9,"Action": "RandomWalk"},
+
+    {"Time": 143.9,"Action": "RandomWalk"},
+
+    {"Time": 144.9,"Action": "RandomWalk"},
+
+    {"Time": 145.9,"Action": "RandomWalk"},
+
+
+    {"Time": 146.9,"Action": "RandomWalk"},
+
+    {"Time": 147.9,"Action": "RandomWalk"},
+
+    {"Time": 148.9,"Action": "RandomWalk"},
+
+    {"Time": 149.9,"Action": "RandomWalk"},
+
+    {"Time": 150.9,"Action": "RandomWalk"},
+
+    {"Time": 151.9,"Action": "RandomWalk"},
+
+    {"Time": 152.9,"Action": "RandomWalk"},
+
+    {"Time": 153.9,"Action": "RandomWalk"},
+
+    {"Time": 154.9,"Action": "RandomWalk"},
+
+    {"Time": 155.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 156.9,"Action": "RandomWalk"},
+
+    {"Time": 157.9,"Action": "RandomWalk"},
+
+    {"Time": 158.9,"Action": "RandomWalk"},
+
+    {"Time": 159.9,"Action": "RandomWalk"},
+
+    {"Time": 160.9,"Action": "RandomWalk"},
+
+    {"Time": 161.9,"Action": "RandomWalk"},
+
+    {"Time": 162.9,"Action": "RandomWalk"},
+
+    {"Time": 163.9,"Action": "RandomWalk"},
+
+    {"Time": 164.9,"Action": "RandomWalk"},
+
+    {"Time": 165.9,"Action": "RandomWalk"},
+
+
+
+
+
+    {"Time": 166.9,"Action": "RandomWalk"},
+
+    {"Time": 167.9,"Action": "RandomWalk"},
+
+    {"Time": 168.9,"Action": "RandomWalk"},
+
+    {"Time": 169.9,"Action": "RandomWalk"},
+
+    {"Time": 170.9,"Action": "RandomWalk"},
+
+    {"Time": 171.9,"Action": "RandomWalk"},
+
+    {"Time": 172.9,"Action": "RandomWalk"},
+
+    {"Time": 173.9,"Action": "RandomWalk"},
+
+    {"Time": 174.9,"Action": "RandomWalk"},
+
+    {"Time": 175.9,"Action": "RandomWalk"},
+
+
+    {"Time": 176.9,"Action": "RandomWalk"},
+
+    {"Time": 177.9,"Action": "RandomWalk"},
+
+    {"Time": 178.9,"Action": "RandomWalk"},
+
+    {"Time": 179.9,"Action": "RandomWalk"},
+
+    {"Time": 180.9,"Action": "RandomWalk"},
+
+    {"Time": 181.9,"Action": "RandomWalk"},
+
+    {"Time": 182.9,"Action": "RandomWalk"},
+
+    {"Time": 183.9,"Action": "RandomWalk"},
+
+    {"Time": 184.9,"Action": "RandomWalk"},
+
+    {"Time": 185.9,"Action": "RandomWalk"},
+
+
+    {"Time": 186.9,"Action": "RandomWalk"},
+
+    {"Time": 187.9,"Action": "RandomWalk"},
+
+    {"Time": 188.9,"Action": "RandomWalk"},
+
+    {"Time": 189.9,"Action": "RandomWalk"},
+
+    {"Time": 190.9,"Action": "RandomWalk"},
+
+    {"Time": 191.9,"Action": "RandomWalk"},
+
+    {"Time": 192.9,"Action": "RandomWalk"},
+
+    {"Time": 193.9,"Action": "RandomWalk"},
+
+    {"Time": 194.9,"Action": "RandomWalk"},
+
+    {"Time": 195.9,"Action": "RandomWalk"},
+
+
+    {"Time": 196.9,"Action": "RandomWalk"},
+
+    {"Time": 197.9,"Action": "RandomWalk"},
+
+    {"Time": 198.9,"Action": "RandomWalk"},
+
+    {"Time": 199.9,"Action": "RandomWalk"},
+
+    {"Time": 200.9,"Action": "RandomWalk"},
+
+    {"Time": 201.9,"Action": "RandomWalk"},
+
+    {"Time": 202.9,"Action": "RandomWalk"},
+
+    {"Time": 203.9,"Action": "RandomWalk"},
+
+    {"Time": 204.9,"Action": "RandomWalk"},
+
+    {"Time": 205.9,"Action": "RandomWalk"},
+
+
+    {"Time": 206.9,"Action": "RandomWalk"},
+
+    {"Time": 207.9,"Action": "RandomWalk"},
+
+    {"Time": 208.9,"Action": "RandomWalk"},
+
+    {"Time": 209.9,"Action": "RandomWalk"},
+
+    {"Time": 210.9,"Action": "RandomWalk"},
+
+    {"Time": 211.9,"Action": "RandomWalk"},
+
+    {"Time": 212.9,"Action": "RandomWalk"},
+
+    {"Time": 213.9,"Action": "RandomWalk"},
+
+    {"Time": 214.9,"Action": "RandomWalk"},
+
+    {"Time": 215.9,"Action": "RandomWalk"},
+
+
+    {"Time": 220,"Anim": "SpinShoot"},
+
+    {"Time": 220.2,"Anim": "SpinShoot"},
+
+    {"Time": 221.9,"Who": "Blue Monster","Action": "RandomWalk"},
+
+    {"Time": 222.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
+
+    {"Time": 222.4,"Dialogue": "Still Alive?"},
+
+    {"Time": 222.7,"Who":"Player","Action": "Flash"},
+
+    {"Time": 223.1,"Dialogue": "Keep Going"},
+
+
+    {"Time": 223.9,"Action": "RandomWalk"},
+
+    {"Time": 224.9,"Action": "RandomWalk"},
+
+    {"Time": 225.9,"Action": "RandomWalk"},
+
+    {"Time": 226.9,"Action": "RandomWalk"},
+
+    {"Time": 227.9,"Action": "RandomWalk"},
+
+    {"Time": 228.9,"Action": "RandomWalk"},
+
+    {"Time": 229.9,"Action": "RandomWalk"},
+
+    {"Time": 230.9,"Action": "RandomWalk"},
+
+    {"Time": 231.9,"Action": "RandomWalk"},
+
+    {"Time": 232.9,"Action": "RandomWalk"},
+
+
+    
+    {"Time": 233.9,"Action": "RandomWalk"},
+
+    {"Time": 234.9,"Action": "RandomWalk"},
+
+    {"Time": 235.9,"Action": "RandomWalk"},
+
+    {"Time": 236.9,"Action": "RandomWalk"},
+
+    {"Time": 237.9,"Action": "RandomWalk"},
+
+    {"Time": 238.9,"Action": "RandomWalk"},
+
+    {"Time": 239.9,"Action": "RandomWalk"},
+
+    {"Time": 240.9,"Action": "RandomWalk"},
+
+    {"Time": 241.9,"Action": "RandomWalk"},
+
+    {"Time": 242.9,"Action": "RandomWalk"},
+
+
+    {"Time": 243.9,"Action": "RandomWalk"},
+
+    {"Time": 244.9,"Action": "RandomWalk"},
+
+    {"Time": 245.9,"Action": "RandomWalk"},
+
+    {"Time": 246.9,"Action": "RandomWalk"},
+
+    {"Time": 247.9,"Action": "RandomWalk"},
+
+    {"Time": 248.9,"Action": "RandomWalk"},
+
+    {"Time": 249.9,"Action": "RandomWalk"},
+
+    {"Time": 250.9,"Action": "RandomWalk"},
+
+    {"Time": 251.9,"Action": "RandomWalk"},
+
+    {"Time": 252.9,"Action": "RandomWalk"},
+
+
+    {"Time": 253.9,"Action": "RandomWalk"},
+
+    {"Time": 254.9,"Action": "RandomWalk"},
+
+    {"Time": 255.9,"Action": "RandomWalk"},
+
+    {"Time": 256.9,"Action": "RandomWalk"},
+
+    {"Time": 257.9,"Action": "RandomWalk"},
+
+    {"Time": 258.9,"Action": "RandomWalk"},
+
+    {"Time": 259.9,"Action": "RandomWalk"},
+
+    {"Time": 260.9,"Action": "RandomWalk"},
+
+    {"Time": 261.9,"Action": "RandomWalk"},
+
+    {"Time": 262.9,"Action": "RandomWalk"},
+
+
+    {"Time": 263.9,"Action": "RandomWalk"},
+
+    {"Time": 264.9,"Action": "RandomWalk"},
+
+    {"Time": 265.9,"Action": "RandomWalk"},
+
+    {"Time": 266.9,"Action": "RandomWalk"},
+
+    {"Time": 267.9,"Action": "RandomWalk"},
+
+    {"Time": 268.9,"Action": "RandomWalk"},
+
+    {"Time": 269.9,"Action": "RandomWalk"},
+
+    {"Time": 270.9,"Action": "RandomWalk"},
+
+    {"Time": 271.9,"Action": "RandomWalk"},
+
+    {"Time": 272.9,"Action": "RandomWalk"},
+
+
+    {"Time": 273.9,"Action": "RandomWalk"},
+
+    {"Time": 274.9,"Action": "RandomWalk"},
+
+    {"Time": 275.9,"Action": "RandomWalk"},
+
+    {"Time": 276.9,"Action": "RandomWalk"},
+
+    {"Time": 277.9,"Action": "RandomWalk"},
+
+    {"Time": 278.9,"Action": "RandomWalk"},
+
+    {"Time": 279.9,"Action": "RandomWalk"},
+
+    {"Time": 280.9,"Action": "RandomWalk"},
+
+    {"Time": 281.9,"Action": "RandomWalk"},
+
+    {"Time": 282.9,"Action": "RandomWalk"},
+
+
+    {"Time": 283.9,"Action": "RandomWalk"},
+
+    {"Time": 284.9,"Action": "RandomWalk"},
+
+    {"Time": 285.9,"Action": "RandomWalk"},
+
+    {"Time": 286.9,"Action": "RandomWalk"},
+
+    {"Time": 287.9,"Action": "RandomWalk"},
+
+    {"Time": 288.9,"Action": "RandomWalk"},
+
+    {"Time": 289.9,"Action": "RandomWalk"},
+
+    {"Time": 290.9,"Action": "RandomWalk"},
+
+    {"Time": 291.9,"Action": "RandomWalk"},
+
+    {"Time": 292.9,"Action": "RandomWalk"},
+
+
+    {"Time": 293.9,"Action": "RandomWalk"},
+
+    {"Time": 294.9,"Action": "RandomWalk"},
+
+    {"Time": 295.9,"Action": "RandomWalk"},
+
+    {"Time": 296.9,"Action": "RandomWalk"},
+
+    {"Time": 297.9,"Action": "RandomWalk"},
+
+    {"Time": 298.9,"Action": "RandomWalk"},
+
+    {"Time": 299.9,"Action": "RandomWalk"},
+
+    {"Time": 300.9,"Action": "RandomWalk"},
+
+    {"Time": 301.9,"Action": "RandomWalk"},
+
+    {"Time": 302.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 303.9,"Action": "RandomWalk"},
+
+    {"Time": 304.9,"Action": "RandomWalk"},
+
+    {"Time": 305.9,"Action": "RandomWalk"},
+
+    {"Time": 306.9,"Action": "RandomWalk"},
+
+    {"Time": 307.9,"Action": "RandomWalk"},
+
+    {"Time": 308.9,"Action": "RandomWalk"},
+
+    {"Time": 309.9,"Action": "RandomWalk"},
+
+    {"Time": 310.9,"Action": "RandomWalk"},
+
+    {"Time": 311.9,"Action": "RandomWalk"},
+
+    {"Time": 312.9,"Action": "RandomWalk"},
+
+
+
+    {"Time": 313.9,"Action": "RandomWalk"},
+
+    {"Time": 314.9,"Action": "RandomWalk"},
+
+    {"Time": 315.9,"Action": "RandomWalk"},
+
+    {"Time": 316.9,"Action": "RandomWalk"},
+
+    {"Time": 317.9,"Action": "RandomWalk"},
+
+    {"Time": 318.9,"Action": "RandomWalk"},
+
+    {"Time": 319.9,"Action": "RandomWalk"},
+
+    {"Time": 320.9,"Action": "RandomWalk"},
+
+    {"Time": 321.9,"Action": "RandomWalk"},
+
+    {"Time": 322.9,"Action": "RandomWalk"},
+
+
+    {"Time": 323.9,"Action": "RandomWalk"},
+
+    {"Time": 324.9,"Action": "RandomWalk"},
+
+    {"Time": 325.9,"Action": "RandomWalk"},
+
+    {"Time": 326.9,"Action": "RandomWalk"},
+
+    {"Time": 327.9,"Action": "RandomWalk"},
+
+    {"Time": 328.9,"Action": "RandomWalk"},
+
+    {"Time": 329.9,"Action": "RandomWalk"},
+
+    {"Time": 330}
   ]
 }
