@@ -35,9 +35,9 @@
 
     {"Time": 7.9,"Action": "RandomWalk"},
 
-    {"Time": 8.4,"Anim": "SpinShoot"},
+    {"Time": 8.4,"Who": "Blue Monster 2","Anim": "SpinShoot"},
 
-    {"Time": 8.5,"Anim": "SpinShoot"},
+    {"Time": 8.5,"Who": "Blue Monster 2","Anim": "SpinShoot"},
 
     {"Time": 8.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -70,9 +70,9 @@
 
     {"Time": 14.9,"Action": "RandomWalk"},
 
-    {"Time": 15.1,"Anim": "SpinShoot"},
+    {"Time": 15.1,"Who": "Blue Monster 2","Action": "ShootAtPlayer"},
 
-    {"Time": 15.2,"Anim": "SpinShoot"},
+    {"Time": 15.2,"Who": "Blue Monster 2","Action": "ShootAtPlayer"},
 
     {"Time": 15.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -105,9 +105,9 @@
 
     {"Time": 21.9,"Action": "RandomWalk"},
 
-    {"Time": 22.1,"Anim": "SpinShoot"},
+    {"Time": 22.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 22.2,"Anim": "SpinShoot"},
+    {"Time": 22.2,"Action": "ShootAtPlayer"},
 
     {"Time": 22.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -141,9 +141,9 @@
 
     {"Time": 28.9,"Action": "RandomWalk"},
 
-    {"Time": 29.1,"Anim": "SpinShoot"},
+    {"Time": 29.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 29.2,"Anim": "SpinShoot"},
+    {"Time": 29.2,"Action": "ShootAtPlayer"},
 
     {"Time": 29.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -176,9 +176,9 @@
 
     {"Time": 35.9,"Action": "RandomWalk"},
 
-    {"Time": 36.1,"Anim": "SpinShoot"},
+    {"Time": 36.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 36.2,"Anim": "SpinShoot"},
+    {"Time": 36.2,"Action": "ShootAtPlayer"},
 
     {"Time": 36.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -227,9 +227,9 @@
 
     {"Time": 45.9,"Action": "RandomWalk"},
 
-    {"Time": 46.1,"Anim": "SpinShoot"},
+    {"Time": 46.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 46.2,"Anim": "SpinShoot"},
+    {"Time": 46.2,"Action": "ShootAtPlayer"},
 
     {"Time": 46.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -258,13 +258,29 @@
     {"Time": 50.9,"Action": "RandomWalk"},
 
 
+    {"Time": 51.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 51.8,"Action": "ShootAtPlayer"},
+
     {"Time": 51.9,"Action": "RandomWalk"},
 
     {"Time": 52.9,"Action": "RandomWalk"},
 
-    {"Time": 52.1,"Anim": "SpinShoot"},
+    {"Time": 52.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 52.2,"Anim": "SpinShoot"},
+    {"Time": 52.2,"Action": "ShootAtPlayer"},
 
     {"Time": 53.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -303,9 +319,9 @@
 
     {"Time": 62.9,"Action": "RandomWalk"},
 
-    {"Time": 62.1,"Anim": "SpinShoot"},
+    {"Time": 62.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 62.2,"Anim": "SpinShoot"},
+    {"Time": 62.2,"Action": "ShootAtPlayer"},
 
     {"Time": 63.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -345,9 +361,9 @@
 
     {"Time": 72.9,"Action": "RandomWalk"},
 
-    {"Time": 72.1,"Anim": "SpinShoot"},
+    {"Time": 72.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 72.2,"Anim": "SpinShoot"},
+    {"Time": 72.2,"Action": "ShootAtPlayer"},
 
     {"Time": 73.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -386,9 +402,9 @@
 
     {"Time": 82.9,"Action": "RandomWalk"},
 
-    {"Time": 82.1,"Anim": "SpinShoot"},
+    {"Time": 82.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 82.2,"Anim": "SpinShoot"},
+    {"Time": 82.2,"Action": "ShootAtPlayer"},
 
     {"Time": 83.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -427,9 +443,9 @@
 
 
 
-    {"Time": 91.5,"Anim": "SpinShoot"},
+    {"Time": 91.5,"Action": "ShootAtPlayer"},
 
-    {"Time": 91.6,"Anim": "SpinShoot"},
+    {"Time": 91.6,"Action": "ShootAtPlayer"},
 
     {"Time": 91.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -466,9 +482,9 @@
 
     {"Time": 99.9,"Action": "RandomWalk"},
 
-    {"Time": 100.1,"Anim": "SpinShoot"},
+    {"Time": 100.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 100.2,"Anim": "SpinShoot"},
+    {"Time": 100.2,"Action": "ShootAtPlayer"},
 
     {"Time": 100.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -508,9 +524,9 @@
 
     {"Time": 108.9,"Action": "RandomWalk"},
 
-    {"Time": 108.1,"Anim": "SpinShoot"},
+    {"Time": 108.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 108.2,"Anim": "SpinShoot"},
+    {"Time": 108.2,"Action": "ShootAtPlayer"},
 
     {"Time": 108.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -550,9 +566,9 @@
 
     {"Time": 117.9,"Action": "RandomWalk"},
 
-    {"Time": 118,"Anim": "SpinShoot"},
+    {"Time": 118.3,"Action": "ShootAtPlayer"},
 
-    {"Time": 118.4,"Anim": "SpinShoot"},
+    {"Time": 118.4,"Action": "ShootAtPlayer"},
 
     {"Time": 118.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -587,7 +603,7 @@
     {"Time": 125.9,"Action": "RandomWalk"},
 
 
-    {"Time": 126.9,"Action": "RandomWalk"},
+    {"Time": 126.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 127.9,"Action": "RandomWalk"},
 
@@ -597,9 +613,25 @@
 
     {"Time": 130.9,"Action": "RandomWalk"},
 
+    {"Time": 131.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 131.8,"Action": "ShootAtPlayer"},
+
     {"Time": 131.9,"Action": "RandomWalk"},
 
-    {"Time": 132.9,"Action": "RandomWalk"},
+    {"Time": 132.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 133.9,"Action": "RandomWalk"},
 
@@ -612,15 +644,31 @@
 
     {"Time": 137.9,"Action": "RandomWalk"},
 
-    {"Time": 138.9,"Action": "RandomWalk"},
+    {"Time": 138.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 139.9,"Action": "RandomWalk"},
+
+    {"Time": 140.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 140.8,"Action": "ShootAtPlayer"},
 
     {"Time": 140.9,"Action": "RandomWalk"},
 
     {"Time": 141.9,"Action": "RandomWalk"},
 
-    {"Time": 142.9,"Action": "RandomWalk"},
+    {"Time": 142.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 143.9,"Action": "RandomWalk"},
 
@@ -633,15 +681,31 @@
 
     {"Time": 147.9,"Action": "RandomWalk"},
 
-    {"Time": 148.9,"Action": "RandomWalk"},
+    {"Time": 148.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 149.9,"Action": "RandomWalk"},
+
+    {"Time": 150.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 150.8,"Action": "ShootAtPlayer"},
 
     {"Time": 150.9,"Action": "RandomWalk"},
 
     {"Time": 151.9,"Action": "RandomWalk"},
 
-    {"Time": 152.9,"Action": "RandomWalk"},
+    {"Time": 152.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 153.9,"Action": "RandomWalk"},
 
@@ -653,17 +717,33 @@
 
     {"Time": 156.9,"Action": "RandomWalk"},
 
-    {"Time": 157.9,"Action": "RandomWalk"},
+    {"Time": 157.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 158.9,"Action": "RandomWalk"},
 
     {"Time": 159.9,"Action": "RandomWalk"},
 
+    {"Time": 160.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 160.8,"Action": "ShootAtPlayer"},
+
     {"Time": 160.9,"Action": "RandomWalk"},
 
     {"Time": 161.9,"Action": "RandomWalk"},
 
-    {"Time": 162.9,"Action": "RandomWalk"},
+    {"Time": 162.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 163.9,"Action": "RandomWalk"},
 
@@ -679,15 +759,31 @@
 
     {"Time": 167.9,"Action": "RandomWalk"},
 
-    {"Time": 168.9,"Action": "RandomWalk"},
+    {"Time": 168.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 169.9,"Action": "RandomWalk"},
+
+    {"Time": 170.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 170.8,"Action": "ShootAtPlayer"},
 
     {"Time": 170.9,"Action": "RandomWalk"},
 
     {"Time": 171.9,"Action": "RandomWalk"},
 
-    {"Time": 172.9,"Action": "RandomWalk"},
+    {"Time": 172.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 173.9,"Action": "RandomWalk"},
 
@@ -698,15 +794,31 @@
 
     {"Time": 176.9,"Action": "RandomWalk"},
 
-    {"Time": 177.9,"Action": "RandomWalk"},
+    {"Time": 177.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 178.9,"Action": "RandomWalk"},
 
     {"Time": 179.9,"Action": "RandomWalk"},
 
+    {"Time": 180.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 180.8,"Action": "ShootAtPlayer"},
+
     {"Time": 180.9,"Action": "RandomWalk"},
 
-    {"Time": 181.9,"Action": "RandomWalk"},
+    {"Time": 181.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 182.9,"Action": "RandomWalk"},
 
@@ -719,15 +831,31 @@
 
     {"Time": 186.9,"Action": "RandomWalk"},
 
-    {"Time": 187.9,"Action": "RandomWalk"},
+    {"Time": 187.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 188.9,"Action": "RandomWalk"},
 
     {"Time": 189.9,"Action": "RandomWalk"},
 
+    {"Time": 190.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 190.8,"Action": "ShootAtPlayer"},
+
     {"Time": 190.9,"Action": "RandomWalk"},
 
-    {"Time": 191.9,"Action": "RandomWalk"},
+    {"Time": 191.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 192.9,"Action": "RandomWalk"},
 
@@ -742,13 +870,29 @@
 
     {"Time": 197.9,"Action": "RandomWalk"},
 
-    {"Time": 198.9,"Action": "RandomWalk"},
+    {"Time": 198.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 199.9,"Action": "RandomWalk"},
 
+    {"Time": 200.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 200.8,"Action": "ShootAtPlayer"},
+
     {"Time": 200.9,"Action": "RandomWalk"},
 
-    {"Time": 201.9,"Action": "RandomWalk"},
+    {"Time": 201.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 202.9,"Action": "RandomWalk"},
 
@@ -763,13 +907,29 @@
 
     {"Time": 207.9,"Action": "RandomWalk"},
 
-    {"Time": 208.9,"Action": "RandomWalk"},
+    {"Time": 208.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 209.9,"Action": "RandomWalk"},
 
+    {"Time": 210.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 210.8,"Action": "ShootAtPlayer"},
+
     {"Time": 210.9,"Action": "RandomWalk"},
 
-    {"Time": 211.9,"Action": "RandomWalk"},
+    {"Time": 211.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 212.9,"Action": "RandomWalk"},
 
@@ -780,9 +940,9 @@
     {"Time": 215.9,"Action": "RandomWalk"},
 
 
-    {"Time": 220,"Anim": "SpinShoot"},
+    {"Time": 220.1,"Action": "ShootAtPlayer"},
 
-    {"Time": 220.2,"Anim": "SpinShoot"},
+    {"Time": 220.2,"Action": "ShootAtPlayer"},
 
     {"Time": 221.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
@@ -799,15 +959,31 @@
 
     {"Time": 224.9,"Action": "RandomWalk"},
 
-    {"Time": 225.9,"Action": "RandomWalk"},
+    {"Time": 225.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 226.9,"Action": "RandomWalk"},
+
+    {"Time": 227.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 227.8,"Action": "ShootAtPlayer"},
 
     {"Time": 227.9,"Action": "RandomWalk"},
 
     {"Time": 228.9,"Action": "RandomWalk"},
 
-    {"Time": 229.9,"Action": "RandomWalk"},
+    {"Time": 229.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 230.9,"Action": "RandomWalk"},
 
@@ -821,15 +997,31 @@
 
     {"Time": 234.9,"Action": "RandomWalk"},
 
-    {"Time": 235.9,"Action": "RandomWalk"},
+    {"Time": 235.9,"Who": "Blue Monster","Action": "RandomWalk"},
 
     {"Time": 236.9,"Action": "RandomWalk"},
+
+    {"Time": 237.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 237.8,"Action": "ShootAtPlayer"},
 
     {"Time": 237.9,"Action": "RandomWalk"},
 
     {"Time": 238.9,"Action": "RandomWalk"},
 
-    {"Time": 239.9,"Action": "RandomWalk"},
+    {"Time": 239.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 240.9,"Action": "RandomWalk"},
 
@@ -846,11 +1038,27 @@
 
     {"Time": 246.9,"Action": "RandomWalk"},
 
+    {"Time": 247.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 247.8,"Action": "ShootAtPlayer"},
+
     {"Time": 247.9,"Action": "RandomWalk"},
 
     {"Time": 248.9,"Action": "RandomWalk"},
 
-    {"Time": 249.9,"Action": "RandomWalk"},
+    {"Time": 249.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 250.9,"Action": "RandomWalk"},
 
@@ -867,13 +1075,29 @@
 
     {"Time": 256.9,"Action": "RandomWalk"},
 
+    {"Time": 257.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 257.8,"Action": "ShootAtPlayer"},
+
     {"Time": 257.9,"Action": "RandomWalk"},
 
     {"Time": 258.9,"Action": "RandomWalk"},
 
     {"Time": 259.9,"Action": "RandomWalk"},
 
-    {"Time": 260.9,"Action": "RandomWalk"},
+    {"Time": 260.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 261.9,"Action": "RandomWalk"},
 
@@ -888,13 +1112,29 @@
 
     {"Time": 266.9,"Action": "RandomWalk"},
 
+    {"Time": 267.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 267.8,"Action": "ShootAtPlayer"},
+
     {"Time": 267.9,"Action": "RandomWalk"},
 
     {"Time": 268.9,"Action": "RandomWalk"},
 
     {"Time": 269.9,"Action": "RandomWalk"},
 
-    {"Time": 270.9,"Action": "RandomWalk"},
+    {"Time": 270.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 271.9,"Action": "RandomWalk"},
 
@@ -909,13 +1149,29 @@
 
     {"Time": 276.9,"Action": "RandomWalk"},
 
+    {"Time": 277.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 277.8,"Action": "ShootAtPlayer"},
+
     {"Time": 277.9,"Action": "RandomWalk"},
 
     {"Time": 278.9,"Action": "RandomWalk"},
 
     {"Time": 279.9,"Action": "RandomWalk"},
 
-    {"Time": 280.9,"Action": "RandomWalk"},
+    {"Time": 280.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 281.9,"Action": "RandomWalk"},
 
@@ -930,11 +1186,27 @@
 
     {"Time": 286.9,"Action": "RandomWalk"},
 
+    {"Time": 287.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 287.8,"Action": "ShootAtPlayer"},
+
     {"Time": 287.9,"Action": "RandomWalk"},
 
     {"Time": 288.9,"Action": "RandomWalk"},
 
-    {"Time": 289.9,"Action": "RandomWalk"},
+    {"Time": 289.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 290.9,"Action": "RandomWalk"},
 
@@ -951,9 +1223,25 @@
 
     {"Time": 296.9,"Action": "RandomWalk"},
 
+    {"Time": 297.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 297.8,"Action": "ShootAtPlayer"},
+
     {"Time": 297.9,"Action": "RandomWalk"},
 
-    {"Time": 298.9,"Action": "RandomWalk"},
+    {"Time": 298.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 299.9,"Action": "RandomWalk"},
 
@@ -973,13 +1261,29 @@
 
     {"Time": 306.9,"Action": "RandomWalk"},
 
+    {"Time": 307.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 307.8,"Action": "ShootAtPlayer"},
+
     {"Time": 307.9,"Action": "RandomWalk"},
 
     {"Time": 308.9,"Action": "RandomWalk"},
 
     {"Time": 309.9,"Action": "RandomWalk"},
 
-    {"Time": 310.9,"Action": "RandomWalk"},
+    {"Time": 310.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 311.9,"Action": "RandomWalk"},
 
@@ -995,13 +1299,29 @@
 
     {"Time": 316.9,"Action": "RandomWalk"},
 
+    {"Time": 317.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 317.8,"Action": "ShootAtPlayer"},
+
     {"Time": 317.9,"Action": "RandomWalk"},
 
     {"Time": 318.9,"Action": "RandomWalk"},
 
     {"Time": 319.9,"Action": "RandomWalk"},
 
-    {"Time": 320.9,"Action": "RandomWalk"},
+    {"Time": 320.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 321.9,"Action": "RandomWalk"},
 
@@ -1012,9 +1332,25 @@
 
     {"Time": 324.9,"Action": "RandomWalk"},
 
-    {"Time": 325.9,"Action": "RandomWalk"},
+    {"Time": 325.9,"Who": "Blue Monster 2","Action": "RandomWalk"},
 
     {"Time": 326.9,"Action": "RandomWalk"},
+
+    {"Time": 327.1,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.2,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.3,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.4,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.5,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.6,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.7,"Action": "ShootAtPlayer"},
+
+    {"Time": 327.8,"Action": "ShootAtPlayer"},
 
     {"Time": 327.9,"Action": "RandomWalk"},
 
