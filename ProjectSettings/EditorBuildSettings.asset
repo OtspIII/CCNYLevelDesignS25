@@ -24,6 +24,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Student Folders/Sarah/Sarah.unity
     guid: 65856a043395f4286af4a8d9b95c635c
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
