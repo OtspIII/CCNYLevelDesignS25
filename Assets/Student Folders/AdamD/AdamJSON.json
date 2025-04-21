@@ -1,0 +1,35 @@
+{
+  "Title": "CCB4",
+  "Author": "AdamD.",
+  "Events": [
+    {"Time": 0},
+    {"Time": 0,"Action":"Shoot"}, 
+    {"Time": 0,"Action": "RandomWalk"},
+    {"Time": 1,"Action":"Shoot"}, 
+    {"Time": 1,"Action": "RandomWalk"},
+    {"Time": 2,"Action":"Shoot"}, 
+    {"Time": 2,"Action": "RandomWalk"},
+    {"Time": 4,"Action":"Shoot"}, 
+    {"Time": 4,"Action": "RandomWalk"},
+    {"Time": 4,"Anim": "SpinShoot","Amt":3},
+
+    {"Time": 8,"Action":"Shoot"},
+    {"Time": 8,"Action": "RandomWalk"},
+    {"Time": 9,"Action":"Shoot"},
+    {"Time": 9,"Action": "RandomWalk"},
+    {"Time": 10,"Action":"Shoot"},
+    {"Time": 10,"Action": "RandomWalk"},
+    {"Time": 11,"Action":"Shoot"}, 
+    {"Time": 11,"Action": "RandomWalk"},
+    {"Time": 13,"Anim": "SpinShoot","Amt":3},
+
+    {"Time": 16,"Action":"LerpToX", "Amt":2},
+    {"Time": 17,"Action":"Shoot"},
+
+    {"Time": 17.5, 
+    
+    
+
+    {"Time": 209}
+  ]
+}

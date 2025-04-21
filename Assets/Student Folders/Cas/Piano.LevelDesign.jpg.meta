@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Piano.LevelDesign_0: -6942547145869873794
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
