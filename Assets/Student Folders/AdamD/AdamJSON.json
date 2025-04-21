@@ -21,9 +21,12 @@
     {"Time": 10,"Action": "RandomWalk"},
     {"Time": 11,"Action":"Shoot"}, 
     {"Time": 11,"Action": "RandomWalk"},
-    {"Time": 16,"Anim": "SpinShoot","Amt":3},
+    {"Time": 13,"Anim": "SpinShoot","Amt":3},
 
-    {"Time": 26,"Action":"LerpToX", "Amt":2},
+    {"Time": 16,"Action":"LerpToX", "Amt":2},
+    {"Time": 17,"Action":"Shoot"},
+
+    {"Time": 17.5, 
     
     
 
