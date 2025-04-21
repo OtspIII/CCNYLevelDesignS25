@@ -155,7 +155,6 @@
     {"Time": 50.7, "Action": "ShootAtPlayer"},
     {"Time": 51.5, "Action": "ShootAtPlayer"},
     {"Time": 52.3, "Action": "ShootAtPlayer"},
-    {"Time": 52.7, "Action": "ShootAtPlayer"},
 
     {"Time": 52.3,"Who": "Key 1","Action": "MoveUp","Amt":6.75},
     {"Time": 52.3,"Who": "Key 4","Action": "MoveUp","Amt":6.75},
@@ -221,17 +220,42 @@
     {"Time": 74.0,"Who": "Shooter 2 (MON)","Action": "Shoot"},
     {"Time": 74.2,"Who": "Shooter 3 (MON)","Action": "Shoot"},
 
-    {"Time": 74,"Who": "Shooter 4 (MON)","Action": "Shoot"},
-    {"Time": 74.2,"Who": "Shooter 5 (MON)","Action": "Shoot"},
-    {"Time": 74.4,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+    {"Time": 74.4,"Who": "Shooter 4 (MON)","Action": "Shoot"},
+    {"Time": 74.6,"Who": "Shooter 5 (MON)","Action": "Shoot"},
+    {"Time": 74.8,"Who": "Shooter 6 (MON)","Action": "Shoot"},
 
-    {"Time": 74.6,"Who": "Shooter 1 (MON)","Action": "Shoot"},
-    {"Time": 74.8,"Who": "Shooter 2 (MON)","Action": "Shoot"},
-    {"Time": 75.0,"Who": "Shooter 3 (MON)","Action": "Shoot"},
+    {"Time": 75.0,"Who": "Shooter 1 (MON)","Action": "Shoot"},
+    {"Time": 75.2,"Who": "Shooter 2 (MON)","Action": "Shoot"},
+    {"Time": 75.4,"Who": "Shooter 3 (MON)","Action": "Shoot"},
 
-    {"Time": 75.2,"Who": "Shooter 4 (MON)","Action": "Shoot"},
-    {"Time": 75.4,"Who": "Shooter 5 (MON)","Action": "Shoot"},
-    {"Time": 75.6,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+    {"Time": 75.6,"Who": "Shooter 4 (MON)","Action": "Shoot"},
+    {"Time": 75.8,"Who": "Shooter 5 (MON)","Action": "Shoot"},
+    {"Time": 76.0,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+
+    {"Time": 76.2,"Who": "Shooter 1 (MON)","Action": "Shoot"},
+    {"Time": 76.4,"Who": "Shooter 2 (MON)","Action": "Shoot"},
+    {"Time": 76.6,"Who": "Shooter 3 (MON)","Action": "Shoot"},
+
+    {"Time": 76.8,"Who": "Shooter 4 (MON)","Action": "Shoot"},
+    {"Time": 77.0,"Who": "Shooter 5 (MON)","Action": "Shoot"},
+    {"Time": 77.2,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+
+    {"Time": 77.4,"Who": "Shooter 1 (MON)","Action": "Shoot"},
+    {"Time": 77.6,"Who": "Shooter 2 (MON)","Action": "Shoot"},
+    {"Time": 77.8,"Who": "Shooter 3 (MON)","Action": "Shoot"},
+
+    {"Time": 78.0,"Who": "Shooter 4 (MON)","Action": "Shoot"},
+    {"Time": 78.2,"Who": "Shooter 5 (MON)","Action": "Shoot"},
+    {"Time": 78.4,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+
+    {"Time": 78.6,"Who": "Shooter 1 (MON)","Action": "Shoot"},
+    {"Time": 78.8,"Who": "Shooter 2 (MON)","Action": "Shoot"},
+    {"Time": 79.0,"Who": "Shooter 3 (MON)","Action": "Shoot"},
+
+    {"Time": 79.2,"Who": "Shooter 4 (MON)","Action": "Shoot"},
+    {"Time": 79.3,"Who": "Shooter 5 (MON)","Action": "Shoot"},
+    {"Time": 79.4,"Who": "Shooter 6 (MON)","Action": "Shoot"},
+
     {"Time": 300,"Dialogue": ""},
     {"Time": 300,"Dialogue": ""},
     {"Time": 300,"Dialogue": ""},
