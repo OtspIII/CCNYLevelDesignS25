@@ -1,0 +1,1021 @@
+{
+  "Title": "Man on the Lakers",
+  "Author": "Matthew Lizardi",
+  "Events": [
+    {"Time": 0,"Who": "LeMonster","Anim": "SpinShoot","Action": "RandomWalk"},
+
+    {"Time": 2,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 4,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 7.5,"Who": "LeMonster","Action": "Shake", "Amt": 2},
+ 
+    {"Time": 10,"Who":"Player","Action": "Flash"},
+    {"Time": 10.261,"Dialogue": "His name is LeBron James,"},
+    {"Time": 10.261,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 10.568,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 10.847,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 10.521,"Who": "LeMonster","Action": "RandomWalk"},
+    
+    {"Time": 11.098,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 11.377,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 11.628,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 11.677,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 12.23,"Dialogue": "And he plays for LA."},
+    {"Time": 12.619,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 12.855,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 12.870,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 13.233,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 13.498,"Who": "goat","Action": "ShootAtPlayer"},
+    
+    {"Time": 14.043,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 14.120,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 14.481,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 15.185,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 15.05,"Dialogue": ""},
+
+    {"Time": 16.346,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 17.516,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 17.799,"Who": "goat","Action": "Shake", "Amt": 1},
+
+    {"Time": 18.20,"Dialogue": "It would feel so good,"},
+    {"Time": 18.653,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 18.671,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 18.793,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 18.897,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 19.408,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 19.800,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 20.148,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 20.22,"Dialogue": "It'd make a big difference,"},
+    {"Time": 20.832,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 20.901,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 20.961,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 21.143,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 21.297,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 21.599,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 22.10,"Dialogue": "If I could see him play."},
+    {"Time": 22.126,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 22.336,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 22.463,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 22.586,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 22.662,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 23.311,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 23.267,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 23.652,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 24.466,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 24.830,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 25.072,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 25.573,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 26.051,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 26.11,"Dialogue": ""},
+    {"Time": 26.753,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 27.29,"Dialogue": "As I, go to my living room"},
+    {"Time": 27.912,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 27.964,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 28.273,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 28.822,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 29.047,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 29.072,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 29.429,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 29.724,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 29.946,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 30.266,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 30.266,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 30.331,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 31.02,"Dialogue": "Dont know what I'm gon' do,"},
+    {"Time": 31.138,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 31.437,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 31.452,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 31.748,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 32.030,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 32.440,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 32.576,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 32.576,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 32.625,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 33.22,"Dialogue": "If I hear he ain't gon' play."},
+    {"Time": 33.462,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 33.728,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 33.763,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 34.074,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 34.337,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 34.648,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 34.940,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 34.908,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 34.908,"Who": "LeMonster","Action": "ShootAtPlayer"},
+
+    {"Time": 35.191,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 36,"Dialogue": ""},
+    {"Time": 36.077,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 36.918,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 37.097,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 37.149,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 37.215,"Dialogue": "Cause I made a bet, or two,"},
+    {"Time": 37.215,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 37.352,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 37.527,"Who": "goat","Action": "ShootAtPlayer"},
+    
+    {"Time": 38.357,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 38.366,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 38.657,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 39.02,"Dialogue": "That hes gonna shoot,"},
+    {"Time": 39.527,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 39.527,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 39.835,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 40.154,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 40.306,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 40.412,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 40.491,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 40.672,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 41.02,"Dialogue": "Ten 3s, get ten re's,"},
+    {"Time": 41.509,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 41.831,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 41.826,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 41.826,"Who": "LeMonster","Action": "ShootAtPlayer"},
+
+    {"Time": 42.298,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 42.411,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 42.731,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 42.996,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 43.02,"Dialogue": "And then the Lakers ain't gon' lose."},
+    {"Time": 43.479,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 43.637,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 43.929,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 44.166,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 44.166,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 44.212,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 44.507,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 44.790,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 45.104,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 45.280,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 45.533,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 46.10,"Dialogue": ""},
+    {"Time": 46.495,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 46.495,"Who": "LeMonster","Action": "ShootAtPlayer"},
+
+    {"Time": 47.20,"Dialogue": "And they got Luka Don,"},
+    {"Time": 47.361,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 47.667,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 47.680,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 47.984,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 48.163,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 48.549,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 48.841,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 48.841,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 48.844,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 49.30,"Dialogue": "A. Reaves, and then LeBron,"},
+    {"Time": 49.693,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 49.931,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 49.977,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 50.359,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 50.557,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 50.871,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 51.138,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 51.138,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 51.171,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 52.08,"Dialogue": "The real big 3."},
+    {"Time": 52.266,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 52.338,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 52.480,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 53.185,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 53.376,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 53.376,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 53.754,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 54.575,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 55.774,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 55.774,"Who": "LeMonster","Action": "ShootAtPlayer"},
+
+    {"Time": 56.02,"Dialogue": "They gave up A.D. because they needed change,"},
+    {"Time": 56.074,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 56.356,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 56.665,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 56.917,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 56.942,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 57.266,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 57.533,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 57.781,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 58.079,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 58.079,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 58.133,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 58.395,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 58.697,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 58.916,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 59.180,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 60.351,"Dialogue": "And you gots to say his name,"},
+    {"Time": 60.369,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 60.369,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 60.383,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 60.555,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 60.720,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 61.502,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 61.592,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 61.761,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 62.702,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 62.702,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 62.756,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 63.038,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 63.329,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 63.572,"Dialogue": "His name is LeBron James."},
+    {"Time": 63.593,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 63.886,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 64.158,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 64.185,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 64.409,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 64.734,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 65.074,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 65.074,"Who": "LeMonster","Action": "ShootAtPlayer"},
+    {"Time": 65.315,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 66.184,"Dialogue": "Im talking bout"},
+    {"Time": 66.189,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 66.201,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 66.704,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 67.051,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 67.356,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 67.382,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 67.641,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 67.660,"Dialogue": "The man on the Lakers."},
+    {"Time": 67.973,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 68.487,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 68.533,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 68.910,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 69.046,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 69.283,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 69.653,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 69.669,"Dialogue": "(LeBron)"},
+    {"Time": 69.681,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 70.230,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 70.816,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 70.831,"Dialogue": "Im asking you to say his name,"},
+
+    {"Time": 71.330,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 71.733,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 71.953,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 72.041,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 72.224,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 72.463,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 73.140,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 73.202,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 73.490,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 74.004,"Dialogue": "(LeBron James)"},
+    {"Time": 74.030,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 74.317,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 74.333,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 74.835,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 75.439,"Dialogue": "No message could been any clearer,"},
+    {"Time": 75.487,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 76.047,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 76.362,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 76.610,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 76.919,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 77.047,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 77.224,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 77.775,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 78.389,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 78.567,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 78.969,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 79.180,"Dialogue": "If you wanna make the world"},
+    {"Time": 79.255,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 79.375,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 79.519,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 79.682,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 79.815,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 79.973,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 80.092,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 80.158,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 80.474,"Dialogue": "A better place"},
+    {"Time": 80.582,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 80.730,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 80.948,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 81.161,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 81.491,"Dialogue": "Take a look in the sky,"},
+    {"Time": 81.568,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 81.682,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 81.853,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 82.013,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 82.104,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 82.181,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 82.693,"Dialogue": "And say his name."},
+    {"Time": 82.732,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 82.896,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 83.225,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 83.461,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 83.568,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 84.86,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 84.743,"Dialogue": ""},
+    {"Time": 84.743,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 84.780,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 85.901,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 85.912,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 86.763,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 86.852,"Dialogue": "Le Bron, Le Bron, LeBron, Lebron."},
+    {"Time": 86.940,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 87.048,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 87.137,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 87.675,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 87.813,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 87.951,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 88.232,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 88.662,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 88.847,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 89.392,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 89.444,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 89.708,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 90.519,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 90.839,"Dialogue": ""},
+
+    {"Time": 91.717,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 92.592,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 92.845,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 93.154,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 93.756,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 93.992,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 94.056,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 94.057,"Dialogue": "LeBron is who we love,"},
+    {"Time": 94.360,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 94.579,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 94.924,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 95.155,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 95.251,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 96.042,"Dialogue": "The best there ever was,"},
+    {"Time": 96.135,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 96.304,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 96.397,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 96.714,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 96.949,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 97.261,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 97.476,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 97.561,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 98.394,"Dialogue": "Its time that yall realize."},
+    {"Time": 98.457,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 98.651,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 98.722,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 98.994,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 99.311,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 99.561,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 99.825,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 99.892,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 100.169,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 100.966,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 101.323,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 101.961,"Dialogue": "That when the king is gone"},
+
+    {"Time": 102.046,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 102.144,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 102.198,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 102.317,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 102.476,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 103.308,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 103.348,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 103.653,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 104.450,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 104.758,"Dialogue": "And hes not in the league,"},
+    {"Time": 104.787,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 104.931,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 105.110,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 105.242,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 105.356,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 105.553,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 105.630,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 106.445,"Dialogue": "Who do we,"},
+    {"Time": 106.534,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 106.672,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 106.782,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 106.815,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 107.371,"Dialogue": "What do we,"},
+    {"Time": 107.402,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 107.533,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 107.718,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 107.958,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 108.331,"Dialogue": "Go watching on the TV screen."},
+    {"Time": 108.374,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 108.553,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 108.834,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 109.107,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 109.179,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 109.454,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 109.633,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 110.015,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 110.255,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 110.615,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 111.425,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 111.733,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 112.255,"Dialogue": "Yeah they got Luka Don,"},
+    {"Time": 112.317,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 112.605,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 112.608,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 112.949,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 113.223,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 113.505,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 113.751,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 113.797,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 114.615,"Dialogue": "But if its no LeBron,"},
+    {"Time": 114.668,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 114.903,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 114.956,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 115.249,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 115.526,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 115.825,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 116.058,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 116.118,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 117.197,"Dialogue": "You wont see me."},
+    {"Time": 117.227,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 117.259,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 117.596,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 118.080,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 118.398,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 118.731,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 119.538,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 120.689,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 120.921,"Dialogue": "He dipped out of Cleveland"},
+
+    {"Time": 121.019,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 121.304,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 121.577,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 121.870,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 121.925,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 122.116,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 122.447,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 122.675,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 122.716,"Dialogue": "To Miami Heat,"},
+    {"Time": 122.892,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 123.005,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 123.345,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 123.614,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 123.931,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 124.205,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 125.192,"Dialogue": "But out of all"},
+    {"Time": 125.213,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 125.314,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 125.332,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 125.514,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 125.643,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 126.463,"Dialogue": "These other teams"},
+    {"Time": 126.493,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 126.497,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 126.821,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 127.674,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 127.683,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 127.936,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 128.459,"Dialogue": "The team that did it for me,"},
+    {"Time": 128.538,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 128.744,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 128.855,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 129.121,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 129.402,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 129.727,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 129.893,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 130.010,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 130.277,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 131.097,"Dialogue": "Im talking bout"},
+    {"Time": 131.141,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 131.156,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 131.661,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 132.023,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 132.337,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 132.347,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 132.493,"Dialogue": "The man on the Lakers"},
+    {"Time": 132.635,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 132.886,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 133.451,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 133.452,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 133.891,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 134.047,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 134.224,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 134.658,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 134.585,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 134.600,"Dialogue": "(LeBron)"},
+
+    {"Time": 135.230,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 135.727,"Dialogue": "Im asking you to"},
+    {"Time": 135.809,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 135.835,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 136.308,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 136.689,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 136.917,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 137.008,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 137.242,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 137.383,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 137.391,"Dialogue": "Say his name"},
+
+    {"Time": 138.116,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 138.258,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 138.458,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 139,"Dialogue": "(LeBron James)"},
+    {"Time": 139.004,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 139.276,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 139.302,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 139.806,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 140.113,"Dialogue": "And no message"},
+    {"Time": 140.139,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 140.430,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 140.459,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 141.044,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 141.339,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 141.608,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 141.829,"Dialogue": "Coulda been any clearer"},
+    {"Time": 141.903,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 142.028,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 142.200,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 142.741,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 142.757,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 143.317,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 143.496,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 143.889,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 144.177,"Dialogue": "If you wanna make the world"},
+    {"Time": 144.210,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 144.338,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 144.514,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 144.654,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 144.800,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 144.964,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 145.038,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 145.117,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 145.478,"Dialogue": "A better place"},
+    {"Time": 145.517,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 145.677,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 145.911,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 146.139,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 146.196,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 146.499,"Dialogue": "Take a look in the sky"},
+    {"Time": 146.536,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 146.682,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 146.832,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 146.973,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 147.078,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 147.163,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 147.361,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 147.700,"Dialogue": "And say his name"},
+    {"Time": 147.724,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 147.896,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 148.220,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 148.434,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 148.504,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 149.170,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 149.702,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 149.710,"Dialogue": "Im talking bout"},
+    {"Time": 149.741,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 150.260,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 150.556,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 150.611,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 150.921,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 151.067,"Dialogue": "The man on the Lakers"},
+    {"Time": 151.196,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 151.495,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 152.015,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 152.086,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 152.486,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 152.619,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 152.798,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 153.174,"Dialogue": "(LeBron)"},
+    {"Time": 153.207,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 153.226,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 153.790,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 154.330,"Dialogue": "Im asking you to"},
+    {"Time": 154.337,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 154.353,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 154.948,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 155.238,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 155.493,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 155.566,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 155.799,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 155.924,"Dialogue": "Say his name"},
+    {"Time": 155.979,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 156.659,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 156.744,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 157.023,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 157.563,"Dialogue": "(LeBron James)"},
+    {"Time": 157.573,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 157.827,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 157.856,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 158.379,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 158.693,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 158.811,"Dialogue": "And no message"},
+
+    {"Time": 159.014,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 159.016,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 159.601,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 159.895,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 160.172,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 160.441,"Dialogue": "Coulda been any clearer"},
+    {"Time": 160.441,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 160.582,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 160.748,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 161.300,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 161.322,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 161.924,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 162.107,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 162.482,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 162.738,"Dialogue": "If you wanna make the world"},
+    {"Time": 162.778,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 162.854,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 163.042,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 163.205,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 163.360,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 163.507,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 163.633,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 163.674,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 164.065,"Dialogue": "A better place"},
+    {"Time": 164.074,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 164.247,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 164.455,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 164.690,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 164.802,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 165.073,"Dialogue": "Take a look in the sky"},
+    {"Time": 165.082,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.242,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.388,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.532,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.654,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.821,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 165.945,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 166.248,"Dialogue": "And say his name"},
+    {"Time": 166.274,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 166.479,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 166.736,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 166.812,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 166.992,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 167.612,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 167.691,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 168.265,"Dialogue": "Im talking bout"},
+    {"Time": 168.274,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 168.294,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 168.809,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 169.151,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 169.424,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 169.437,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 169.717,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 169.721,"Dialogue": "The man on the Lakers"},
+
+    {"Time": 170.024,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 170.602,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 170.608,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 171.032,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 171.159,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 171.496,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 171.751,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 171.840,"Dialogue": "(LeBron)"},
+
+    {"Time": 172.104,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 172.304,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 172.875,"Dialogue": "Im asking you to"},
+    {"Time": 172.886,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 173.476,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 173.773,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 174.043,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 174.066,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 174.327,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 174.584,"Dialogue": "Say his name"},
+    {"Time": 174.607,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 175.144,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 175.255,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 175.527,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 176.203,"Dialogue": "(LeBron James)"},
+    {"Time": 176.227,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 176.361,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 176.385,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 176.922,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 177.214,"Dialogue": "And no message"},
+    {"Time": 177.244,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 177.565,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 177.558,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 178.117,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 178.450,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 178.691,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 178.930,"Dialogue": "Coulda been any clearer"},
+    {"Time": 178.984,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 179.120,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 179.297,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 179.863,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 179.891,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 180.439,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 180.581,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 181.035,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 181.284,"Dialogue": "If you wanna make the world"},
+    {"Time": 181.305,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 181.463,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 181.593,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 181.758,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 181.888,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 182.046,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 182.196,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 182.197,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 182.561,"Dialogue": "A better place"},
+    {"Time": 182.597,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 182.751,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 183.071,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 183.211,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 183.365,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 183.606,"Dialogue": "Better look in the sky"},
+    {"Time": 183.647,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 183.761,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 183.921,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 184.067,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 184.163,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 184.227,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 184.520,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 184.765,"Dialogue": "And say his name"},
+    {"Time": 184.775,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 184.933,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 185.274,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 185.531,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 185.690,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 185.949,"Dialogue": "Gotta watch him play"},
+    {"Time": 185.967,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 186.049,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 186.255,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 186.544,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 156.679,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 186.843,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 187.111,"Dialogue": "While you got the time"},
+    {"Time": 187.123,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 187.277,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 187.416,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 187.679,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 187.823,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 187.995,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 188.267,"Dialogue": "Cause it wont be long"},
+    {"Time": 188.287,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 188.411,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 188.566,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 188.821,"Dialogue": "You just"},
+    {"Time": 188.828,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 189.155,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 189.686,"Dialogue": "Got to"},
+    {"Time": 189.718,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 189.998,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 190.555,"Dialogue": "Go watch"},
+    {"Time": 190.579,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 190.887,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 191.474,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 191.713,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 191.747,"Dialogue": "That man"},
+
+    {"Time": 192.021,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 192.629,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 192.905,"Dialogue": "LeBron"},
+    {"Time": 192.916,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 193.207,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 193.797,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 194.036,"Dialogue": "ts man"},
+    {"Time": 194.052,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 194.388,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 194.954,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 194.993,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 195.152,"Dialogue": "The goat"},
+    {"Time": 195.197,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 195.521,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 196.118,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 196.367,"Dialogue": "That man"},
+    {"Time": 196.382,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 196.686,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 197.275,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 197.501,"Dialogue": "You know"},
+    {"Time": 197.531,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 197.852,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 198.437,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 198.687,"Dialogue": "That man"},
+    {"Time": 198.722,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 199.013,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 199.192,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 199.594,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 199.598,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 199.817,"Dialogue": "You know"},
+
+    {"Time": 200.167,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 200.753,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 201.018,"Dialogue": "You know x2"},
+    {"Time": 201.038,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 201.337,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 201.913,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 202.162,"Dialogue": "Come on"},
+    {"Time": 202.187,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 202.477,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 203.075,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 203.331,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 203.334,"Dialogue": "The goat"},
+    {"Time": 203.659,"Who": "goat","Action": "ShootAtPlayer"},
+
+    {"Time": 204.231,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 204.606,"Dialogue": ""},
+
+    {"Time": 205.396,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 206.565,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 207.701,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 208.289,"Who": "LeMonster","Action": "RandomWalk"},
+    {"Time": 208.869,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 209.155,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 210.021,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 211.186,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 212.356,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 213.516,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 214.663,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 215.816,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 216.993,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 218.156,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 219.313,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 220.479,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 221.641,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 222.794,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 226.272,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 227.426,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 228.588,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 229.750,"Who": "LeMonster","Action": "RandomWalk"},
+
+    {"Time": 230.904,"Who": "LeMonster","Action": "RandomWalk"},
+
+     
+    {"Time": 233}
+  ]
+}
