@@ -26,7 +26,7 @@
     {"Time": 16,"Action":"LerpToX", "Amt":2},
     {"Time": 17,"Action":"Shoot"},
 
-    {"Time": 17.5, 
+    {"Time": 17.5}
     
     
 
