@@ -407,6 +407,18 @@ public class ActorController : MonoBehaviour
             pos.y = amt;
             transform.position = pos;
         }
+        else if (act == "SetToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            transform.position = pos;
+        }
+        else if (act == "SetToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
+            transform.position = pos;
+        }
         else if (act == "MoveToX")
         {
             Vector3 pos = transform.position;
@@ -530,6 +542,30 @@ public class ActorController : MonoBehaviour
         else if (act == "LerpToPlayer")
         {
             Vector3 pos = PlayerController.Player.transform.position;
+            SetDesiredPos(pos,MoveStyle.Lerp);
+        }
+        else if (act == "MoveToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            SetDesiredPos(pos,MoveStyle.Linear);
+        }
+        else if (act == "MoveToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
+            SetDesiredPos(pos,MoveStyle.Linear);
+        }
+        else if (act == "LerpToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            SetDesiredPos(pos,MoveStyle.Lerp);
+        }
+        else if (act == "LerpToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
             SetDesiredPos(pos,MoveStyle.Lerp);
         }
         else if (act == "FadeOut")
