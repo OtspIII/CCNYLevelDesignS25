@@ -139,6 +139,10 @@ PrefabInstance:
       propertyPath: SideNPCs.Array.size
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2222939923061481438, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      propertyPath: 'SideNPCs.Array.data[0]'
+      value: 
+      objectReference: {fileID: 1095910105}
     - target: {fileID: 3225649182362845121, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       propertyPath: 'm_ActiveFontFeatures.Array.data[0]'
       value: 1801810542
@@ -279,7 +283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6349048642943165602, guid: c5d3f2865feff8d40a2b15b440e85123, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.59
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7444107625801907342, guid: c5d3f2865feff8d40a2b15b440e85123, type: 3}
       propertyPath: m_Name
@@ -355,6 +359,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1648141227157949291, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Size.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1648141227157949291, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
     - target: {fileID: 4290496404066804735, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_Name
       value: Monster
