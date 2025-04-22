@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Student Folders/Carlos' Folder/Carlos.unity
     guid: 6c7403f577999394488df2628d20d74f
   - enabled: 1
@@ -44,11 +45,27 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Student Folders/Sarah/Sarah.unity
     guid: 65856a043395f4286af4a8d9b95c635c
+=======
+    path: Assets/Student Folders/Example/Example Level.unity
+    guid: 32f8192b7fb6e464c84de48b1518ae7b
+  - enabled: 0
+    path: Assets/Student Folders/KelsiNicholson/KelsiLevel.unity
+    guid: 24e1d9bf3902e4543901db356b9d7dd1
+>>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Generic Assets/You Win.unity
     guid: 91cfb6caa580edb4aa5894a0cb132bc1
   - enabled: 1
     path: Assets/Generic Assets/You Lose.unity
     guid: 44c9c043ab0c1d045b5f53f6f89f610a
+<<<<<<< Updated upstream
+=======
+  - enabled: 0
+    path: Assets/Student Folders/QixiangDong/QixiangDongScene.unity
+    guid: cdafd12e2cbefed45851eae391bab45b
+  - enabled: 1
+    path: Assets/Student Folders/Sarah/Sarah.unity
+    guid: 65856a043395f4286af4a8d9b95c635c
+>>>>>>> Stashed changes
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

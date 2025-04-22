@@ -2,7 +2,6 @@
   "Title": "Level 1",
   "Author": "Sarah",
   "Events": [
-//start
     {"Time": 0, "Who": "M2","Action": "TurnOff"},
     {"Time": 0, "Who": "M3","Action": "TurnOff"},
     {"Time": 0, "Who": "M4","Action": "TurnOff"},
@@ -36,7 +35,7 @@
     {"Time": 0, "Who": "B3","Action": "TurnOff"},
     {"Time": 0, "Who": "B4","Action": "TurnOff"},
     
-    //intro
+    
     
     {"Time": 1.7,"Who": "Monster","Action": "TurnPink"},
     {"Time": 1.75,"Who": "Monster","Action": "Teleport"},
@@ -56,7 +55,7 @@
     {"Time": 5.3,"Who": "Monster","Action": "Teleport"},
     {"Time": 5.85, "Who": "Monster", "Action": "TurnWhite"},
     
-    //intro
+    
     
     {"Time": 5.85, "Who": "M2","Action": "TurnOn"},
     {"Time": 5.85, "Who": "M3","Action": "TurnOn"},
@@ -103,7 +102,6 @@
     {"Time": 13, "Who": "M4","Action": "TurnOff"},
     {"Time": 13, "Who": "M5","Action": "TurnOff"},
     
-    //beat drop
     
     {"Time": 13, "Who": "Big","Action": "TurnOn"},
     {"Time": 13.25, "Who": "Big","Action": "TurnOff"},
@@ -114,7 +112,6 @@
     {"Time": 13.65, "Who": "B4","Action": "TurnOn"},
     {"Time":  14, "Who": "B4", "Action": "TurnOff"},
     
-    //verse
     {"Time": 13.9,"Who": "M2","Action": "TurnOn"},
     {"Time": 13.9,"Who": "M7","Action": "TurnOn"},
     {"Time": 13.9,"Who": "M6","Action": "TurnOn"},
