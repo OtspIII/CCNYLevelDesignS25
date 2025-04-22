@@ -67,6 +67,7 @@ public class ActorController : MonoBehaviour
         {
             foreach (AnimationClip c in Anim.runtimeAnimatorController.animationClips)
             {
+                //Debug.Log(gameObject.name + ": " + c.name);
                 if (c.name == "Idle")
                     HasIdle = true;
             }
@@ -329,6 +330,7 @@ public class ActorController : MonoBehaviour
             yield return null;
             if (CurrentAnim == animName)
             {
+                //Debug.Log("PLAYIDLE");
                 Anim.Play("Idle");
                 CurrentAnim = "";
             }
@@ -624,6 +626,11 @@ public class ActorController : MonoBehaviour
             h.WallHit = WallHitBehavior.Shake;
         }
         Body.transform.localPosition = startPos;
+    }
+
+    public void ResetRotation()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
 

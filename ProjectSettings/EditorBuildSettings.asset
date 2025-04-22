@@ -4,6 +4,51 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Student Folders/Carlos' Folder/Carlos.unity
+    guid: 6c7403f577999394488df2628d20d74f
+  - enabled: 1
+    path: Assets/Student Folders/Cas/Cas' Scene.unity
+    guid: af0649035f6e8414abef7655ba4a3674
+  - enabled: 1
+    path: Assets/Student Folders/Chanse Folder/Chanse playtest.unity
+    guid: 27846475dd10df34890f5f5e2208c306
+  - enabled: 1
+    path: Assets/Student Folders/DerekL/Derek.unity
+    guid: 6b96f6c0375a0384c9013cba87d89e0f
+  - enabled: 1
+    path: Assets/Student Folders/Dominick/Dom.unity
+    guid: 038c9d8ef2330e84fb9c465e525b0349
+  - enabled: 1
+    path: Assets/Student Folders/KelsiNicholson/KelsiLevel.unity
+    guid: 24e1d9bf3902e4543901db356b9d7dd1
+  - enabled: 1
+    path: Assets/Student Folders/Matthew Lizardi/LeGame.unity
+    guid: 000351e38e179a1498b77f12574af645
+  - enabled: 1
+    path: Assets/Student Folders/Joseph/Level 1.unity
+    guid: 7b5a513d5a10542028abdad9dc38f3e4
+  - enabled: 1
+    path: Assets/Student Folders/Luke/Luke.unity
+    guid: 5d38801f1413f1d47a62b8981231587b
+  - enabled: 1
+    path: Assets/Student Folders/AdamD/New Scene.unity
+    guid: 77f7a3ca9953bfe4cb47a90e0d63828b
+  - enabled: 1
+    path: Assets/Student Folders/Orozco/Orozco_Level.unity
+    guid: 67548355fe31b2c4884bdf85821bc792
+  - enabled: 1
+    path: Assets/Student Folders/QixiangDong/QixiangDongScene.unity
+    guid: cdafd12e2cbefed45851eae391bab45b
+  - enabled: 1
+    path: Assets/Student Folders/Sarah/Sarah.unity
+    guid: 65856a043395f4286af4a8d9b95c635c
+  - enabled: 1
+    path: Assets/Generic Assets/You Win.unity
+    guid: 91cfb6caa580edb4aa5894a0cb132bc1
+  - enabled: 1
+    path: Assets/Generic Assets/You Lose.unity
+    guid: 44c9c043ab0c1d045b5f53f6f89f610a
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
