@@ -15,10 +15,13 @@ public class GameManager : MonoBehaviour
     public List<ActorController> SideNPCs;
     [Header("Drag Your JSON File Here")]
     public TextAsset JSON;
+    [Header("Check To View Time While Testing")]
+    public bool TestMode;
     public static GameManager Singleton;
     [Header("Ignore These")]
     public TextMeshPro HealthDisplay;
     public TextMeshPro DialogueDisplay;
+    public TextMeshPro TimeDisplay;
     public SpriteRenderer Fader;
     public AudioSource AS;
     public LevelJSON Script;
@@ -59,6 +62,10 @@ public class GameManager : MonoBehaviour
             return;
         }
         Clock += Time.deltaTime;
+        if (TestMode)
+        {
+            TimeDisplay.text = ""+Clock.ToString("0.0");
+        }
         while (Queue.Count > 0 && Queue[0].Time <= Clock)
         {
             EventJSON e = Queue[0];

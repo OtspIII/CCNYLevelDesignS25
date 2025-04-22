@@ -67,6 +67,7 @@ public class ActorController : MonoBehaviour
         {
             foreach (AnimationClip c in Anim.runtimeAnimatorController.animationClips)
             {
+                //Debug.Log(gameObject.name + ": " + c.name);
                 if (c.name == "Idle")
                     HasIdle = true;
             }
@@ -329,6 +330,7 @@ public class ActorController : MonoBehaviour
             yield return null;
             if (CurrentAnim == animName)
             {
+                //Debug.Log("PLAYIDLE");
                 Anim.Play("Idle");
                 CurrentAnim = "";
             }
@@ -403,6 +405,18 @@ public class ActorController : MonoBehaviour
         {
             Vector3 pos = transform.position;
             pos.y = amt;
+            transform.position = pos;
+        }
+        else if (act == "SetToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            transform.position = pos;
+        }
+        else if (act == "SetToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
             transform.position = pos;
         }
         else if (act == "MoveToX")
@@ -530,6 +544,30 @@ public class ActorController : MonoBehaviour
             Vector3 pos = PlayerController.Player.transform.position;
             SetDesiredPos(pos,MoveStyle.Lerp);
         }
+        else if (act == "MoveToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            SetDesiredPos(pos,MoveStyle.Linear);
+        }
+        else if (act == "MoveToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
+            SetDesiredPos(pos,MoveStyle.Linear);
+        }
+        else if (act == "LerpToPlayerX")
+        {
+            Vector3 pos = transform.position;
+            pos.x =  PlayerController.Player.transform.position.x;
+            SetDesiredPos(pos,MoveStyle.Lerp);
+        }
+        else if (act == "LerpToPlayerY")
+        {
+            Vector3 pos = transform.position;
+            pos.y =  PlayerController.Player.transform.position.y;
+            SetDesiredPos(pos,MoveStyle.Lerp);
+        }
         else if (act == "FadeOut")
         {
             Color c = Body.color;
@@ -624,6 +662,11 @@ public class ActorController : MonoBehaviour
             h.WallHit = WallHitBehavior.Shake;
         }
         Body.transform.localPosition = startPos;
+    }
+
+    public void ResetRotation()
+    {
+        transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
 
