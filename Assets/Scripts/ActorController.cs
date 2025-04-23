@@ -119,7 +119,9 @@ public class ActorController : MonoBehaviour
         //If we're rotating towards a rotation, do so
         if (ChasingDesiredRot == MoveStyle.Linear)
         {
+            // Debug.Log("ROT1: " + transform.rotation.eulerAngles.z);
             transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * 90 * Time.deltaTime));
+            // Debug.Log("ROT2: " + transform.rotation.eulerAngles.z);
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
@@ -127,8 +129,10 @@ public class ActorController : MonoBehaviour
         }
         else if (ChasingDesiredRot == MoveStyle.Lerp)
         {
+            // Debug.Log("ROT3: " + transform.rotation.eulerAngles.z);
             transform.rotation = Quaternion.Euler(0,0,Mathf.LerpAngle(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * Time.deltaTime));
             transform.rotation = Quaternion.Euler(0,0,Mathf.MoveTowards(transform.rotation.eulerAngles.z, DesiredRot, SpinSpeed * 0.01f));
+            // Debug.Log("ROT4: " + transform.rotation.eulerAngles.z);
             if (Mathf.Abs(DesiredRot - transform.rotation.eulerAngles.z) < 0.01f)
             {
                 ChasingDesiredRot = MoveStyle.None;
@@ -454,6 +458,31 @@ public class ActorController : MonoBehaviour
         else if (act == "LerpToRotation")
         {
             SetDesiredRot(amt,MoveStyle.Lerp);
+        }
+        else if (act == "RotateToPlayer")
+        {
+            Vector3 diff = PlayerController.Player.transform.position - transform.position;
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            Debug.Log("R2P: " + diff + " / " + rot_z);
+            SetDesiredRot(rot_z,MoveStyle.Linear);
+        }
+        else if (act == "RotateToPlayerLerp")
+        {
+            Vector3 diff = PlayerController.Player.transform.position - transform.position;
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            Debug.Log("R2PL: " + diff + " / " + rot_z);
+            SetDesiredRot(rot_z,MoveStyle.Lerp);
+        }
+        else if (act == "LookAtPlayer")
+        {
+            Vector3 diff = PlayerController.Player.transform.position - transform.position;
+            float rot_z = Mathf.Atan2(diff.y, diff.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0,0,rot_z);
+        }
+        else if (act == "RotateRelative")
+        {
+            float rot_z = transform.rotation.eulerAngles.z + amt;
+            transform.rotation = Quaternion.Euler(0,0,rot_z);
         }
         else if (act == "ToSize")
         {
