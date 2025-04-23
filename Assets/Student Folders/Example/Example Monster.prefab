@@ -49,13 +49,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   RB: {fileID: 0}
   Body: {fileID: 3739585348139978228}
+  Coll: {fileID: 0}
   Anim: {fileID: 6628546495624261682}
   Health: 0
-  Moveset: []
+  Speed: 5
+  SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
+  AltProjectiles: []
   ShootGnome: {fileID: 0}
+  HurtGnome: {fileID: 0}
   DeathGnome: {fileID: 0}
   Damage: 1
+  WallHit: 0
 --- !u!61 &7629057881739277528
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64,6 +70,7 @@ BoxCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1558863088311700548}
   m_Enabled: 1
+  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -87,7 +94,8 @@ BoxCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_UsedByComposite: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
@@ -98,7 +106,6 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
 --- !u!212 &3739585348139978228
@@ -118,6 +125,9 @@ SpriteRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -155,7 +165,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &6628546495624261682
 Animator:
-  serializedVersion: 5
+  serializedVersion: 7
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -166,9 +176,10 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7ca1c4e80cd744d4fadc34c82e98a5b3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
