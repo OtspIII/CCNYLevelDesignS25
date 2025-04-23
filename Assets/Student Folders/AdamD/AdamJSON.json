@@ -170,7 +170,7 @@
     {"Time": 68.33,"Action":"SetY", "Amt":4},
     {"Time": 68.33, "Action":"ShootAtPlayer"},
     {"Time": 68.66,"Action":"SetX", "Amt":7},
-    {"Time": 68.66"Action":"SetY", "Amt":0},
+    {"Time": 68.66, "Action":"SetY", "Amt":0},
     {"Time": 68.66, "Action":"ShootAtPlayer"},
 
     {"Time": 70,"Dialogue":"I'm doing it, doing it right!"},
@@ -202,7 +202,7 @@
     {"Time": 80.5,"Action":"ShootAtPlayer"},
     {"Time": 81,"Action":"ShootAtPlayer"},
 
-    {"Time": 82,"Dialogue":"And we will fight;"},
+    {"Time": 82,"Dialogue":"And we will fight"},
     {"Time": 82,"Action":"SetX", "Amt":7},
     {"Time": 82,"Action":"SetY", "Amt":0},
     {"Time": 82.5, "Action":"ShootAtPlayer"},
@@ -224,11 +224,29 @@
     {"Time": 89.5, "Action":"ShootAtPlayer"},
     {"Time": 90, "Action":"ShootAtPlayer"},
 
+    {"Time": 92, "Dialogue":"Inside of my mind I've been searchin"},
+    {"Time": 92, "Action": "RandomWalk"},
+    {"Time": 92, "Action":"ShootAtPlayer"},
+    {"Time": 93, "Action":"ShootAtPlayer"},
+    {"Time": 94, "Action":"ShootAtPlayer"},
+
+    {"Time": 95, "Dialogue":"For the words that'll cure all my hurtin"},
+    {"Time": 95, "Action": "RandomWalk"},
+    {"Time": 95, "Action":"ShootAtPlayer"},
+    {"Time": 96, "Action":"ShootAtPlayer"},
+    {"Time": 97, "Action":"ShootAtPlayer"},
+    
+    {"Time": 98, "Dialogue":"Tough love got me feelin deservin"},
+    {"Time": 98,"Action":"SetX", "Amt":0},
+    {"Time": 98,"Action":"SetY", "Amt":4},
 
 
-
-
-
+    {"Time": 100, "Dialogue":"Rip back the curtain, that's how I'm learnin"},
+    {"Time": 102, "Dialogue":"Reflect on the mess I created"},
+    {"Time": 104, "Dialogue":"Respect for the test I hated"},
+    {"Time": 106, "Dialogue":"Making all the winning decisions"},
+    {"Time": 108, "Dialogue":"With high/total precision"},
+    {"Time": 110, "Dialogue":"not that I'd listen"},
 
     {"Time": 209}
   ]
