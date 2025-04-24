@@ -54,6 +54,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 3385520667200393095, guid: fbbe44e8106a16f4b8f7d60f6b90291f, type: 3}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -175,7 +176,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 7ca1c4e80cd744d4fadc34c82e98a5b3, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0

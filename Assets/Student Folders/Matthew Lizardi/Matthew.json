@@ -188,17 +188,20 @@
     {"Time": 47.984,"Who": "goat","Action": "ShootAtPlayer"},
 
     {"Time": 48.163,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 48.203,"Who": "Doncic","Action": "LerpToX", "Amt": 12},
     {"Time": 48.549,"Who": "goat","Action": "ShootAtPlayer"},
     {"Time": 48.841,"Who": "LeMonster","Action": "RandomWalk"},
     {"Time": 48.841,"Who": "LeMonster","Action": "ShootAtPlayer"},
     {"Time": 48.844,"Who": "goat","Action": "ShootAtPlayer"},
 
     {"Time": 49.30,"Dialogue": "A. Reaves, and then LeBron,"},
+    {"Time": 49.581,"Who": "Reaves","Action": "LerpToX", "Amt": -12},
     {"Time": 49.693,"Who": "goat","Action": "ShootAtPlayer"},
     {"Time": 49.931,"Who": "goat","Action": "ShootAtPlayer"},
     {"Time": 49.977,"Who": "LeMonster","Action": "RandomWalk"},
 
     {"Time": 50.359,"Who": "goat","Action": "ShootAtPlayer"},
+    {"Time": 50.499,"Who": "LeBron","Action": "LerpToY", "Amt": -8},
     {"Time": 50.557,"Who": "goat","Action": "ShootAtPlayer"},
     {"Time": 50.871,"Who": "goat","Action": "ShootAtPlayer"},
 
