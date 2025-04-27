@@ -89,20 +89,20 @@
     {"Time": 30.15,"Action": "ShootAtPlayer", "Amt": 1},
     {"Time": 30.54,"Action": "ShootAtPlayer", "Amt": 0},
  
-    {"Time": 30.92},
-    {"Time": 31.12},
-    {"Time": 31.31},
-    {"Time": 31.50},
-    {"Time": 31.70},
-    {"Time": 31.89},
-    {"Time": 31.99},
-    {"Time": 32.08},
-    {"Time": 32.28},
-    {"Time": 32.47},
-    {"Time": 32.67},
-    {"Time": 32.86},
-    {"Time": 33.05},
-    {"Time": 33.25},
+    {"Time": 30.92,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.12,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.31,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.50,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.70,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.89,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 31.99,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 32.08,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 32.28,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 32.47,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 32.67,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 32.86,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 33.05,"Action": "ShootAtPlayer", "Amt": 0},
+    {"Time": 33.25,"Action": "ShootAtPlayer", "Amt": 0},
     
     {"Time": 34.02},
     {"Time": 34.41},
@@ -173,7 +173,7 @@
     {"Time": 45.64},
 
     {"Time": 52.5}, 
-    {"Time": 59}, 
+    {"Time": 59}
 
   ]
 }
