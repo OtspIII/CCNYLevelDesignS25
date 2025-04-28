@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 3385520667200393095}
   - component: {fileID: 6830306966571732234}
   m_Layer: 0
-  m_Name: Projectile
+  m_Name: Projectile 2
   m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -241,7 +241,7 @@ MonoBehaviour:
   Coll: {fileID: 0}
   Anim: {fileID: 0}
   Health: 0
-  Speed: 12
+  Speed: 30
   SpinSpeed: 5
   SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
