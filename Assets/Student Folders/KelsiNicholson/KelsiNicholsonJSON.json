@@ -2,6 +2,7 @@
   "Title": "Example Level",
   "Author": "Example Student",
   "Events": [
+    {"Time": 0,"Who":"Monster2","Action": "Flash", "Amt": 1},
     {"Time": 0,"Action": "Shake", "Amt": 3},
     {"Time": 3,"Action": "RandomWalk"},
     {"Time": 3.1,"Anim": "SpinShoot"},
