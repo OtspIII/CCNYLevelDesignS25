@@ -1,6 +1,6 @@
 {
-  "Title": "Level 1",
-  "Author": "Sarah",
+  "Title": "Level 1 - Sarah",
+  "Author": "Before You Hit Play, Go To Tools > Quantize For Best Results",
   "Events": [
     {
       "Time": 0.0,
@@ -289,6 +289,11 @@
     },
     {
       "Time": 6.142,
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 6.142,
       "Action": "SetX",
       "Amt": 0
     },
@@ -299,8 +304,15 @@
     },
     {
       "Time": 6.142,
-      "Action": "Shake",
-      "Amt": 7
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 6.142,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": 0
     },
     {
       "Time": 6.142,
@@ -462,11 +474,6 @@
     },
     {
       "Time": 13.228,
-      "Who": "Big",
-      "Action": "TurnOn"
-    },
-    {
-      "Time": 13.228,
       "Action": "TurnOff"
     },
     {
@@ -525,31 +532,31 @@
       "Action": "TurnOn"
     },
     {
+      "Time": 13.701,
+      "Who": "M2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 13.701,
+      "Who": "M7",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 13.701,
+      "Who": "M6",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 13.701,
+      "Who": "M5",
+      "Action": "TurnOn"
+    },
+    {
       "Time": 14.173,
       "Who": "B4",
       "Action": "TurnOff"
     },
     {
-      "Time": 13.701,
-      "Who": "M2",
-      "Action": "TurnOn"
-    },
-    {
-      "Time": 13.701,
-      "Who": "M7",
-      "Action": "TurnOn"
-    },
-    {
-      "Time": 13.701,
-      "Who": "M6",
-      "Action": "TurnOn"
-    },
-    {
-      "Time": 13.701,
-      "Who": "M5",
-      "Action": "TurnOn"
-    },
-    {
       "Time": 14.173,
       "Who": "M2",
       "Action": "TurnBlue"
@@ -562,12 +569,12 @@
     {
       "Time": 14.173,
       "Who": "M6",
-      "Action": "TurnBlue"
+      "Action": "TurnYellow"
     },
     {
       "Time": 14.173,
       "Who": "M5",
-      "Action": "TurnBlue"
+      "Action": "TurnYellow"
     },
     {
       "Time": 14.173,
@@ -621,25 +628,25 @@
       "Time": 14.646,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 14.646,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 14.646,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 14.646,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 14.646,
@@ -655,25 +662,25 @@
       "Time": 15.118,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 15.118,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 15.118,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 15.118,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 15.118,
@@ -726,7 +733,7 @@
     {
       "Time": 15.591,
       "Who": "M7",
-      "Action": "TurnWhite"
+      "Action": "TurnTan"
     },
     {
       "Time": 15.591,
@@ -808,8 +815,28 @@
     },
     {
       "Time": 16.063,
+      "Who": "M8",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 16.063,
+      "Who": "M9",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 16.063,
+      "Who": "M10",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 16.063,
+      "Who": "M11",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 16.063,
       "Who": "M6",
-      "Action": "TurnYellow"
+      "Action": "TurnTan"
     },
     {
       "Time": 16.063,
@@ -980,7 +1007,7 @@
     {
       "Time": 17.953,
       "Who": "M5",
-      "Action": "TurnYellow"
+      "Action": "TurnGrey"
     },
     {
       "Time": 17.953,
@@ -1130,6 +1157,16 @@
     {
       "Time": 18.898,
       "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 18.898,
+      "Who": "M2",
+      "Action": "TurnWhite"
+    },
+    {
+      "Time": 18.898,
+      "Who": "M2",
       "Action": "ShootAtPlayer"
     },
     {
@@ -1339,6 +1376,11 @@
     {
       "Time": 20.787,
       "Who": "M2",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 20.787,
+      "Who": "M2",
       "Action": "toSize",
       "Amt": 2
     },
@@ -1491,25 +1533,25 @@
       "Time": 22.677,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 22.677,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 22.677,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 22.677,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 23.15,
@@ -1524,6 +1566,30 @@
     },
     {
       "Time": 23.15,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 23.15,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 23.15,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 23.15,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 23.15,
       "Who": "M7",
       "Action": "MoveRight",
       "Amt": 1
@@ -1544,25 +1610,25 @@
       "Time": 23.622,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 23.622,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 23.622,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 23.622,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 24.094,
@@ -1593,25 +1659,25 @@
       "Time": 24.094,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 24.094,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 24.094,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 24.094,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 24.094,
@@ -1646,25 +1712,25 @@
       "Time": 24.567,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 0.3
     },
     {
       "Time": 24.567,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -0.4
     },
     {
       "Time": 24.567,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 0.6
     },
     {
       "Time": 24.567,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -0.3
     },
     {
       "Time": 24.567,
@@ -1746,6 +1812,30 @@
     },
     {
       "Time": 25.512,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 25.512,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 25.512,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 25.512,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 25.512,
       "Who": "M6",
       "Action": "ShootAtPlayer"
     },
@@ -1776,27 +1866,32 @@
     },
     {
       "Time": 25.984,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 25.984,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 25.984,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 25.984,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 25.984,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 25.984,
@@ -1837,25 +1932,25 @@
       "Time": 26.457,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 26.457,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 26.457,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": 0.5
     },
     {
       "Time": 26.457,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": -0.5
     },
     {
       "Time": 26.457,
@@ -1929,25 +2024,25 @@
       "Time": 27.402,
       "Who": "M2",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 27.402,
       "Who": "M7",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 27.402,
       "Who": "M6",
       "Action": "MoveRight",
-      "Amt": 1
+      "Amt": -1
     },
     {
       "Time": 27.402,
       "Who": "M5",
       "Action": "MoveRight",
-      "Amt": -1
+      "Amt": 1
     },
     {
       "Time": 27.874,
@@ -2002,72 +2097,72 @@
     {
       "Time": 27.874,
       "Who": "M3",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M4",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M7",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M2",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M6",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M8",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M9",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M10",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M11",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M12",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M13",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M14",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M15",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
       "Who": "M5",
-      "Action": "TurnGreen"
+      "Action": "TurnBlue"
     },
     {
       "Time": 27.874,
@@ -2565,49 +2660,49 @@
       "Time": 34.961,
       "Who": "M4",
       "Action": "SetX",
-      "Amt": 8
+      "Amt": 9
     },
     {
       "Time": 34.961,
       "Who": "M4",
       "Action": "SetY",
-      "Amt": 3
+      "Amt": 4
     },
     {
       "Time": 34.961,
       "Who": "M5",
       "Action": "SetX",
-      "Amt": -8
+      "Amt": -9
     },
     {
       "Time": 34.961,
       "Who": "M5",
       "Action": "SetY",
-      "Amt": 3
+      "Amt": 4
     },
     {
       "Time": 34.961,
       "Who": "M6",
       "Action": "SetX",
-      "Amt": 8
+      "Amt": 9
     },
     {
       "Time": 34.961,
       "Who": "M6",
       "Action": "SetY",
-      "Amt": -3
+      "Amt": -4
     },
     {
       "Time": 34.961,
       "Who": "M7",
       "Action": "SetX",
-      "Amt": -8
+      "Amt": -9
     },
     {
       "Time": 34.961,
       "Who": "M7",
       "Action": "SetY",
-      "Amt": -3
+      "Amt": -4
     },
     {
       "Time": 35.433,
@@ -2644,6 +2739,30 @@
       "Who": "M3",
       "Action": "SetY",
       "Amt": 0
+    },
+    {
+      "Time": 35.906,
+      "Who": "M4",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 35.906,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 35.906,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 35.906,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 2
     },
     {
       "Time": 35.906,
@@ -3109,7 +3228,7 @@
       "Time": 43.937,
       "Who": "M8",
       "Action": "SetY",
-      "Amt": 2
+      "Amt": 4
     },
     {
       "Time": 43.937,
@@ -3121,7 +3240,7 @@
       "Time": 43.937,
       "Who": "M9",
       "Action": "SetY",
-      "Amt": 2
+      "Amt": 4
     },
     {
       "Time": 43.937,
@@ -3133,7 +3252,7 @@
       "Time": 43.937,
       "Who": "M10",
       "Action": "SetY",
-      "Amt": -2
+      "Amt": -4
     },
     {
       "Time": 43.937,
@@ -3145,27 +3264,31 @@
       "Time": 43.937,
       "Who": "M11",
       "Action": "SetY",
-      "Amt": -2
+      "Amt": -4
     },
     {
-      "Time": 44.409,
+      "Time": 43.937,
       "Who": "M4",
-      "Action": "TurnOn"
+      "Action": "Shake",
+      "Amt": 12
     },
     {
-      "Time": 44.409,
+      "Time": 43.937,
       "Who": "M5",
-      "Action": "TurnOn"
+      "Action": "Shake",
+      "Amt": 12
     },
     {
-      "Time": 44.409,
+      "Time": 43.937,
       "Who": "M6",
-      "Action": "TurnOn"
+      "Action": "Shake",
+      "Amt": 12
     },
     {
-      "Time": 44.409,
+      "Time": 43.937,
       "Who": "M7",
-      "Action": "TurnOn"
+      "Action": "Shake",
+      "Amt": 12
     },
     {
       "Time": 44.409,
@@ -3208,30 +3331,6 @@
       "Who": "M3",
       "Action": "SetY",
       "Amt": -4
-    },
-    {
-      "Time": 44.882,
-      "Who": "M4",
-      "Action": "Shake",
-      "Amt": 10
-    },
-    {
-      "Time": 44.882,
-      "Who": "M5",
-      "Action": "Shake",
-      "Amt": 10
-    },
-    {
-      "Time": 44.882,
-      "Who": "M6",
-      "Action": "Shake",
-      "Amt": 10
-    },
-    {
-      "Time": 44.882,
-      "Who": "M7",
-      "Action": "Shake",
-      "Amt": 10
     },
     {
       "Time": 44.882,
@@ -3294,6 +3393,42 @@
       "Amt": -4.75
     },
     {
+      "Time": 45.354,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 45.354,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": -2
+    },
+    {
+      "Time": 45.827,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 45.827,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 46.299,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 46.299,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 2
+    },
+    {
       "Time": 46.299,
       "Who": "M2",
       "Action": "SetX",
@@ -3309,25 +3444,37 @@
       "Time": 46.299,
       "Who": "M4",
       "Action": "Flash3",
-      "Amt": 10
+      "Amt": 5
     },
     {
       "Time": 46.299,
       "Who": "M5",
       "Action": "Flash3",
-      "Amt": 10
+      "Amt": 5
     },
     {
       "Time": 46.299,
       "Who": "M6",
       "Action": "Flash3",
-      "Amt": 10
+      "Amt": 5
     },
     {
       "Time": 46.299,
       "Who": "M7",
       "Action": "Flash3",
-      "Amt": 10
+      "Amt": 5
+    },
+    {
+      "Time": 46.772,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 46.772,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 4
     },
     {
       "Time": 46.772,
@@ -3354,6 +3501,30 @@
       "Amt": 0
     },
     {
+      "Time": 47.717,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 47.717,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 2
+    },
+    {
+      "Time": 48.189,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 48.189,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
       "Time": 48.189,
       "Who": "M2",
       "Action": "SetX",
@@ -3369,25 +3540,25 @@
       "Time": 48.189,
       "Who": "M8",
       "Action": "Shake",
-      "Amt": 7
+      "Amt": 10
     },
     {
       "Time": 48.189,
       "Who": "M9",
       "Action": "Shake",
-      "Amt": 7
+      "Amt": 10
     },
     {
       "Time": 48.189,
       "Who": "M10",
       "Action": "Shake",
-      "Amt": 7
+      "Amt": 10
     },
     {
       "Time": 48.189,
       "Who": "M11",
       "Action": "Shake",
-      "Amt": 7
+      "Amt": 10
     },
     {
       "Time": 48.661,
@@ -3411,7 +3582,19 @@
       "Time": 48.661,
       "Who": "M3",
       "Action": "SetY",
+      "Amt": -2
+    },
+    {
+      "Time": 49.134,
+      "Who": "M3",
+      "Action": "SetX",
       "Amt": 0
+    },
+    {
+      "Time": 49.134,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": -4
     },
     {
       "Time": 49.134,
@@ -3441,7 +3624,7 @@
       "Time": 49.606,
       "Who": "M3",
       "Action": "SetX",
-      "Amt": 4
+      "Amt": -4
     },
     {
       "Time": 49.606,
@@ -3451,6 +3634,18 @@
     },
     {
       "Time": 50.079,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 50.079,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 50.079,
       "Who": "M2",
       "Action": "SetX",
       "Amt": 0
@@ -3483,13 +3678,13 @@
       "Time": 50.551,
       "Who": "M3",
       "Action": "SetX",
-      "Amt": 0
+      "Amt": -4
     },
     {
       "Time": 50.551,
       "Who": "M3",
       "Action": "SetY",
-      "Amt": -4
+      "Amt": 2
     },
     {
       "Time": 50.551,
@@ -3505,63 +3700,63 @@
     },
     {
       "Time": 51.024,
-      "Who": "M12",
-      "Action": "Shake",
-      "Amt": 5
-    },
-    {
-      "Time": 51.024,
-      "Who": "M13",
-      "Action": "Shake",
-      "Amt": 5
-    },
-    {
-      "Time": 51.024,
-      "Who": "M14",
-      "Action": "Shake",
-      "Amt": 5
-    },
-    {
-      "Time": 51.024,
-      "Who": "M15",
-      "Action": "Shake",
-      "Amt": 5
-    },
-    {
-      "Time": 51.496,
-      "Who": "M12",
-      "Action": "Flash3",
-      "Amt": 5
-    },
-    {
-      "Time": 51.496,
-      "Who": "M13",
-      "Action": "Flash3",
-      "Amt": 5
-    },
-    {
-      "Time": 51.496,
-      "Who": "M14",
-      "Action": "Flash3",
-      "Amt": 5
-    },
-    {
-      "Time": 51.496,
-      "Who": "M15",
-      "Action": "Flash3",
-      "Amt": 5
-    },
-    {
-      "Time": 51.496,
       "Who": "M3",
       "Action": "SetX",
-      "Amt": -4
+      "Amt": 0
+    },
+    {
+      "Time": 51.024,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 51.024,
+      "Who": "M12",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 51.024,
+      "Who": "M13",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 51.024,
+      "Who": "M14",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 51.024,
+      "Who": "M15",
+      "Action": "Shake",
+      "Amt": 7
     },
     {
       "Time": 51.496,
-      "Who": "M3",
-      "Action": "SetY",
-      "Amt": -2
+      "Who": "M12",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 51.496,
+      "Who": "M13",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 51.496,
+      "Who": "M14",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 51.496,
+      "Who": "M15",
+      "Action": "Flash3",
+      "Amt": 5
     },
     {
       "Time": 51.496,
@@ -3573,41 +3768,35 @@
       "Time": 51.496,
       "Who": "M4",
       "Anim": "SpinShoot",
-      "Amt": 5
+      "Amt": 3
+    },
+    {
+      "Time": 51.496,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 3
     },
     {
       "Time": 51.969,
       "Who": "M5",
       "Anim": "SpinShoot",
-      "Amt": 5
+      "Amt": 3
     },
     {
-      "Time": 52.441,
-      "Who": "M3",
-      "Action": "SetX",
-      "Amt": -4
-    },
-    {
-      "Time": 52.441,
-      "Who": "M3",
-      "Action": "SetY",
-      "Amt": 0
-    },
-    {
-      "Time": 52.441,
-      "Who": "M7",
-      "Anim": "SpinShoot",
-      "Amt": 6
-    },
-    {
-      "Time": 52.913,
+      "Time": 51.969,
       "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 53.386,
+      "Who": "M8",
       "Anim": "SpinShoot",
       "Amt": 5
     },
     {
       "Time": 53.386,
-      "Who": "M8",
+      "Who": "M10",
       "Anim": "SpinShoot",
       "Amt": 5
     },
@@ -3642,110 +3831,128 @@
       "Amt": 4
     },
     {
-      "Time": 54.331,
-      "Who": "M10",
+      "Time": 53.858,
+      "Who": "M11",
       "Anim": "SpinShoot",
       "Amt": 4
     },
     {
       "Time": 54.803,
-      "Who": "M11",
+      "Who": "M4",
       "Anim": "SpinShoot",
-      "Amt": 3
+      "Amt": 4
+    },
+    {
+      "Time": 54.803,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 54.803,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 54.803,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 4
     },
     {
       "Time": 55.276,
       "Who": "M12",
       "Anim": "SpinShoot",
-      "Amt": 3
+      "Amt": 4
     },
     {
-      "Time": 56.22,
+      "Time": 55.276,
       "Who": "M13",
       "Anim": "SpinShoot",
-      "Amt": 2
+      "Amt": 4
     },
     {
       "Time": 56.693,
       "Who": "M14",
       "Anim": "SpinShoot",
-      "Amt": 2
+      "Amt": 4
     },
     {
-      "Time": 57.165,
+      "Time": 56.693,
       "Who": "M15",
       "Anim": "SpinShoot",
-      "Amt": 2
+      "Amt": 4
     },
     {
       "Time": 58.11,
       "Who": "M2",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M3",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M4",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M5",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M6",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M7",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M8",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M9",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M10",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M11",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M12",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M13",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M14",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.11,
       "Who": "M15",
-      "Action": "TurnOff"
+      "Action": "FadeOut"
     },
     {
       "Time": 58.583,
@@ -3924,49 +4131,49 @@
       "Amt": 14
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML1",
       "Action": "LerpToY",
       "Amt": 14
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML2",
       "Action": "LerpToY",
       "Amt": -14
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML3",
       "Action": "LerpToY",
       "Amt": 18
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML4",
       "Action": "LerpToY",
       "Amt": -16
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML5",
       "Action": "LerpToY",
       "Amt": 16
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML6",
       "Action": "LerpToY",
       "Amt": -14
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML7",
       "Action": "LerpToY",
       "Amt": 17
     },
     {
-      "Time": 66.142,
+      "Time": 65.669,
       "Who": "ML8",
       "Action": "LerpToY",
       "Amt": -14
@@ -4051,33 +4258,73 @@
     },
     {
       "Time": 71.811,
-      "Who": "MW",
-      "Action": "FadeIn"
+      "Who": "M2",
+      "Action": "TurnOff"
     },
     {
       "Time": 71.811,
-      "Who": "MW2",
-      "Action": "FadeIn"
+      "Who": "M3",
+      "Action": "TurnOff"
     },
     {
       "Time": 71.811,
-      "Who": "MW3",
-      "Action": "FadeIn"
+      "Who": "M4",
+      "Action": "TurnOff"
     },
     {
       "Time": 71.811,
-      "Who": "MW4",
-      "Action": "FadeIn"
+      "Who": "M5",
+      "Action": "TurnOff"
     },
     {
       "Time": 71.811,
-      "Who": "MW5",
-      "Action": "FadeIn"
+      "Who": "M6",
+      "Action": "TurnOff"
     },
     {
       "Time": 71.811,
-      "Who": "MW6",
-      "Action": "FadeIn"
+      "Who": "M7",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M12",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M13",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M14",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 71.811,
+      "Who": "M15",
+      "Action": "TurnOff"
     },
     {
       "Time": 72.283,
@@ -4191,197 +4438,7198 @@
     },
     {
       "Time": 73.228,
-      "Who": "MW",
-      "Action": "LerpToX",
-      "Amt": 25
-    },
-    {
-      "Time": 73.228,
-      "Who": "MW2",
-      "Action": "LerpToX",
-      "Amt": 25
-    },
-    {
-      "Time": 73.228,
-      "Who": "MW3",
-      "Action": "LerpToX",
-      "Amt": 25
-    },
-    {
-      "Time": 73.228,
-      "Who": "MW4",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 73.228,
-      "Who": "MW5",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 73.228,
-      "Who": "MW6",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 75.118,
-      "Who": "MW",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 75.118,
-      "Who": "MW2",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 75.118,
-      "Who": "MW3",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 75.118,
       "Who": "MW4",
       "Action": "LerpToX",
       "Amt": 25
     },
     {
+      "Time": 73.228,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 73.228,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 73.228,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 73.228,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 73.228,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 75.118,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
       "Time": 75.118,
       "Who": "MW5",
       "Action": "LerpToX",
-      "Amt": 25
+      "Amt": -20
     },
     {
       "Time": 75.118,
       "Who": "MW6",
       "Action": "LerpToX",
-      "Amt": 25
+      "Amt": -20
     },
     {
-      "Time": 77.953,
-      "Who": "MW",
-      "Action": "LerpToX",
-      "Amt": 25
-    },
-    {
-      "Time": 77.953,
-      "Who": "MW2",
-      "Action": "LerpToX",
-      "Amt": 25
-    },
-    {
-      "Time": 77.953,
+      "Time": 75.118,
       "Who": "MW3",
       "Action": "LerpToX",
       "Amt": 25
     },
     {
-      "Time": 77.953,
-      "Who": "MW4",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 77.953,
-      "Who": "MW5",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 77.953,
-      "Who": "MW6",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 80.787,
-      "Who": "MW",
-      "Action": "LerpToX",
-      "Amt": -12
-    },
-    {
-      "Time": 80.787,
+      "Time": 75.118,
       "Who": "MW2",
       "Action": "LerpToX",
-      "Amt": -12
+      "Amt": 25
     },
     {
-      "Time": 80.787,
+      "Time": 75.118,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 77.48,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 77.48,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 77.48,
       "Who": "MW3",
       "Action": "LerpToX",
-      "Amt": -12
+      "Amt": -20
     },
     {
-      "Time": 80.787,
+      "Time": 77.48,
       "Who": "MW4",
       "Action": "LerpToX",
       "Amt": 25
     },
     {
-      "Time": 80.787,
+      "Time": 77.48,
       "Who": "MW5",
       "Action": "LerpToX",
       "Amt": 25
     },
     {
-      "Time": 80.787,
+      "Time": 77.48,
       "Who": "MW6",
       "Action": "LerpToX",
       "Amt": 25
     },
     {
-      "Time": 89.764,
+      "Time": 79.843,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 79.843,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 79.843,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 79.843,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 79.843,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 79.843,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 82.677,
+      "Who": "M8",
+      "Action": "SetSpeed",
+      "Amt": 0.5
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 82.677,
+      "Who": "M9",
+      "Action": "SetSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 82.677,
+      "Who": "M10",
+      "Action": "SetSpeed",
+      "Amt": 0.5
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 82.677,
+      "Who": "M11",
+      "Action": "SetSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 83.15,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 83.15,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": 4
+    },
+    {
+      "Time": 83.622,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -5
+    },
+    {
+      "Time": 83.622,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW2",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW3",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW4",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW5",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "MW6",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 83.622,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": -6
+    },
+    {
+      "Time": 83.622,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 84.094,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": 4
+    },
+    {
+      "Time": 84.094,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 84.094,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": -5
+    },
+    {
+      "Time": 84.094,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 84.567,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": 6
+    },
+    {
+      "Time": 84.567,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 84.567,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 84.567,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 84.567,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 84.567,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 85.039,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": 5
+    },
+    {
+      "Time": 85.039,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 85.512,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 85.512,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 85.512,
       "Who": "MW",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
+      "Time": 85.512,
       "Who": "MW2",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
+      "Time": 85.512,
       "Who": "MW3",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
+      "Time": 85.512,
       "Who": "MW4",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
+      "Time": 85.512,
       "Who": "MW5",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
+      "Time": 85.512,
       "Who": "MW6",
       "Action": "TurnOff"
     },
     {
-      "Time": 89.764,
-      "Dialogue": ""
+      "Time": 85.512,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": 8
     },
     {
-      "Time": 120.0,
-      "Dialogue": ""
+      "Time": 85.984,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 85.984,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -7
+    },
+    {
+      "Time": 86.457,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 86.457,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": -9
+    },
+    {
+      "Time": 86.929,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 86.929,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": -7
+    },
+    {
+      "Time": 87.402,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 87.874,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -8
+    },
+    {
+      "Time": 87.874,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -5
+    },
+    {
+      "Time": 88.346,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": 4
+    },
+    {
+      "Time": 88.819,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": 7
+    },
+    {
+      "Time": 88.819,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 89.291,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 89.764,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 89.764,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 90.236,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 90.236,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 90.236,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 90.709,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 91.181,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 91.181,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": 8
+    },
+    {
+      "Time": 91.181,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": -5
+    },
+    {
+      "Time": 91.181,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 91.181,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 91.654,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -7
+    },
+    {
+      "Time": 91.654,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": -6
+    },
+    {
+      "Time": 92.126,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 92.126,
+      "Who": "M11",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 92.126,
+      "Who": "M10",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 92.126,
+      "Who": "M9",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 92.126,
+      "Who": "M8",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 92.126,
+      "Who": "M11",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 92.126,
+      "Who": "M10",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 92.126,
+      "Who": "M9",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 92.126,
+      "Who": "M8",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 92.126,
+      "Who": "M8",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 92.126,
+      "Who": "M9",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 92.126,
+      "Who": "M10",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 92.126,
+      "Who": "M11",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 92.126,
+      "Who": "Big",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 92.598,
+      "Who": "Big",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 92.598,
+      "Who": "B2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 92.598,
+      "Who": "B2",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 92.598,
+      "Who": "B3",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "B3",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 93.071,
+      "Who": "B4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "B4",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M7",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M6",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M5",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M8",
+      "Action": "Stop"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M9",
+      "Action": "Stop"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M10",
+      "Action": "Stop"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M11",
+      "Action": "Stop"
+    },
+    {
+      "Time": 93.071,
+      "Who": "M2",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M2",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 93.071,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 93.543,
+      "Who": "M2",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 93.543,
+      "Who": "M7",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 93.543,
+      "Who": "M6",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 93.543,
+      "Who": "M5",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 93.543,
+      "Who": "M2",
+      "Action": "SetSizeSpeed",
+      "Amt": 10
+    },
+    {
+      "Time": 93.543,
+      "Who": "M7",
+      "Action": "SetSizeSpeed",
+      "Amt": 10
+    },
+    {
+      "Time": 93.543,
+      "Who": "M6",
+      "Action": "SetSizeSpeed",
+      "Amt": 10
+    },
+    {
+      "Time": 93.543,
+      "Who": "M5",
+      "Action": "SetSizeSpeed",
+      "Amt": 10
+    },
+    {
+      "Time": 93.543,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 93.543,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 93.543,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 93.543,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 93.543,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 93.543,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 93.543,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 93.543,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 93.543,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 94.016,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 94.016,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 94.016,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 94.016,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 94.016,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 94.016,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 94.016,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 94.016,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 94.488,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 94.488,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 94.488,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 94.488,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 94.488,
+      "Who": "M7",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 94.488,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 94.488,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 94.488,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 94.488,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 94.488,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 94.488,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 94.488,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 94.488,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 94.488,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 94.488,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 94.961,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M8",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M9",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M10",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M11",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 8
+    },
+    {
+      "Time": 94.961,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 7
+    },
+    {
+      "Time": 94.961,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": -8
+    },
+    {
+      "Time": 94.961,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 94.961,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": -6
+    },
+    {
+      "Time": 94.961,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": 6
+    },
+    {
+      "Time": 94.961,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 8
+    },
+    {
+      "Time": 94.961,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": -7
+    },
+    {
+      "Time": 94.961,
+      "Who": "M6",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 94.961,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 94.961,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 94.961,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1.5
+    },
+    {
+      "Time": 94.961,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1.5
+    },
+    {
+      "Time": 95.433,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 95.433,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 95.433,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 95.433,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 95.433,
+      "Who": "M7",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 95.433,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 95.433,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 95.433,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 95.433,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 95.433,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 95.906,
+      "Who": "M5",
+      "Action": "TurnWhite"
+    },
+    {
+      "Time": 95.906,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 95.906,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1.2
+    },
+    {
+      "Time": 95.906,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1.1
+    },
+    {
+      "Time": 95.906,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 95.906,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 96.378,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 96.378,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 96.378,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 96.378,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1.3
+    },
+    {
+      "Time": 96.378,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1.1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M5",
+      "Action": "TurnGrey"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 96.85,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 96.85,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": 0.4
+    },
+    {
+      "Time": 96.85,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 96.85,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 96.85,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 96.85,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 96.85,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 96.85,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 97.323,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 97.323,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 97.323,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 97.323,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 97.323,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.3
+    },
+    {
+      "Time": 97.323,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 97.323,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 97.795,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 97.795,
+      "Who": "M2",
+      "Action": "TurnWhite"
+    },
+    {
+      "Time": 97.795,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 97.795,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 97.795,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 97.795,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 98.268,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.3
+    },
+    {
+      "Time": 98.268,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 0.4
+    },
+    {
+      "Time": 98.268,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 98.268,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 98.268,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 98.268,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 98.268,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 98.268,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": 0.67
+    },
+    {
+      "Time": 99.213,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 99.213,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 99.213,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 99.213,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 99.213,
+      "Who": "M5",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 99.213,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 99.213,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 99.213,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 99.213,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 99.213,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 99.685,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.7
+    },
+    {
+      "Time": 99.685,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 0.3
+    },
+    {
+      "Time": 99.685,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 99.685,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 99.685,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 99.685,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 99.685,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 99.685,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 99.685,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 100.157,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 100.157,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 100.157,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 100.157,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 100.157,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 100.157,
+      "Who": "M2",
+      "Action": "toSize",
+      "Amt": 2
+    },
+    {
+      "Time": 100.157,
+      "Who": "M7",
+      "Action": "toSize",
+      "Amt": 2
+    },
+    {
+      "Time": 100.157,
+      "Who": "M6",
+      "Action": "toSize",
+      "Amt": 2
+    },
+    {
+      "Time": 100.157,
+      "Who": "M5",
+      "Action": "toSize",
+      "Amt": 2
+    },
+    {
+      "Time": 100.63,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 100.63,
+      "Who": "M2",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 100.63,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M2",
+      "Action": "SetY",
+      "Amt": 1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": -1
+    },
+    {
+      "Time": 100.63,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": 0.5
+    },
+    {
+      "Time": 100.63,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": -0.5
+    },
+    {
+      "Time": 100.63,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 101.102,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 101.102,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 101.102,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 101.102,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 101.575,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 101.575,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 101.575,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 101.575,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 101.575,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 101.575,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.7
+    },
+    {
+      "Time": 101.575,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.8
+    },
+    {
+      "Time": 101.575,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.8
+    },
+    {
+      "Time": 101.575,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 102.047,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.6
+    },
+    {
+      "Time": 102.047,
+      "Who": "M2",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 102.047,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 102.047,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 102.047,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 102.52,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 102.52,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 102.52,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 102.52,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 102.992,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 102.992,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 102.992,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 102.992,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 102.992,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 102.992,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -2
+    },
+    {
+      "Time": 102.992,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 102.992,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 102.992,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 102.992,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -0.7
+    },
+    {
+      "Time": 102.992,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": 0.7
+    },
+    {
+      "Time": 102.992,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": -0.4
+    },
+    {
+      "Time": 102.992,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": 1
+    },
+    {
+      "Time": 103.465,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 103.465,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 103.465,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.4
+    },
+    {
+      "Time": 103.465,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.6
+    },
+    {
+      "Time": 103.465,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 103.465,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 103.465,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 103.465,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 103.465,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 103.937,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 103.937,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 103.937,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 103.937,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 103.937,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 103.937,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 104.409,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.3
+    },
+    {
+      "Time": 104.409,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 104.409,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.6
+    },
+    {
+      "Time": 104.409,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.3
+    },
+    {
+      "Time": 104.409,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M8",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M9",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M10",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M11",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 104.882,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 104.882,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 104.882,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 104.882,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 104.882,
+      "Who": "M2",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M7",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 105.354,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 105.354,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 105.354,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 105.827,
+      "Who": "M6",
+      "Action": "TurnWhite"
+    },
+    {
+      "Time": 105.827,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 105.827,
+      "Who": "M2",
+      "Action": "SetX",
+      "Amt": 3
+    },
+    {
+      "Time": 105.827,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": -6
+    },
+    {
+      "Time": 105.827,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 105.827,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 106.299,
+      "Who": "M7",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 106.299,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 106.299,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 106.299,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 106.299,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 106.299,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 105.827,
+      "Who": "M4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 105.827,
+      "Who": "M4",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 105.827,
+      "Who": "M4",
+      "Action": "SetX",
+      "Amt": 9
+    },
+    {
+      "Time": 105.827,
+      "Who": "M4",
+      "Action": "SetY",
+      "Amt": 6
+    },
+    {
+      "Time": 105.827,
+      "Who": "M4",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 106.299,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": -9
+    },
+    {
+      "Time": 106.299,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": 6
+    },
+    {
+      "Time": 106.772,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 106.772,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": -9
+    },
+    {
+      "Time": 106.772,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 106.772,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 106.772,
+      "Who": "M6",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.717,
+      "Who": "M7",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 107.717,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": 9
+    },
+    {
+      "Time": 107.717,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 107.717,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 0.5
+    },
+    {
+      "Time": 107.717,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 108.189,
+      "Who": "M2",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 108.189,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 108.189,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 108.189,
+      "Who": "M5",
+      "Action": "ToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 108.189,
+      "Who": "M7",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M5",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M2",
+      "Action": "ShootAtPlayer"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 108.189,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": 0.5
+    },
+    {
+      "Time": 108.189,
+      "Who": "M8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M9",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M10",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M11",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M8",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M9",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M10",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M11",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 108.189,
+      "Who": "M11",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 108.189,
+      "Who": "M10",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 108.189,
+      "Who": "M9",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 108.189,
+      "Who": "M8",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 108.189,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 108.189,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 108.189,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": -6
+    },
+    {
+      "Time": 108.189,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 108.189,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 6
+    },
+    {
+      "Time": 108.189,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 108.189,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": -6
+    },
+    {
+      "Time": 108.189,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 108.189,
+      "Who": "M4",
+      "Action": "Shake",
+      "Amt": 12
+    },
+    {
+      "Time": 108.189,
+      "Who": "M5",
+      "Action": "Shake",
+      "Amt": 12
+    },
+    {
+      "Time": 108.189,
+      "Who": "M6",
+      "Action": "Shake",
+      "Amt": 12
+    },
+    {
+      "Time": 108.189,
+      "Who": "M7",
+      "Action": "Shake",
+      "Amt": 12
+    },
+    {
+      "Time": 108.661,
+      "Who": "M2",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 108.661,
+      "Who": "M12",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.661,
+      "Who": "M13",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.661,
+      "Who": "M14",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.661,
+      "Who": "M15",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 108.661,
+      "Who": "M12",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 108.661,
+      "Who": "M13",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 108.661,
+      "Who": "M14",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 108.661,
+      "Who": "M15",
+      "Action": "ToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 109.134,
+      "Who": "M12",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 109.134,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 1
+    },
+    {
+      "Time": 109.134,
+      "Who": "M13",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 109.134,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": 1
+    },
+    {
+      "Time": 109.134,
+      "Who": "M14",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 109.134,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": -1
+    },
+    {
+      "Time": 109.134,
+      "Who": "M15",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 109.134,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": -1
+    },
+    {
+      "Time": 111.496,
+      "Who": "M4",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M5",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M6",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M7",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M6",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 111.496,
+      "Who": "M7",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 112.441,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 112.441,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 112.441,
+      "Who": "M6",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 112.441,
+      "Who": "M7",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 112.913,
+      "Who": "M8",
+      "Action": "Shake",
+      "Amt": 10
+    },
+    {
+      "Time": 112.913,
+      "Who": "M9",
+      "Action": "Shake",
+      "Amt": 10
+    },
+    {
+      "Time": 112.913,
+      "Who": "M10",
+      "Action": "Shake",
+      "Amt": 10
+    },
+    {
+      "Time": 112.913,
+      "Who": "M11",
+      "Action": "Shake",
+      "Amt": 10
+    },
+    {
+      "Time": 113.386,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 113.386,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 113.858,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 113.858,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 114.803,
+      "Who": "M8",
+      "Action": "Flash3",
+      "Amt": 7
+    },
+    {
+      "Time": 114.803,
+      "Who": "M9",
+      "Action": "Flash3",
+      "Amt": 7
+    },
+    {
+      "Time": 114.803,
+      "Who": "M10",
+      "Action": "Flash3",
+      "Amt": 7
+    },
+    {
+      "Time": 114.803,
+      "Who": "M11",
+      "Action": "Flash3",
+      "Amt": 7
+    },
+    {
+      "Time": 115.276,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 115.276,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 115.748,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 116.22,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 116.22,
+      "Who": "M12",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 116.22,
+      "Who": "M13",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 116.22,
+      "Who": "M14",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 116.22,
+      "Who": "M15",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 116.693,
+      "Who": "M12",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 116.693,
+      "Who": "M13",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 116.693,
+      "Who": "M14",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 116.693,
+      "Who": "M15",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 116.693,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 116.693,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 117.165,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 117.165,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 118.583,
+      "Who": "M8",
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 118.583,
+      "Who": "M10",
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 119.055,
+      "Who": "M9",
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 119.055,
+      "Who": "M11",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 119.055,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 119.055,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 119.055,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 119.055,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 120.472,
+      "Who": "M12",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 120.472,
+      "Who": "M13",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 121.417,
+      "Who": "M14",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 121.417,
+      "Who": "M15",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 122.835,
+      "Who": "M4",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M2",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M5",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M6",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M7",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M8",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M9",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M10",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M11",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M12",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M13",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M14",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "M15",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML1",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML3",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML5",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML6",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML7",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML8",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML1",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML2",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML3",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML4",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML5",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML6",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML7",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML8",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML1",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML2",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML3",
+      "Action": "LerpToY",
+      "Amt": 18
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML4",
+      "Action": "LerpToY",
+      "Amt": -16
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML5",
+      "Action": "LerpToY",
+      "Amt": 16
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML6",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML7",
+      "Action": "LerpToY",
+      "Amt": 17
+    },
+    {
+      "Time": 122.835,
+      "Who": "ML8",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML1",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML2",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML3",
+      "Action": "LerpToY",
+      "Amt": -18
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML4",
+      "Action": "LerpToY",
+      "Amt": 16
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML5",
+      "Action": "LerpToY",
+      "Amt": -16
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML6",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML7",
+      "Action": "LerpToY",
+      "Amt": -17
+    },
+    {
+      "Time": 126.142,
+      "Who": "ML8",
+      "Action": "LerpToY",
+      "Amt": 14
     },
     {
       "Time": 129.921,
-      "Dialogue": ""
+      "Who": "ML1",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML2",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML3",
+      "Action": "LerpToY",
+      "Amt": 18
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML4",
+      "Action": "LerpToY",
+      "Amt": -16
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML5",
+      "Action": "LerpToY",
+      "Amt": 16
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML6",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML7",
+      "Action": "LerpToY",
+      "Amt": 17
+    },
+    {
+      "Time": 129.921,
+      "Who": "ML8",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML1",
+      "Action": "LerpToY",
+      "Amt": -14
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML2",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML3",
+      "Action": "LerpToY",
+      "Amt": -18
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML4",
+      "Action": "LerpToY",
+      "Amt": 16
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML5",
+      "Action": "LerpToY",
+      "Amt": -16
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML6",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML7",
+      "Action": "LerpToY",
+      "Amt": -17
+    },
+    {
+      "Time": 133.228,
+      "Who": "ML8",
+      "Action": "LerpToY",
+      "Amt": 14
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW3",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW5",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.063,
+      "Who": "MW6",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW2",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW3",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW4",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW5",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 136.535,
+      "Who": "MW6",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML1",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML2",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML3",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML4",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML5",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML6",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML7",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML8",
+      "Action": "FadeOut"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML1",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML2",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML3",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML4",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML5",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML6",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML7",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "ML8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 137.008,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 138.898,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 142.205,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW4",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW5",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW6",
+      "Action": "LerpToX",
+      "Amt": -20
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW3",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW2",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 145.039,
+      "Who": "MW",
+      "Action": "LerpToX",
+      "Amt": 25
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "FadeIn"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "FadeIn"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "FadeIn"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "FadeIn"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "TurnGrey"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "SetSizeSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M8",
+      "Action": "SetSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "SetSizeSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M9",
+      "Action": "SetSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "SetSizeSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M10",
+      "Action": "SetSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "SetSizeSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.457,
+      "Who": "M11",
+      "Action": "SetSpeed",
+      "Amt": 0.3
+    },
+    {
+      "Time": 146.929,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 147.402,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": 4
+    },
+    {
+      "Time": 147.874,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M8",
+      "Action": "Flash3",
+      "Amt": 3
+    },
+    {
+      "Time": 147.874,
+      "Who": "M9",
+      "Action": "Flash3",
+      "Amt": 3
+    },
+    {
+      "Time": 147.874,
+      "Who": "M10",
+      "Action": "Flash3",
+      "Amt": 3
+    },
+    {
+      "Time": 147.874,
+      "Who": "M11",
+      "Action": "Flash3",
+      "Amt": 3
+    },
+    {
+      "Time": 147.874,
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M2",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M3",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M5",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M6",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M7",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M12",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M13",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M14",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M15",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 147.874,
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M2",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M3",
+      "Action": "TurnPurple"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M4",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M5",
+      "Action": "TurnTan"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M6",
+      "Action": "TurnYellow"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M7",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M12",
+      "Action": "TurnGrey"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M13",
+      "Action": "TurnPurple"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M14",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 147.874,
+      "Who": "M15",
+      "Action": "TurnPink"
+    },
+    {
+      "Time": 147.874,
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 147.874,
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 147.874,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 147.874,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 147.874,
+      "Who": "M2",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M2",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M4",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M4",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M12",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M13",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M14",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 147.874,
+      "Who": "M15",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 147.874,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 148.346,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 148.346,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 148.346,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 148.346,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 148.819,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 148.819,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 148.819,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 148.819,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 149.291,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 149.291,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 149.291,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 149.291,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
     },
     {
       "Time": 150.236,
-      "Dialogue": ""
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
     },
     {
-      "Time": 180.0,
-      "Dialogue": ""
+      "Time": 150.236,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.236,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 150.709,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M14",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 151.181,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 151.181,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 151.181,
+      "Who": "M4",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 151.181,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 151.181,
+      "Who": "M13",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 151.181,
+      "Who": "M3",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M12",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 151.181,
+      "Who": "M14",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 151.654,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 151.654,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 151.654,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 151.654,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 151.654,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 151.654,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 152.126,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M8",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M9",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M10",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M11",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.126,
+      "Who": "M14",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 152.126,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M3",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M4",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M8",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M9",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M10",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M11",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M12",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M13",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M14",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 152.598,
+      "Who": "M15",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 152.598,
+      "Who": "M2",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M3",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M4",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M5",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M6",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M7",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M8",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M9",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M10",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M11",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M12",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M13",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M14",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 152.598,
+      "Who": "M15",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 153.071,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.071,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M15",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M14",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M13",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M12",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 153.543,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 154.016,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": -8
+    },
+    {
+      "Time": 154.016,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 154.016,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 154.016,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 154.016,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 8
+    },
+    {
+      "Time": 154.488,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 154.488,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": -3
+    },
+    {
+      "Time": 154.488,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 154.488,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 3
+    },
+    {
+      "Time": 154.488,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": 6
+    },
+    {
+      "Time": 154.488,
+      "Who": "M6",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M7",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M8",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M9",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M10",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M11",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M12",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M13",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M14",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.488,
+      "Who": "M15",
+      "Action": "ToSize",
+      "Amt": 1.5
+    },
+    {
+      "Time": 154.961,
+      "Who": "M2",
+      "Action": "SetX",
+      "Amt": -7
+    },
+    {
+      "Time": 154.961,
+      "Who": "M2",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 154.961,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": 7
+    },
+    {
+      "Time": 154.961,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 154.961,
+      "Who": "M4",
+      "Action": "SetX",
+      "Amt": -7
+    },
+    {
+      "Time": 154.961,
+      "Who": "M4",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 154.961,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": 7
+    },
+    {
+      "Time": 154.961,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 155.906,
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 155.906,
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 155.906,
+      "Who": "Monster",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 155.906,
+      "Who": "Monster",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 155.906,
+      "Who": "M2",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M3",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M4",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M5",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M6",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M7",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M8",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M9",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M10",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M11",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M12",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M13",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M14",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 155.906,
+      "Who": "M15",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 157.795,
+      "Who": "Monster",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M2",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M3",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M4",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M5",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M6",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M7",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M8",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M9",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M10",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M11",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M12",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M13",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M14",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 157.795,
+      "Who": "M15",
+      "Action": "Flash2",
+      "Amt": 5
+    },
+    {
+      "Time": 160.157,
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M2",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M3",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M8",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M9",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M10",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M11",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M12",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M13",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M14",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Who": "M15",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 160.157,
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 160.157,
+      "Who": "M2",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M3",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M6",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M7",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M12",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M13",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M14",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.157,
+      "Who": "M15",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 160.63,
+      "Who": "M3",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 160.63,
+      "Who": "M2",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 160.63,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 160.63,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 160.63,
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 161.102,
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M2",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M3",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M4",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M5",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M6",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 161.102,
+      "Who": "M7",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 162.047,
+      "Who": "M12",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 162.047,
+      "Who": "M13",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 162.047,
+      "Who": "M14",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 162.047,
+      "Who": "M15",
+      "Action": "Shake",
+      "Amt": 7
+    },
+    {
+      "Time": 162.52,
+      "Who": "M12",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.52,
+      "Who": "M13",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.52,
+      "Who": "M14",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.52,
+      "Who": "M15",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.52,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 162.52,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 162.992,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 162.992,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 3
+    },
+    {
+      "Time": 162.992,
+      "Who": "M8",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 162.992,
+      "Who": "M9",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 162.992,
+      "Who": "M10",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 162.992,
+      "Who": "M11",
+      "Action": "TurnDark"
+    },
+    {
+      "Time": 162.992,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M8",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "M8",
+      "Action": "SetSpeed",
+      "Amt": 0.5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M9",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "M9",
+      "Action": "SetSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M10",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "M10",
+      "Action": "SetSpeed",
+      "Amt": 0.5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": -4
+    },
+    {
+      "Time": 162.992,
+      "Who": "M11",
+      "Action": "SetSizeSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "M11",
+      "Action": "SetSpeed",
+      "Amt": 1
+    },
+    {
+      "Time": 162.992,
+      "Who": "Monster",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M2",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M3",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M4",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 162.992,
+      "Who": "M5",
+      "Action": "Flash3",
+      "Amt": 5
+    },
+    {
+      "Time": 163.465,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 163.937,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Who": "M2",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Who": "M3",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 163.937,
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 163.937,
+      "Who": "M2",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 163.937,
+      "Who": "M3",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 163.937,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 163.937,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 163.937,
+      "Who": "M10",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 163.937,
+      "Who": "M11",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 163.937,
+      "Who": "M9",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 163.937,
+      "Who": "M8",
+      "Action": "TurnBlue"
+    },
+    {
+      "Time": 164.409,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -5
+    },
+    {
+      "Time": 164.409,
+      "Who": "M2",
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 164.409,
+      "Who": "M3",
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 164.409,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 164.882,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": -6
+    },
+    {
+      "Time": 164.882,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 164.882,
+      "Anim": "SpinShoot",
+      "Amt": 5
+    },
+    {
+      "Time": 164.882,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": 4
+    },
+    {
+      "Time": 164.882,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 164.882,
+      "Who": "M11",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 165.354,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": -5
+    },
+    {
+      "Time": 165.354,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 165.354,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": 6
+    },
+    {
+      "Time": 165.354,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 2
+    },
+    {
+      "Time": 165.827,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 165.827,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 165.827,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 165.827,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 165.827,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": 5
+    },
+    {
+      "Time": 165.827,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 165.827,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 165.827,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 165.827,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 165.827,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 166.299,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 166.299,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 166.299,
+      "Who": "M12",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 166.299,
+      "Who": "M13",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 166.772,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": 8
+    },
+    {
+      "Time": 166.772,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": 6
+    },
+    {
+      "Time": 166.772,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -7
+    },
+    {
+      "Time": 167.244,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 167.717,
+      "Who": "M14",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 167.717,
+      "Who": "M15",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 167.717,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": -9
+    },
+    {
+      "Time": 167.717,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M2",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M2",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M3",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M3",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M4",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M4",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M5",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M5",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": -10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M12",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M13",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M14",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M15",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 168.189,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": -5
+    },
+    {
+      "Time": 168.189,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": -7
+    },
+    {
+      "Time": 168.189,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 168.661,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 168.661,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 168.661,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 168.661,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 168.661,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -8
+    },
+    {
+      "Time": 169.134,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -5
+    },
+    {
+      "Time": 169.134,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 169.134,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 169.134,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 169.134,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 169.606,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": 4
+    },
+    {
+      "Time": 169.606,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 169.606,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 169.606,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 169.606,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 169.606,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": 7
+    },
+    {
+      "Time": 170.079,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.079,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.079,
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M2",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M3",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M4",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M5",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M6",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M7",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M8",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M9",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M10",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M11",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M12",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M13",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M14",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.079,
+      "Who": "M15",
+      "Anim": "SpinShoot",
+      "Amt": 4
+    },
+    {
+      "Time": 170.551,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 170.551,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 170.551,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 171.024,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": 1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M14",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 10
+    },
+    {
+      "Time": 171.024,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 5
+    },
+    {
+      "Time": 171.024,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 171.024,
+      "Who": "M4",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 171.024,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 171.024,
+      "Who": "M13",
+      "Action": "MoveUp",
+      "Amt": -2
+    },
+    {
+      "Time": 171.024,
+      "Who": "M3",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M12",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M14",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.024,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 4
+    },
+    {
+      "Time": 171.024,
+      "Who": "M11",
+      "Action": "LerpToY",
+      "Amt": -6
+    },
+    {
+      "Time": 171.024,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M10",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 171.496,
+      "Who": "M2",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M3",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M4",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M5",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M6",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M7",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M8",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M9",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M10",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M11",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M12",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M13",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.496,
+      "Who": "M14",
+      "Action": "MoveRight",
+      "Amt": -1
+    },
+    {
+      "Time": 171.496,
+      "Who": "M15",
+      "Action": "MoveRight",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M9",
+      "Action": "LerpToX",
+      "Amt": 5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M11",
+      "Action": "LerpToX",
+      "Amt": 8
+    },
+    {
+      "Time": 171.969,
+      "Who": "M2",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M3",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M4",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M5",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M6",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M7",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M8",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M9",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M10",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M11",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M12",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M13",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M14",
+      "Action": "MoveUp",
+      "Amt": -0.5
+    },
+    {
+      "Time": 171.969,
+      "Who": "M15",
+      "Action": "MoveUp",
+      "Amt": -1
+    },
+    {
+      "Time": 171.969,
+      "Who": "M2",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M3",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M4",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M5",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M6",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M7",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M8",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M9",
+      "Action": "Flash2",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M10",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M11",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M12",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M13",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M14",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M15",
+      "Action": "Flash3",
+      "Amt": 4
+    },
+    {
+      "Time": 171.969,
+      "Who": "M15",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 171.969,
+      "Who": "M14",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 171.969,
+      "Who": "M13",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 171.969,
+      "Who": "M12",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 171.969,
+      "Who": "M11",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 171.969,
+      "Who": "M10",
+      "Action": "LerpToX",
+      "Amt": -5
+    },
+    {
+      "Time": 172.441,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 172.441,
+      "Who": "M9",
+      "Action": "LerpToY",
+      "Amt": -4
+    },
+    {
+      "Time": 172.441,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": -8
+    },
+    {
+      "Time": 172.441,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": -4
+    },
+    {
+      "Time": 172.441,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.441,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 4
+    },
+    {
+      "Time": 172.441,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 8
+    },
+    {
+      "Time": 172.441,
+      "Who": "M8",
+      "Action": "LerpToY",
+      "Amt": -7
+    },
+    {
+      "Time": 172.913,
+      "Who": "M8",
+      "Action": "LerpToX",
+      "Amt": -6
+    },
+    {
+      "Time": 172.913,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 172.913,
+      "Who": "M6",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M7",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M8",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M9",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M10",
+      "Action": "SetX",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M6",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M7",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M8",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M9",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 172.913,
+      "Who": "M10",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.386,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.386,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.386,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.386,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.386,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.858,
+      "Who": "M15",
+      "Action": "SetY",
+      "Amt": -6
+    },
+    {
+      "Time": 173.858,
+      "Who": "M14",
+      "Action": "SetY",
+      "Amt": -3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M13",
+      "Action": "SetY",
+      "Amt": 0
+    },
+    {
+      "Time": 173.858,
+      "Who": "M12",
+      "Action": "SetY",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M11",
+      "Action": "SetY",
+      "Amt": 6
+    },
+    {
+      "Time": 173.858,
+      "Action": "LerpToSize",
+      "Amt": 5
+    },
+    {
+      "Time": 173.858,
+      "Who": "M2",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M3",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M6",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M7",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M8",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M9",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M10",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M11",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M12",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M13",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M14",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 173.858,
+      "Who": "M15",
+      "Action": "LerpToSize",
+      "Amt": 3
+    },
+    {
+      "Time": 174.331,
+      "Who": "M3",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 174.331,
+      "Who": "M2",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 174.331,
+      "Who": "M4",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 174.331,
+      "Who": "M5",
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 174.331,
+      "Action": "LerpToSize",
+      "Amt": 1
+    },
+    {
+      "Time": 176.22,
+      "Who": "M2",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M3",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M4",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M5",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M6",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M7",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M8",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M9",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M10",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M11",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M12",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M13",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M14",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "M15",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.22,
+      "Who": "B3",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 176.22,
+      "Who": "B3",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 176.693,
+      "Who": "B4",
+      "Action": "TurnOn"
+    },
+    {
+      "Time": 176.693,
+      "Who": "B4",
+      "Action": "TurnOff"
+    },
+    {
+      "Time": 198.898,
+      "Action": "Dialogue"
+    },
+    {
+      "Time": 229.134,
+      "Action": "Dialogue"
     }
   ]
 }
