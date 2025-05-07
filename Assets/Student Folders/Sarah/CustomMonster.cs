@@ -23,45 +23,58 @@ public class CustomMonster : HazardController
         if (act == "TurnYellow")
         {
             Color c = Body.color;
-            Color yellow = new Color(247 / 255f, 202 / 255f, 60 / 255f, 1f);
+            Color yellow = new Color(201 / 255f, 175 / 255f, 141 / 255f, 1f);
             Body.color = Body.color == c ? yellow : c;
         }
         if (act == "TurnPink")
         {
             Color c = Body.color;
-            Color pink = new Color(242 / 255f, 119 / 255f, 176 / 255f, 1f);
+            Color pink = new Color(195 / 255f, 111 / 255f, 97/ 255f, 1f);
             Body.color = Body.color == c ? pink : c;
         }
         if (act == "TurnBlue")
         {
             Color c = Body.color;
-            Color blue = new Color(13 / 255f, 55 / 255f, 110 / 255f, 1f);
+            Color blue = new Color(66 / 255f, 70 / 255f, 83 / 255f, 1f);
             Body.color = Body.color == c ? blue : c;
         }
         if (act == "TurnWhite")
         {
             Color c = Body.color;
-            Color white = new Color(1,1,1, 1f);
+            Color white = new Color(200/255f,182/255f,177/255f, 1f);
             Body.color = Body.color == c ? white : c;
         }
 
-        if (act == "TurnGreen")
+        if (act == "TurnTan")
         {
             Color c = Body.color;
-            Color green = new Color(74f/255f, 114f/255f, 71f/255f, 1f);
-            Body.color = Body.color == c ? green : c;
+            Color tan = new Color(179/255f, 128/255f, 94/255f, 1f);
+            Body.color = Body.color == c ? tan : c;
         }
 
         if (act == "TurnPurple")
         {
             Color c = Body.color;
-            Color purple = new Color (127/255f,79/255f,164/255f, 1f);
+            Color purple = new Color (66/255f,46/255f,58/255f, 1f);
             Body.color = Body.color == c ? purple : c;
+        }
+        
+        if (act == "TurnGrey")
+        {
+            Color c = Body.color;
+            Color grey = new Color (120/255f,127/255f,142/255f, 1f);
+            Body.color = Body.color == c ? grey : c;
+        }
+        if (act == "TurnDark")
+        {
+            Color c = Body.color;
+            Color dark = new Color (12/255f,9/255f,11/255f, 1f);
+            Body.color = Body.color == c ? dark : c;
         }
     }
     public IEnumerator Flash2(float amt)
     {
-        Color newColor = new Color(74f/255f, 114f/255f, 71f/255f, 1f);
+        Color newColor = new Color(120/255f, 117/255f, 125/255f, 1f);
         if (amt <= 0) amt = 0.5f;
         float bigTime = amt;
         float smTime = 0.1f;
@@ -82,7 +95,7 @@ public class CustomMonster : HazardController
     
     public IEnumerator Flash3(float amt)
     {
-        Color newColor = new Color(127/255f,79/255f,164/255f, 1f);
+        Color newColor = new Color(66/255f,46/255f,58/255f, 1f);
         if (amt <= 0) amt = 0.5f;
         float bigTime = amt;
         float smTime = 0.1f;
