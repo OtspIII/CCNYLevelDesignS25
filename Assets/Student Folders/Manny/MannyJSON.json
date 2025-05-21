@@ -1,0 +1,948 @@
+{
+  "Title": "500 Miles",
+  "Author": "Manny Patrick Vivas",
+  "Events": [
+    {"Time": 0, "Who": "Craig", "Action": "SetSpeed", "Amt": 20},
+    {"Time": 0, "Who": "Charlie", "Action": "SetSpeed", "Amt": 20},
+    {"Time": 0, "Who": "Craig", "Action": "SetSpinSpeed", "Amt": 10},
+    {"Time": 0, "Who": "Charlie", "Action": "SetSpinSpeed", "Amt": 10},
+    {"Time": 0, "Who": "Craig", "Action": "SetAnimSpeed", "Amt": 1.5},
+    {"Time": 0, "Who": "Charlie", "Action": "SetAnimSpeed", "Amt": 1.5},
+    {"Time": 0, "Who": "SingerA", "Action": "FadeOut"},
+    {"Time": 0, "Who": "SingerB", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Singer Parent", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 1", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 2", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 3", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 4", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 5", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 6", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 7", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 8", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 9", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 10", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 11", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 12", "Amt": 0.7},
+    {"Time": 0, "Who": "Dancer 1", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 2", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 3", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 4", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 5", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 6", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 7", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 8", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 9", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 10", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 11", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer 12", "Action": "FadeOut"},
+    {"Time": 0, "Who": "Dancer Parent", "Action": "HitboxOff"},
+
+    {"Time": 0.16, "Who":"Craig", "Action":"MoveRight", "Amt": -2},
+    {"Time": 0.16, "Who":"Charlie", "Action":"MoveRight", "Amt": 2},
+
+    {"Time": 0.16, "Who": "Craig", "Action":"LerpToRotation", "Amt":90},
+    {"Time": 0.16, "Who": "Charlie", "Action":"MoveToRotation", "Amt":90},
+
+    {"Time": 1.1, "Who":"Craig", "Action":"MoveRight", "Amt": 2},
+    {"Time": 1.1, "Who":"Charlie", "Action":"MoveRight", "Amt": -2},
+
+    {"Time": 1.36, "Who": "Craig", "Action":"LerpToRotation", "Amt":90},
+    {"Time": 1.36, "Who": "Charlie", "Action":"MoveToRotation", "Amt":90},
+
+    {"Time": 2.1, "Who":"Craig", "Action":"MoveRight", "Amt": -2},
+    {"Time": 2.1, "Who":"Charlie", "Action":"MoveRight", "Amt": 2},
+
+    {"Time": 2.36, "Who": "Craig", "Action":"LerpToRotation", "Amt":90},
+    {"Time": 2.36, "Who": "Charlie", "Action":"MoveToRotation", "Amt":90},
+
+    {"Time": 3.1, "Who":"Craig", "Action":"MoveRight", "Amt": 2},
+    {"Time": 3.1, "Who":"Charlie", "Action":"MoveRight", "Amt": -2},
+
+    {"Time": 4.1, "Who":"Craig", "Action":"MoveToX", "Amt": -4.5},
+    {"Time": 4.1, "Who":"Craig", "Action":"MoveToY", "Amt": -1.2},
+
+    {"Time": 4.1, "Who":"Charlie", "Action":"MoveToX", "Amt": 3.4},
+    {"Time": 4.1, "Who":"Charlie", "Action":"MoveToY", "Amt": -1.4},
+
+    {"Time": 5.1, "Who":"Craig", "Action":"MoveToX", "Amt": -4.4},
+    {"Time": 5.1, "Who":"Craig", "Action":"MoveToY", "Amt": 0.8},
+
+    {"Time": 5.1, "Who":"Charlie", "Action":"MoveToX", "Amt": 0.8},
+    {"Time": 5.1, "Who":"Charlie", "Action":"MoveToY", "Amt": -1.0},
+
+    {"Time": 6.1, "Who":"Craig", "Action":"MoveRight", "Amt": -2},
+    {"Time": 6.1, "Who":"Charlie", "Action":"MoveRight", "Amt": 2},
+
+    {"Time": 7.1, "Who":"Charlie", "Action":"MoveRight", "Amt": -2},
+    {"Time": 7.1, "Action":"Shake", "Amt": 1},
+
+    {"Time": 7.1,"Dialogue": "Good morning"},
+
+    {"Time": 8, "Who":"Craig", "Action":"ShootAtPlayer"},
+    {"Time": 8, "Who":"Charlie", "Action":"ShootAtPlayer"},
+
+    {"Time": 9.2, "Who":"Craig", "Action":"MoveToX", "Amt": -3.4},
+    {"Time": 9.2, "Who":"Craig", "Action":"MoveToY", "Amt": 1.3},
+    {"Time": 9.2, "Who":"Charlie", "Action":"MoveToX", "Amt": 1.8},
+    {"Time": 9.2, "Who":"Charlie", "Action":"MoveToY", "Amt": -1.4},
+
+    {"Time": 10,"Dialogue": ""},
+
+    {"Time": 10.2, "Who":"Craig", "Action":"MoveToX", "Amt": -3.0},
+    {"Time": 10.2, "Who":"Craig", "Action":"MoveToY", "Amt": 0},
+    {"Time": 10.2, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.8},
+    {"Time": 10.2, "Who":"Charlie", "Action":"MoveToY", "Amt": -1},
+
+    {"Time": 11.2, "Who":"Craig", "Action":"MoveToX", "Amt": -3.4},
+    {"Time": 11.2, "Who":"Craig", "Action":"MoveToY", "Amt": 1},
+    {"Time": 11.2, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 11.2, "Who":"Charlie", "Action":"MoveToY", "Amt": 0},
+
+    {"Time": 12.2, "Who":"Craig", "Action":"MoveToX", "Amt": -3},
+    {"Time": 12.2, "Who":"Craig", "Action":"MoveToY", "Amt": 1.4},
+    {"Time": 12.2, "Who":"Charlie", "Action":"MoveToX", "Amt": 1.5},
+    {"Time": 12.2, "Who":"Charlie", "Action":"MoveToY", "Amt": -1.6},
+
+    {"Time": 13.2, "Who":"Craig", "Action":"MoveToX", "Amt": -4},
+    {"Time": 13.2, "Who":"Craig", "Action":"MoveToY", "Amt": -1.4},
+    {"Time": 13.2, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.5},
+    {"Time": 13.2, "Who":"Charlie", "Action":"MoveToY", "Amt": 1.6},
+
+    {"Time": 14.0, "Who": "Charlie", "Action":"Shake", "Amt": 1},
+
+    {"Time": 15.0, "Who":"Craig", "Action":"ShootAtPlayer"},
+    {"Time": 15.0, "Who":"Charlie", "Action":"ShootAtPlayer"},
+
+    {"Time": 15.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -3.5},
+    {"Time": 15.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 0},
+    {"Time": 15.53, "Who":"Craig", "Action":"MoveToX", "Amt": 3.5},
+    {"Time": 15.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.5},
+
+    {"Time": 16.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 0},
+    {"Time": 16.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -3.0},
+    {"Time": 16.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 16.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.5},
+
+    {"Time": 17.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 17.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.2},
+    {"Time": 17.53, "Who":"Craig", "Action":"MoveToX", "Amt": 1.0},
+    {"Time": 17.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.3},
+
+    {"Time": 18.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 18.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.4},
+    {"Time": 18.53, "Who":"Craig", "Action":"MoveToX", "Amt": -2.0},
+    {"Time": 18.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.0},
+    
+    {"Time": 19.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -3.0},
+    {"Time": 19.53, "Who":"Charlie", "Action":"MoveToY", "Amt": -1.0},
+    {"Time": 19.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.5},
+    {"Time": 19.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.5},
+
+    {"Time": 20.53, "Who": "Charlie", "Action":"MoveToX", "Amt": -1.0},
+    {"Time": 20.53, "Who": "Craig", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 20.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.2},
+    {"Time": 20.53, "Who": "Craig", "Action":"MoveToY", "Amt": 2.2},
+
+    {"Time": 21.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 21.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 21.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.0},
+    {"Time": 21.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.5},
+
+    {"Time": 22.20, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 22.47, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 22.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -2.0},
+    {"Time": 22.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 22.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.0},
+    {"Time": 22.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.5},
+
+    {"Time": 24.20, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 24.47, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 24.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -4.0},
+    {"Time": 24.53, "Who":"Craig", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 24.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.0},
+    {"Time": 24.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.5},
+
+    {"Time": 25.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 0},
+    {"Time": 25.53, "Who":"Craig", "Action":"MoveToX", "Amt": 4.0},
+    {"Time": 25.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.4},
+    {"Time": 25.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.0},
+
+    {"Time": 26.20, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 26.47, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 26.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 26.53, "Who":"Craig", "Action":"MoveToX", "Amt": 1.0},
+    {"Time": 26.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.0},
+    {"Time": 26.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.5},
+
+    {"Time": 27.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -3.0},
+    {"Time": 27.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 27.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 2},
+    {"Time": 27.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.2},
+
+    {"Time": 28.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 28.30, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 28.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -2.0},
+    {"Time": 28.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 28.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.4},
+    {"Time": 28.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.5},
+
+    {"Time": 29.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 3.0},
+    {"Time": 29.53, "Who":"Craig", "Action":"MoveToX", "Amt": 1.0},
+    {"Time": 29.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.0},
+    {"Time": 29.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1},
+
+    {"Time": 30.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 30.30, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 30.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -2.0},
+    {"Time": 30.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 30.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.0},
+    {"Time": 30.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.5},
+    
+    {"Time": 31.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 1.0},
+    {"Time": 31.53, "Who":"Craig", "Action":"MoveToX", "Amt": 3.5},
+    {"Time": 31.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.0},
+    {"Time": 31.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.3},
+
+    {"Time": 32.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 32.30, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 32.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 32.53, "Who":"Craig", "Action":"MoveToX", "Amt": -1.0},
+    {"Time": 32.53, "Who": "Charlie", "Action":"MoveToY", "Amt": -1.0},
+    {"Time": 32.53, "Who": "Craig", "Action":"MoveToY", "Amt": -1.2},
+
+    {"Time": 33.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 1.0},
+    {"Time": 33.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 33.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 1.4},
+    {"Time": 33.53, "Who": "Craig", "Action":"MoveToY", "Amt": -0.5},
+
+    {"Time": 34.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 34.30, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 34.53, "Who":"Charlie", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 34.53, "Who":"Craig", "Action":"MoveToX", "Amt": 2.0},
+    {"Time": 34.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 2.5},
+    {"Time": 34.53, "Who": "Craig", "Action":"MoveToY", "Amt": 1.5},
+
+    {"Time": 35.53, "Who":"Charlie", "Action":"MoveToX", "Amt": -3},
+    {"Time": 35.53, "Who":"Craig", "Action":"MoveToX", "Amt": 3},
+    {"Time": 35.53, "Who": "Charlie", "Action":"MoveToY", "Amt": 0},
+    {"Time": 35.53, "Who": "Craig", "Action":"MoveToY", "Amt": 0},
+
+    {"Time": 36.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 36.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+    {"Time": 36.30, "Who": "Craig", "Action": "ShootAtPlayer"},
+
+    {"Time": 37.00, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 37.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 38.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 39.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 40.00, "Who": "Craig","Anim": "SpinShoot"},
+
+    {"Time": 40.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 41.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 42.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 43.00, "Who": "Charlie", "Anim": "Idle"},
+    {"Time": 43.23, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 43.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 44.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 45.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 45.40, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 46.00, "Who": "Craig","Anim": "SpinShoot"},
+
+    {"Time": 46.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 47.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+
+    {"Time": 47.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 48.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+
+    {"Time": 48.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 49.0, "Who": "Charlie", "Action": "ShootAtPlayer"},
+
+    {"Time": 49.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 50.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 51.23, "Who": "Goon", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 51.30, "Who": "Dancer Parent", "Action": "SetY", "Amt": 1.24},
+    {"Time": 51.30, "Who": "Dancer 1", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 2", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 3", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 4", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 5", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 6", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 7", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 8", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 9", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 10", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 11", "Action": "FadeIn"},
+    {"Time": 51.30, "Who": "Dancer 12", "Action": "FadeIn"},
+
+    {"Time": 51.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 51.30, "Who": "Dancer 1", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 52.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 52.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 52.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 52.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 53.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 53.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 53.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 53.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 1.0},
+
+
+    {"Time": 54.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 54.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 54.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+    {"Time": 54.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 55.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 55.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 55.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 55.30, "Who": "Dancer 8", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 56.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 56.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 56.30, "Who": "Dancer 8", "Action": "ShootAtPlayer"},
+    {"Time": 56.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 1.0},
+    {"Time": 56.30, "Who": "Dancer 11", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 57.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 57.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 57.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 57.30, "Who": "Dancer 11", "Action": "ShootAtPlayer"},
+    {"Time": 57.30, "Who": "Dancer 7", "Action": "Shake", "Amt": 1.0},
+    {"Time": 57.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 58.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 58.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 58.30, "Who": "Dancer 7", "Action": "ShootAtPlayer"},
+    {"Time": 58.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 58.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 1.0},
+    {"Time": 58.30, "Who": "Dancer 9", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 59.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 59.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 59.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 59.30, "Who": "Dancer 9", "Action": "ShootAtPlayer"},
+    {"Time": 59.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 1.0},
+    {"Time": 59.30, "Who": "Dancer 7", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 60.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 60.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 60.30, "Who": "Dancer 6", "Action": "ShootAtPlayer"},
+    {"Time": 60.30, "Who": "Dancer 7", "Action": "ShootAtPlayer"},
+    {"Time": 60.30, "Who": "Dancer 11", "Action": "Shake", "Amt": 1.0},
+    {"Time": 60.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 61.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 61.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 61.30, "Who": "Dancer 11", "Action": "ShootAtPlayer"},
+    {"Time": 61.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+    {"Time": 61.30, "Who": "Dancer 1", "Action": "Shake", "Amt": 1.0},
+    {"Time": 61.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 62.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 62.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 62.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 62.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 62.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 1.0},
+    {"Time": 62.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 1.0},
+    {"Time": 62.30, "Who": "Dancer 8", "Action": "Shake", "Amt": 1.0},
+    {"Time": 62.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 63.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 63.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 63.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 63.30, "Who": "Dancer 6", "Action": "ShootAtPlayer"},
+    {"Time": 63.30, "Who": "Dancer 8", "Action": "ShootAtPlayer"},
+    {"Time": 63.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 63.30, "Who": "Dancer 1", "Action": "Shake", "Amt": 1.0},
+    {"Time": 63.30, "Who": "Dancer 3", "Action": "Shake", "Amt": 1.0},
+    {"Time": 63.30, "Who": "Dancer 9", "Action": "Shake", "Amt": 1.0},
+    {"Time": 63.30, "Who": "Dancer 11", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 64.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 64.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 64.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 64.30, "Who": "Dancer 3", "Action": "ShootAtPlayer"},
+    {"Time": 64.30, "Who": "Dancer 9", "Action": "ShootAtPlayer"},
+    {"Time": 64.30, "Who": "Dancer 11", "Action": "ShootAtPlayer"},
+    {"Time": 64.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 1.0},
+    {"Time": 64.30, "Who": "Dancer 5", "Action": "Shake", "Amt": 1.0},
+    {"Time": 64.30, "Who": "Dancer 7", "Action": "Shake", "Amt": 1.0},
+    {"Time": 64.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 65.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 65.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 65.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 65.30, "Who": "Dancer 5", "Action": "ShootAtPlayer"},
+    {"Time": 65.30, "Who": "Dancer 7", "Action": "ShootAtPlayer"},
+    {"Time": 65.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+    {"Time": 65.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 1.0},
+    {"Time": 65.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 1.0},
+    {"Time": 65.30, "Who": "Dancer 8", "Action": "Shake", "Amt": 1.0},
+    {"Time": 65.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 66.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 66.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 66.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 66.30, "Who": "Dancer 6", "Action": "ShootAtPlayer"},
+    {"Time": 66.30, "Who": "Dancer 8", "Action": "ShootAtPlayer"},
+    {"Time": 66.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 66.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 1.0},
+    {"Time": 66.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 67.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 67.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 67.30, "Who": "Dancer 6", "Action": "ShootAtPlayer"},
+    {"Time": 67.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+    {"Time": 67.30, "Who": "Dancer 5", "Action": "Shake", "Amt": 1.0},
+    {"Time": 67.30, "Who": "Dancer 11", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 68.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 68.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 68.30, "Who": "Dancer 5", "Action": "ShootAtPlayer"},
+    {"Time": 68.30, "Who": "Dancer 11", "Action": "ShootAtPlayer"},
+    {"Time": 68.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 1.0},
+    {"Time": 68.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 69.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 69.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 69.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 69.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 69.30, "Who": "Dancer 3", "Action": "Shake", "Amt": 1.0},
+    {"Time": 69.30, "Who": "Dancer 9", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 70.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 70.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 70.30, "Who": "Dancer 3", "Action": "ShootAtPlayer"},
+    {"Time": 70.30, "Who": "Dancer 9", "Action": "ShootAtPlayer"},
+    {"Time": 70.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 1.0},
+    {"Time": 70.30, "Who": "Dancer 8", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 71.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 71.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 71.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 71.30, "Who": "Dancer 8", "Action": "ShootAtPlayer"},
+    {"Time": 71.30, "Who": "Dancer 1", "Action": "Shake", "Amt": 1.0},
+    {"Time": 71.30, "Who": "Dancer 7", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 72.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 72.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 72.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 72.30, "Who": "Dancer 7", "Action": "ShootAtPlayer"},
+    {"Time": 72.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 1.0},
+    {"Time": 72.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 1.0},
+
+
+    {"Time": 73.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 73.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 73.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 73.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 73.30, "Who": "Dancer 3", "Action": "Shake", "Amt": 1.0},
+    {"Time": 73.30, "Who": "Dancer 5", "Action": "Shake", "Amt": 1.0},
+    {"Time": 73.30, "Who": "Dancer 9", "Action": "Shake", "Amt": 1.0},
+    {"Time": 73.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 1.0},
+
+    {"Time": 74.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 74.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 74.30, "Who": "Dancer 3", "Action": "ShootAtPlayer"},
+    {"Time": 74.30, "Who": "Dancer 5", "Action": "ShootAtPlayer"},
+    {"Time": 74.30, "Who": "Dancer 9", "Action": "ShootAtPlayer"},
+    {"Time": 74.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+
+    {"Time": 75.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 75.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 75.30, "Who": "Dancer 1", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 2", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 3", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 4", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 5", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 6", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 7", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 8", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 9", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 10", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 11", "Action": "Shake", "Amt": 5.0},
+    {"Time": 75.30, "Who": "Dancer 12", "Action": "Shake", "Amt": 5.0},
+
+    {"Time": 76.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 76.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+  
+    {"Time": 77.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 77.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+
+    {"Time": 78.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 78.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1.4},
+
+    {"Time": 79.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 79.30, "Who": "Craig", "Action": "SetScale", "Amt": 1.4},
+    {"Time": 79.30, "Who": "Dancer 1", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 2", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 3", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 4", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 5", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 6", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 7", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 8", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 9", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 10", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 11", "Action": "Flash", "Amt": 1.0},
+    {"Time": 79.30, "Who": "Dancer 12", "Action": "Flash", "Amt": 1.0},
+
+    {"Time": 80.00, "Who": "Charlie", "Anim": "Idle"},
+
+    {"Time": 80.30, "Who": "Craig", "Action": "SetScale", "Amt": 1},
+    {"Time": 80.30, "Who": "Charlie", "Action": "SetScale", "Amt": 1},
+    {"Time": 80.30, "Who": "Dancer 1", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 2", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 3", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 4", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 5", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 6", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 7", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 8", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 9", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 10", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 11", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 12", "Action": "ShootAtPlayer"},
+    {"Time": 80.30, "Who": "Dancer 1", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 2", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 3", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 4", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 5", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 6", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 7", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 8", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 9", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 10", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 11", "Action": "FadeOut"},
+    {"Time": 80.30, "Who": "Dancer 12", "Action": "FadeOut"},
+
+    {"Time": 80.30, "Who":"Charlie", "Action":"MoveToX", "Amt": 0},
+    {"Time": 80.30, "Who":"Craig", "Action":"MoveToX", "Amt": 0},
+    {"Time": 80.30, "Who": "Charlie", "Action":"MoveToY", "Amt": 2.5},
+    {"Time": 80.30, "Who": "Craig", "Action":"MoveToY", "Amt": -2.0},
+    {"Time": 80.30, "Who": "Charlie", "Anim": "SpinShoot"},
+    {"Time": 80.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 81.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 82.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 83.00, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 83.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 83.30, "Who": "Craig", "Anim": "SpinShoot"},
+    {"Time": 84.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 85.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 86.00, "Who": "Charlie", "Anim": "Idle"},
+    {"Time": 86.30, "Who": "Charlie", "Anim": "SpinShoot"},
+    {"Time": 86.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 87.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 88.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 89.00, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 89.30, "Who": "Craig", "Anim": "SpinShoot"},
+    {"Time": 89.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+    {"Time": 90.30, "Who": "Goon", "Action": "MoveUp", "Amt": 1.5},
+
+    {"Time": 94.20, "Who": "Charlie", "Action": "Shake", "Amt": 1.0},
+    {"Time": 94.20, "Who": "Craig", "Action": "Shake", "Amt": 1.0},
+    {"Time": 95.20, "Who": "Goon", "Action": "Shake", "Amt": 0.5},
+    {"Time": 95.50, "Who": "Goon", "Action": "ShootAtPlayer"},
+    {"Time": 96.20, "Who": "Craig", "Action": "Shake", "Amt": 1.0},
+    {"Time": 96.20, "Who": "Charlie", "Action": "Shake", "Amt": 1.0},
+    {"Time": 97.20, "Who": "Goon", "Action": "Shake", "Amt": 0.5},
+    {"Time": 97.50, "Who": "Goon", "Action": "ShootAtPlayer"},
+
+    {"Time": 97.50, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 97.50, "Who": "Charlie", "Anim": "Idle"},
+    {"Time": 98.0, "Who": "Craig", "Anim": "SpinShoot"},
+    {"Time": 98.0, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 101.20, "Who": "Charlie", "Action": "Shake", "Amt": 1.0},
+    {"Time": 101.20, "Who": "Craig", "Action": "Shake", "Amt": 1.0},
+    {"Time": 102.20, "Who": "Goon", "Action": "Shake", "Amt": 0.5},
+    {"Time": 102.50, "Who": "Goon", "Action": "ShootAtPlayer"},
+    {"Time": 103.20, "Who": "Charlie", "Action": "Shake", "Amt": 1.0},
+    {"Time": 103.20, "Who": "Craig", "Action": "Shake", "Amt": 1.0},
+    {"Time": 104.20, "Who": "Goon", "Action": "Shake", "Amt": 0.5},
+    {"Time": 104.50, "Who": "Goon", "Action": "ShootAtPlayer"},
+
+    {"Time": 104.50, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 104.50, "Who": "Charlie", "Anim": "Idle"},
+    {"Time": 105.0, "Who": "Craig", "Anim": "SpinShoot"},
+    {"Time": 105.0, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 106.0, "Who": "Goon", "Action": "FadeOut"},
+    {"Time": 108.0, "Who": "Goon", "Action": "MoveUp", "Amt": 50},
+    {"Time": 109.0, "Who":"Charlie", "Action":"MoveToX", "Amt": -6},
+    {"Time": 109.0, "Who":"Craig", "Action":"MoveToX", "Amt": 6},
+    {"Time": 110.0, "Who": "Craig", "Action": "Flash", "Amt": 3},
+    {"Time": 110.0, "Who": "Charlie", "Action": "Flash", "Amt": 3},
+
+    {"Time": 112.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.5},
+    {"Time": 112.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.5},
+
+    {"Time": 113.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 113.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 113.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 113.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 114.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 114.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},    
+
+    {"Time": 114.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 114.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 115.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 115.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 115.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 115.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 116.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 116.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 116.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 116.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 117.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 117.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 117.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 117.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 118.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 118.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 118.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 118.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 119.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 119.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 119.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 119.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 120.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 120.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 120.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 120.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 121.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 121.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 121.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 121.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 122.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 122.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 122.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 122.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 123.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 123.0, "Who":"Charlie", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 123.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 123.0, "Who":"Craig", "Action":"MoveRight", "Amt": -1.0},
+
+    {"Time": 124.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 124.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+
+    {"Time": 124.0, "Who":"Charlie", "Action":"MoveUp", "Amt": -2.0},
+    {"Time": 124.0, "Who":"Craig", "Action":"MoveUp", "Amt": 2.0},
+
+    {"Time": 125.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 125.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 125.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 126.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 126.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 126.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 126.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 127.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 127.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 127.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 127.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 128.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 128.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 128.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 128.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 129.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 129.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 129.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 129.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 130.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 130.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 130.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 130.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 131.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 131.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 131.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 131.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+    
+    {"Time": 132.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 132.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 132.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 132.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 133.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 133.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 133.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 133.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 134.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 134.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 134.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 134.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 135.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 135.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 135.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 135.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 136.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 136.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 136.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 136.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 137.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 137.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 137.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 137.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 138.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 138.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 138.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 138.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.5},
+
+    {"Time": 139.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 139.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 139.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.5},
+    {"Time": 139.0, "Who": "Craig", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 140.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 140.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 140.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+
+    {"Time": 141.0, "Who": "Charlie", "Action":"MoveRight", "Amt": -1.0},
+    {"Time": 141.0, "Who": "Craig", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 141.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 141.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+
+    {"Time": 142.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 142.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+
+    {"Time": 142.0, "Who": "Charlie", "Action":"MoveRight", "Amt": -1.0},
+    {"Time": 142.0, "Who": "Craig", "Action":"MoveRight", "Amt": 1.0},
+
+    {"Time": 142.0, "Who": "Singer Parent", "Action": "MoveUp", "Amt": -20},
+
+    {"Time": 143.0, "Who": "Left Conga", "Action": "MoveRight", "Amt": 1.0},
+    {"Time": 143.0, "Who": "Right Conga", "Action": "MoveRight", "Amt": -1.0},
+    {"Time": 143.0, "Who": "Charlie", "Action": "SetScale", "Amt": 1.0},
+    {"Time": 143.0, "Who": "Singer Parent", "Action": "FadeIn"},
+    {"Time": 143.0, "Who": "SingerA", "Action": "FadeIn"},
+    {"Time": 143.0, "Who": "SingerB", "Action": "FadeIn"},
+    {"Time": 145.0, "Who": "Charlie", "Action": "FadeOut"},
+    {"Time": 145.0, "Who": "Craig", "Action": "FadeOut"},
+    {"Time": 145.0, "Who": "SingerA", "Action": "RandomWalk"},
+    {"Time": 145.0, "Who": "SingerB", "Action": "RandomWalk"},
+
+    {"Time": 148.0, "Who": "SingerA", "Anim": "SpinShoot"},
+    {"Time": 151.0, "Who": "SingerB", "Anim": "SpinShoot"},
+    {"Time": 153.5, "Who": "SingerA", "Anim": "Idle"},
+    {"Time": 154.0, "Who": "SingerA", "Anim": "SpinShoot"},
+    {"Time": 156.5, "Who": "SingerB", "Anim": "Idle"},
+    {"Time": 157.0, "Who": "SingerB", "Anim": "SpinShoot"},
+
+    {"Time": 161.0, "Who": "Craig", "Action": "MoveToX", "Amt": 5.0},
+    {"Time": 161.0, "Who": "Craig", "Action": "MoveToY", "Amt": 4.0},
+
+    {"Time": 161.0, "Who": "Charlie", "Action": "MoveToX", "Amt": -5.0},
+    {"Time": 161.0, "Who": "Charlie", "Action": "MoveToY", "Amt": -3.0},
+
+    {"Time": 162.0, "Who": "Craig", "Action": "FadeIn"},
+    {"Time": 162.0, "Who": "Craig", "Action": "Shake", "Amt": 1},
+
+    {"Time": 163.0, "Who": "Craig", "Action": "FadeOut"},
+    
+    {"Time": 163.0, "Who": "SingerA", "Action": "Shake", "Amt": 1.0},
+    {"Time": 163.5, "Who": "SingerA", "Action": "ShootAtPlayer"},
+
+    {"Time": 164.0, "Who": "Charlie", "Action": "FadeIn"},
+    {"Time": 164.0, "Who": "Charlie", "Action": "Shake", "Amt": 1},
+
+    {"Time": 165.0, "Who": "Charlie", "Action": "FadeOut"},
+
+    {"Time": 165.0, "Who": "SingerB", "Action": "Shake", "Amt": 1.0},
+    {"Time": 165.5, "Who": "SingerB", "Action": "ShootAtPlayer"},
+
+    {"Time": 165.5, "Who": "SingerA", "Anim": "Idle"},
+    {"Time": 166.0, "Who": "SingerA", "Anim": "SpinShoot"},
+
+    {"Time": 169.0, "Who": "Craig", "Action": "FadeIn"},
+    {"Time": 169.0, "Who": "Craig", "Action": "Shake", "Amt": 1},
+
+    {"Time": 170.0, "Who": "Craig", "Action": "FadeOut"},
+    
+    {"Time": 170.0, "Who": "SingerA", "Action": "Shake", "Amt": 1.0},
+    {"Time": 170.5, "Who": "SingerA", "Action": "ShootAtPlayer"},
+
+    {"Time": 171.0, "Who": "Charlie", "Action": "FadeIn"},
+    {"Time": 171.0, "Who": "Charlie", "Action": "Shake", "Amt": 1},
+
+    {"Time": 172.0, "Who": "Charlie", "Action": "FadeOut"},
+
+    {"Time": 172.0, "Who": "SingerB", "Action": "Shake", "Amt": 1.0},
+    {"Time": 172.5, "Who": "SingerB", "Action": "ShootAtPlayer"},
+
+    {"Time": 172.5, "Who": "SingerA", "Anim": "Idle"},
+    {"Time": 173.0, "Who": "SingerA", "Anim": "SpinShoot"},
+
+    {"Time": 174.0, "Who": "Craig", "Action": "MoveToY", "Amt": -3},
+    {"Time": 174.0, "Who": "Charlie", "Action": "MoveToY", "Amt": 4},
+
+    {"Time": 176.0, "Who": "SingerA", "Action": "RandomWalk"},
+    {"Time": 176.0, "Who": "SingerB", "Action": "RandomWalk"},
+
+    {"Time": 177.0, "Who": "Craig", "Action": "FadeIn"},
+    {"Time": 177.0, "Who": "Craig", "Action": "Shake", "Amt": 1},
+
+    {"Time": 178.0, "Who": "Craig", "Action": "FadeOut"},
+    
+    {"Time": 178.0, "Who": "SingerA", "Action": "Shake", "Amt": 1.0},
+    {"Time": 178.5, "Who": "SingerA", "Action": "ShootAtPlayer"},
+
+    {"Time": 179.0, "Who": "Charlie", "Action": "FadeIn"},
+    {"Time": 179.0, "Who": "Charlie", "Action": "Shake", "Amt": 1},
+
+    {"Time": 180.0, "Who": "Charlie", "Action": "FadeOut"},
+
+    {"Time": 180.0, "Who": "SingerB", "Action": "Shake", "Amt": 1.0},
+    {"Time": 180.5, "Who": "SingerB", "Action": "ShootAtPlayer"},
+
+    {"Time": 180.5, "Who": "SingerA", "Anim": "Idle"},
+    {"Time": 181.0, "Who": "SingerA", "Anim": "SpinShoot"},
+
+    {"Time": 184.0, "Who": "Craig", "Action": "FadeIn"},
+    {"Time": 184.0, "Who": "Craig", "Action": "Shake", "Amt": 1},
+
+    {"Time": 185.0, "Who": "Craig", "Action": "FadeOut"},
+    
+    {"Time": 185.0, "Who": "SingerA", "Action": "Shake", "Amt": 1.0},
+    {"Time": 185.5, "Who": "SingerA", "Action": "ShootAtPlayer"},
+
+    {"Time": 186.0, "Who": "Charlie", "Action": "FadeIn"},
+    {"Time": 186.0, "Who": "Charlie", "Action": "Shake", "Amt": 1},
+
+    {"Time": 187.0, "Who": "Charlie", "Action": "FadeOut"},
+
+    {"Time": 187.0, "Who": "SingerB", "Action": "Shake", "Amt": 1.0},
+    {"Time": 187.5, "Who": "SingerB", "Action": "ShootAtPlayer"},
+
+    {"Time": 187.5, "Who": "SingerA", "Anim": "Idle"},
+    {"Time": 188.0, "Who": "SingerA", "Anim": "SpinShoot"},
+
+    {"Time": 189.0, "Who":"Charlie", "Action":"MoveToX", "Amt": -3},
+    {"Time": 189.0, "Who":"Craig", "Action":"MoveToX", "Amt": 3},
+    {"Time": 189.0, "Who": "Charlie", "Action":"MoveToY", "Amt": 0},
+    {"Time": 189.0, "Who": "Craig", "Action":"MoveToY", "Amt": 0},
+
+    {"Time": 190.0, "Who": "Craig", "Anim": "Idle"},
+    {"Time": 190.0, "Who": "Charlie", "Anim": "Idle"},
+
+    {"Time": 192.0, "Who": "Singer Parent", "Action": "FadeOut"},
+    {"Time": 192.0, "Who": "SingerA", "Action": "FadeOut"},
+    {"Time": 192.0, "Who": "SingerB", "Action": "FadeOut"},
+    {"Time": 192.0, "Who": "Craig", "Action": "FadeIn"},
+    {"Time": 190.0, "Who": "Craig", "Anim": "SpinShoot"},
+    {"Time":192.0, "Who": "Charlie", "Action": "FadeIn"},
+    {"Time": 192.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 193.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 194.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+
+    {"Time": 193.0, "Who": "Singer Parent", "Action": "MoveRight", "Amt": 50},
+
+    {"Time": 195.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 195.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 195.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 195.0, "Who": "Charlie", "Anim": "Idle"},
+
+    {"Time": 196.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 196.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 196.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 196.0, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 197.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 197.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 197.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 198.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 198.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 198.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 198.5, "Who": "Craig", "Anim": "Idle"},
+
+    {"Time": 199.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 199.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 199.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 199.0, "Who": "Craig", "Anim": "SpinShoot"},
+
+    {"Time": 200.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 200.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 200.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 201.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 201.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 201.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 201.5, "Who": "Charlie", "Anim": "Idle"},
+
+    {"Time": 202.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 202.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 202.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+    {"Time": 202.0, "Who": "Charlie", "Anim": "SpinShoot"},
+
+    {"Time": 203.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 203.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 203.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 204.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 204.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 204.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 205.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 205.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 205.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 206.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 206.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 206.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 207.0, "Who": "Goon 2", "Action": "MoveUp", "Amt": -1.5},
+    {"Time": 207.0, "Who": "Left Conga 2", "Action": "MoveRight", "Amt": 2.5},
+    {"Time": 207.0, "Who": "Right Conga 2", "Action": "MoveRight", "Amt": -2.5},
+
+    {"Time": 211.0}
+  ]
+}
