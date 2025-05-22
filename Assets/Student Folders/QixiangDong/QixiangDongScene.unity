@@ -206,6 +206,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -229,6 +230,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.9281127
@@ -351,6 +356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.11
@@ -462,6 +471,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.5497894
@@ -824,6 +837,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.01
@@ -889,6 +906,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.93
@@ -1041,6 +1062,7 @@ MonoBehaviour:
   Health: 0
   Speed: 1000
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -1340,6 +1362,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3978962156781293806, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
+    - targetCorrespondingSourceObject: {fileID: 6456148973302038831, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
     - targetCorrespondingSourceObject: {fileID: 880116955497592580, guid: d234da9df56f40d49a2c47c6bc00444a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}
@@ -1410,6 +1435,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monster (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5967393598512959422, guid: 62e58e2350691994a86675be924d2369, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 6b1addf69066ba24eb42ba6b3436a580, type: 2}
     - target: {fileID: 8375557812653494836, guid: 62e58e2350691994a86675be924d2369, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.96
@@ -1885,6 +1914,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -1981,6 +2011,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -2096,6 +2127,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -2177,6 +2209,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}
@@ -2222,6 +2255,7 @@ MonoBehaviour:
   Health: 0
   Speed: 5
   SpinSpeed: 5
+  SizeSpeed: 5
   DefaultProjectile: {fileID: 0}
   AltProjectiles: []
   ShootGnome: {fileID: 0}

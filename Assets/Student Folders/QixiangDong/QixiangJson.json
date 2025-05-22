@@ -161,10 +161,8 @@
 
     {"Time": 33,"Action":"Shake"},
     {"Time": 33,"Who": "Monster (1)","Action":"Shake"},
-    {"Time": 34,"Action":"RandomWalk"},
-    {"Time": 34,"Who": "Monster (1)","Action":"RandomWalk"},
-    {"Time": 34,"Anim":"SpinShoot"},
-    {"Time": 34,"Who":"Monster (1)","Anim":"SpinShoot"},
+    {"Time": 34,"Action":"RandomWalk","Anim":"SpinShoot"},
+    {"Time": 34,"Who": "Monster (1)","Action":"RandomWalk","Anim":"SpinShoot"},
 
     {"Time": 36,"Action":"ShootAtPlayer"},
     {"Time": 36,"Who": "Monster (1)","Action":"ShootAtPlayer"},
@@ -317,8 +315,9 @@
     {"Time": 73,"Who": "Monster (1)","Action":"RandomWalk"},
     {"Time": 73,"Action":"ShootAtPlayer"},
     {"Time": 73,"Who": "Monster (1)","Action":"ShootAtPlayer"},
-    {"Time": 74,"Anim":"SpinShoot"},
-    {"Time": 74,"Who":"Monster (1)","Anim":"SpinShoot"},
+    {"Time": 73,"Action":"RandomWalk","Anim":"SpinShoot"},
+    {"Time": 73,"Who": "Monster (1)","Action":"RandomWalk","Anim":"SpinShoot"},
+
     {"Time": 75,"Action":"ShootAtPlayer"},
     {"Time": 75,"Who": "Monster (1)","Action":"ShootAtPlayer"},
 
@@ -449,10 +448,8 @@
     {"Time": 128,"Action":"Flash"},
     {"Time":123,"Anim":"SpinShoot"},
     {"Time": 128,"Who": "Monster (1)","Action":"Flash"},
-    {"Time": 129,"Action":"RandomWalk"},
-    {"Time": 129,"Who": "Monster (1)","Action":"RandomWalk"},
-    {"Time": 129,"Anim":"SpinShoot"},
-    {"Time": 129,"Who":"Monster (1)","Anim":"SpinShoot"},
+    {"Time": 129,"Action":"RandomWalk","Anim":"SpinShoot"},
+    {"Time": 129,"Who": "Monster (1)","Action":"RandomWalk","Anim":"SpinShoot"},
     {"Time": 130,"Action":"ShootAtPlayer"},
     {"Time": 130,"Who": "Monster (1)","Action":"ShootAtPlayer"},
     {"Time": 131},
