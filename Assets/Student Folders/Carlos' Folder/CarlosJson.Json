@@ -1,14 +1,1543 @@
 {
-  "Title": "Example Level",
-  "Author": "Example Student",
+  "Title": "Shape of You",
+  "Author": "Ed Sheeran",
   "Events": [
-    {"Time": 0,"Anim": "SpinShoot","Action": "RandomWalk"},
-    {"Time": 2,"Action": "RandomWalk"},
-    {"Time": 4,"Action": "RandomWalk"},
-    {"Time": 5.5,"Action": "Shake", "Amt": 3},
-    {"Time": 8,"Dialogue": "Hello"},
-    {"Time": 8,"Who":"Player","Action": "Flash"},
-    {"Time": 10,"Dialogue": ""},
-    {"Time": 12}
+    {"Time": 0.35,"Action": "ShootAtPlayer"},
+   
+    {"Time": 0.82,"Action": "ShootAtPlayer"},
+    
+    {"Time": 1.34,"Action": "ShootAtPlayer"},
+
+    {"Time": 1.59, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 1.59, "Action": "LerpToY", "Amt": 3},
+    
+    {"Time": 1.64,"Action": "ShootAtPlayer"},
+   
+    {"Time": 2.11,"Action": "ShootAtPlayer"},
+    
+    {"Time": 2.54,"Action": "ShoootAtPlayer"},
+
+    {"Time": 2.79, "Action": "LerpToX", "Amt": 6},
+    
+    {"Time": 2.79, "Action": "LerpToY", "Amt": -3},
+    
+    {"Time": 2.92,"Action": "ShootAtPlayer"},
+    
+    {"Time": 3.41,"Action": "ShootAtPlayer"},
+    
+    {"Time": 3.82,"Action": "ShootAtPlayer"},
+
+    {"Time": 3.93, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 3.93, "Action": "LerpToY", "Amt": -3},
+    
+    {"Time": 4.18, "Action":"ShootAtPlayer"},
+    
+    {"Time": 4.67, "Action":"ShootAtPlayer"},
+    
+    {"Time": 5.07,"Action":"ShootAtPlayer"},
+
+    {"Time": 5.30, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 5.30, "Action": "LerpToY", "Amt": 3},
+    
+    {"Time": 5.43,"Action":"ShootAtPlayer"},
+    
+    {"Time": 5.93,"Action":"ShootAtPlayer"},
+    
+    {"Time": 6.34,"Action": "ShootAtPLayer"},
+
+    {"Time": 6.36, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 6.36, "Action": "LerpToY", "Amt": 3},
+    
+    {"Time": 6.71,"Action": "ShootAtPlayer"},
+    
+    {"Time": 7.19,"Action": "ShootAtPlayer"},
+    
+    {"Time": 7.53,"Action": "ShootAtPlayer"},
+
+    {"Time": 7.63, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 7.63, "Action": "LerpToY", "Amt": -3},
+    
+    {"Time": 7.91,"Action":"ShootAtPlayer"},
+    
+    {"Time": 8.36,"Action":"ShootAtPlayer"},
+    
+    {"Time": 8.74,"Action":"ShootAtPlayer"},
+
+    {"Time": 8.84, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 8.84, "Action": "LerpToY", "Amt": -3},
+    
+    {"Time": 9.14,"Action":"ShootAtPlayer"},
+    
+    {"Time": 9.64,"Action":"ShootAtPlayer"},
+    
+    {"Time": 10.04,"Action":"ShootAtPlayer"},
+
+    {"Time": 10.11, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 10.11, "Action": "LerpToY", "Amt": 3},
+    
+    {"Time": 10.47,"Action":"ShootAtPlayer"},
+
+    {"Time": 10.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 11.36, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 11.36, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 11.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 11.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 12.17,"Action":"ShoootAtPlayer"},
+
+    {"Time": 12.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 12.62, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 12.62, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 12.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 13.34,"Action":"ShootAtPlayer"},
+
+    {"Time": 13.79,"Action":"ShootAtPlayer"},
+
+    {"Time": 13.84, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 13.84, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 14.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 14.67,"Action":"ShootAtPlayer"},
+
+    {"Time": 15.08, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 15.08, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 15.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 15.49,"Action":"ShootAtPlayer"},
+
+    {"Time": 15.95,"Action":"ShootAtPlayer"},
+
+    {"Time": 16.39, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 16.39, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 16.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 16.73,"Action":"ShootAtPlayer"},
+
+    {"Time": 17.17,"Action":"ShootAtPlayer"},
+
+    {"Time": 17.61, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 17.61, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 17.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 17.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 18.40,"Action":"ShootAtPlayer"},
+
+    {"Time": 18.84,"Action":"ShootAtPlayer"},
+
+    {"Time": 18.93, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 18.93, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 19.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 19.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 20.07,"Action":"ShootAtPlayer"},
+
+    {"Time": 20.26, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 20.26, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 20.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 20.97,"Action":"ShootAtPlayer"},
+
+    {"Time": 21.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 21.43, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 21.43, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 21.73,"Action":"ShootAtPlayer"},
+
+    {"Time": 22.14,"Action":"ShoootAtPlayer"},
+
+    {"Time": 22.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 22.79, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 22.79, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 22.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 23.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 23.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 23.93, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 23.93, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 24.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 24.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 25.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 25.14, "Action": "LerpToY", "Amt": -6},
+
+    {"Time": 25.14, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 25.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 25.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 26.34,"Action":"ShootAtPlayer"},
+
+    {"Time": 26.44, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 26.44, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 26.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 27.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 27.57,"Action":"ShootAtPlayer"},
+
+    {"Time": 27.78, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 27.78, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 27.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 28.41,"Action":"ShootAtPlayer"},
+    
+    {"Time": 28.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 29.09, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 29.09, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 29.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 29.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 30.07,"Action":"ShootAtPlayer"},
+
+    {"Time": 30.24, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 30.24, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 30.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 30.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 31.32,"Action":"ShootAtPlayer"},
+
+    {"Time": 31.48, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 31.48, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 31.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 32.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 32.57,"Action":"ShootAtPlayer"},
+
+    {"Time": 32.84, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 32.84, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 32.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 33.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 33.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 34.10, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 34.10, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 34.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 34.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 35.07,"Action":"ShootAtPlayer"},
+
+    {"Time": 35.23, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 35.23, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 35.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 35.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 36.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 36.48, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 36.48, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 36.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 37.09,"Action":"ShootAtPlayer"},
+
+    {"Time": 37.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 37.73, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 37.73, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 37.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 38.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 38.79,"Action":"ShootAtPlayer"},
+
+    {"Time": 39.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 39.17, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 39.17, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 39.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 40.06,"Action":"ShootAtPlayer"},
+
+    {"Time": 40.30, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 40.30, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 40.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 40.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 41.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 41.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 41.84, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 41.84, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 42.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 42.54,"Action":"ShootAtPlayer"},
+
+    {"Time": 42.79, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 42.79, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 42.86,"Action":"ShootAtPlayer"},
+
+    {"Time": 43.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 43.79,"Action":"ShootAtPlayer"},
+
+    {"Time": 44.03, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 44.03, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 44.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 44.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 45.01,"Action":"ShootAtPlayer"},
+
+    {"Time": 45.25, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 45.25, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 45.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 45.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 46.29,"Action":"ShootAtPlayer"},
+
+    {"Time": 46.45, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 46.45, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 46.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 47.17,"Action":"ShootAtPlayer"},
+
+    {"Time": 47.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 47.93, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 47.93, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 47.97,"Action":"ShootAtPlayer"},
+
+    {"Time": 49.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 50.64,"Action":"Shake", "Amt": 0.38},
+
+    {"Time": 51.02,"Action":"ShootAtPlayer"},
+
+    {"Time": 51.16, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 51.16, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 51.26,"Action":"ShootAtPlayer"},
+
+    {"Time": 51.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 52.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 52.45, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 52.45, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 52.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 53.34,"Action":"ShootAtPlayer"},
+
+    {"Time": 53.67, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 53.67, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 53.79,"Action":"ShootAtPlayer"},
+
+    {"Time": 54.11,"Action":"ShootAtPlayer"},
+
+    {"Time": 54.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 54.91, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 54.91, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 55.06,"Action":"ShootAtPlayer"},
+
+    {"Time": 55.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 55.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 56.13, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 56.13, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 56.33,"Action":"ShootAtPlayer"},
+
+    {"Time": 56.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 57.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 57.43, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 57.43, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 57.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 57.98,"Action":"ShootAtPlayer"},
+
+    {"Time": 58.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 58.70, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 58.70, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 58.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 59.21,"Action":"ShootAtPlayer"},
+
+    {"Time": 59.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 59.79,"Action":"ShootAtPlayer"},
+
+    {"Time": 60.03, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 60.03, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 60.08,"Action":"ShootAtPlayer"},
+
+    {"Time": 60.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 60.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 61.15, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 61.15, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 61.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 61.71,"Action":"ShootAtPlayer"},
+
+    {"Time": 62.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 62.35, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 62.35, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 62.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 62.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 63.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 63.61, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 63.61, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 63.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 64.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 64.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 64.95, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 64.95, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 65.11,"Action":"ShootAtPlayer"},
+
+    {"Time": 65.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 65.97,"Action":"ShootAtPlayer"},
+
+    {"Time": 66.26, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 66.26, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 66.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 66.36,"Action":"ShootAtPlayer"},
+
+    {"Time": 66.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 67.17,"Action":"ShootAtPlayer"},
+
+    {"Time": 67.46, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 67.46, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 67.63,"Action":"ShootAtPlayer"},
+
+    {"Time": 67.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 68.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 68.77, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 68.77, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 68.84,"Action":"ShootAtPlayer"},
+
+    {"Time": 69.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 69.74,"Action":"ShootAtPlayer"},
+
+    {"Time": 69.83, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 69.83, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 70.08,"Action":"ShootAtPlayer"},
+
+    {"Time": 70.72,"Action":"ShootAtPlayer"},
+
+    {"Time": 71.39, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 71.39, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 71.75,"Action":"ShootAtPlayer"},
+
+    {"Time": 72.55, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 72.55, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 72.90,"Action":"ShootAtPlayer"},
+
+    {"Time": 73.81, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 73.81, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 74.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 74.85, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 74.85, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 75.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 76.21, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 76.21, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 76.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 77.50, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 77.50, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 77.95,"Action":"ShootAtPlayer"},
+
+    {"Time": 78.67, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 78.67, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 79.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 79.96, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 79.96, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 80.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 81.23, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 81.23, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 81.72,"Action":"ShootAtPlayer"},
+
+    {"Time": 82.55, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 82.55, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 82.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 83.72, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 83.72, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 84.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 85.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 85.03, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 85.03, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 86.41, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 86.41, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 86.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 87.60, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 87.60, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 87.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 88.91, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 88.91, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 89.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 89.92, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 89.92, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 90.49,"Action":"ShootAtPlayer"},
+
+    {"Time": 90.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 91.18, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 91.18, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 91.36,"Action":"ShootAtPlayer"},
+
+    {"Time": 91.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 92.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 92.50, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 92.50, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 92.54,"Action":"ShootAtPlayer"},
+
+    {"Time": 92.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 93.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 93.72, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 93.72, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 93.81,"Action":"ShootAtPlayer"},
+
+    {"Time": 94.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 94.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 94.90, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 94.90, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 95.06,"Action":"ShootAtPlayer"},
+
+    {"Time": 95.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 95.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 96.17, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 96.17, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 96.33,"Action":"ShootAtPlayer"},
+
+    {"Time": 96.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 97.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 97.47, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 97.47, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 97.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 97.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 98.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 98.62, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 98.62, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 98.83,"Action":"ShootAtPlayer"},
+
+    {"Time": 99.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 99.59,"Action":"Shake", "Amt": 0.84},
+
+    {"Time": 100.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 100.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 101.19, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 101.19, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 101.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 101.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 102.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 102.43, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 102.43, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 102.57,"Action":"ShootAtPlayer"},
+
+    {"Time": 102.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 103.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 103.82, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 103.82, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 103.86,"Action":"ShootAtPlayer"},
+
+    {"Time": 104.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 104.71,"Action":"ShootAtPlayer"},
+
+    {"Time": 105.02, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 105.02, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 105.08,"Action":"ShootAtPlayer"},
+
+    {"Time": 105.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 105.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 106.36,"Action":"ShootAtPlayer"},
+
+    {"Time": 106.48, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 106.48, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 106.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 107.17,"Action":"ShootAtPlayer"},
+
+    {"Time": 107.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 107.67, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 107.67, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 107.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 108.38,"Action":"ShootAtPlayer"},
+
+    {"Time": 108.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 109.02, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 109.02, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 109.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 109.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 110.08,"Action":"ShootAtPlayer"},
+
+    {"Time": 110.45, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 110.45, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 110.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 110.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 111.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 111.47, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 111.47, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 111.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 112.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 112.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 112.83, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 112.83, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 112.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 113.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 113.86,"Action":"ShootAtPlayer"},
+
+    {"Time": 114.05, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 114.05, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 114.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 114.71,"Action":"ShootAtPlayer"},
+
+    {"Time": 115.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 115.45, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 115.45, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 115.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 115.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 116.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 116.60, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 116.60, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 116.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 117.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 117.63,"Action":"ShootAtPlayer"},
+
+    {"Time": 117.84, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 117.84, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 117.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 118.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 118.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 118.92, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 118.92, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 119.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 119.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 120.07, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 120.07, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 120.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 120.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 120.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 121.24, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 121.24, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 121.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 121.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 122.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 122.44, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 122.44, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 122.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 122.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 123.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 123.65, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 123.65, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 123.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 124.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 124.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 124.84, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 124.84, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 125.07,"Action":"ShootAtPlayer"},
+
+    {"Time": 125.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 125.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 126.16, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 126.16, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 126.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 126.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 127.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 127.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 127.68, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 127.68, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 127.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 129.06,"Action":"Shake", "Amt": 1.37},
+
+    {"Time": 130.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 130.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 131.33,"Action":"ShootAtPlayer"},
+
+    {"Time": 131.36, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 131.36, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 131.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 132.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 132.56, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 132.56, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 132.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 132.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 133.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 133.84, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 133.84, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 133.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 134.21,"Action":"ShootAtPlayer"},
+
+    {"Time": 134.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 135.09,"Action":"ShootAtPlayer"},
+
+    {"Time": 135.14, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 135.14, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 135.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 135.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 136.33,"Action":"ShootAtPlayer"},
+
+    {"Time": 136.35, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 136.35, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 136.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 137.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 137.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 137.65, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 137.65, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 137.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 138.37,"Action":"ShootAtPlayer"},
+
+    {"Time": 138.84,"Action":"ShootAtPlayer"},
+
+    {"Time": 139.07, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 139.07, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 139.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 139.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 140.11,"Action":"ShootAtPlayer"},
+
+    {"Time": 140.12, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 140.12, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 140.38,"Action":"ShootAtPlayer"},
+
+    {"Time": 140.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 141.34,"Action":"ShootAtPlayer"},
+
+    {"Time": 141.46, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 141.46, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 141.63,"Action":"ShootAtPlayer"},
+
+    {"Time": 142.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 142.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 142.72, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 142.72, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 142.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 143.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 143.87,"Action":"ShootAtPlayer"},
+
+    {"Time": 143.97, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 143.97, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 144.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 144.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 145.11,"Action":"ShootAtPlayer"},
+
+    {"Time": 145.15, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 145.15, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 145.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 145.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 146.36,"Action":"ShootAtPlayer"},
+
+    {"Time": 146.42, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 146.42, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 146.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 147.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 147.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 147.65, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 147.65, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 147.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 148.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 148.81,"Action":"ShootAtPlayer"},
+
+    {"Time": 149.05, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 149.05, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 149.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 149.54,"Action":"ShootAtPlayer"},
+
+    {"Time": 150.07, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 150.07, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 150.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 150.77,"Action":"ShootAtPlayer"},
+
+    {"Time": 151.19, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 151.19, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 152.13,"Action":"ShootAtPlayer"},
+
+    {"Time": 152.49, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 152.49, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 153.15,"Action":"ShootAtPlayer"},
+
+    {"Time": 153.85, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 153.85, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 154.23,"Action":"ShootAtPlayer"},
+
+    {"Time": 155.11, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 155.11, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 155.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 156.40, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 156.40, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 156.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 157.74, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 157.74, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 157.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 159.07, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 159.07, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 159.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 160.32, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 160.32, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 160.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 161.55, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 161.55, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 161.67,"Action":"ShootAtPlayer"},
+
+    {"Time": 162.79, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 162.79, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 162.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 164.07, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 164.07, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 164.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 165.38,"Action":"ShootAtPlayer"},
+
+    {"Time": 165.40, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 165.40, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 166.65, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 166.65, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 166.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 167.86, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 167.86, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 167.92,"Action":"ShootAtPlayer"},
+
+    {"Time": 169.06, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 169.06, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 169.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 170.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 180.43,"Action":"ShootAtPlayer"},
+
+    {"Time": 181.62,"Action":"ShootAtPlayer"},
+
+    {"Time": 181.68, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 181.68, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 182.93, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 182.93, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 182.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 184.03, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 184.03, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 184.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 185.29, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 185.29, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 185.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 186.60, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 186.60, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 186.73,"Action":"ShootAtPlayer"},
+
+    {"Time": 187.81, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 187.81, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 187.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 190.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 190.70,"Action":"Shake", "Amt": 0.04},
+
+    {"Time": 190.74, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 190.74, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 191.09,"Action":"ShootAtPlayer"},
+
+    {"Time": 191.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 191.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 191.78, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 191.78, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 192.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 192.57,"Action":"ShootAtPlayer"},
+
+    {"Time": 192.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 192.94, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 192.94, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 193.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 193.78,"Action":"ShootAtPlayer"},
+
+    {"Time": 194.14, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 194.14, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 194.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 194.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 195.11,"Action":"ShootAtPlayer"},
+
+    {"Time": 195.27, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 195.27, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 195.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 195.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 196.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 196.60, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 196.60, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 196.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 197.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 197.57,"Action":"ShootAtPlayer"},
+
+    {"Time": 197.86, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 197.86, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 197.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 198.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 198.81,"Action":"ShootAtPlayer"},
+
+    {"Time": 199.06, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 199.06, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 199.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 199.67,"Action":"ShootAtPlayer"},
+
+    {"Time": 200.12,"Action":"ShootAtPlayer"},
+
+    {"Time": 200.22, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 200.22, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 200.46,"Action":"ShootAtPlayer"},
+    
+    {"Time": 200.94,"Action":"ShootAtPlayer"},
+
+    {"Time": 201.38,"Action":"ShootAtPlayer"},
+
+    {"Time": 201.65, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 201.65, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 202.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 202.59,"Action":"ShootAtPlayer"},
+
+    {"Time": 202.93,"Action":"ShootAtPlayer"},
+
+    {"Time": 202.94, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 202.94, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 203.45,"Action":"ShootAtPlayer"},
+
+    {"Time": 203.86,"Action":"ShootAtPlayer"},
+
+    {"Time": 204.14,"Action":"ShootAtPlayer"},
+
+    {"Time": 204.16, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 204.16, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 204.71,"Action":"ShootAtPlayer"},
+
+    {"Time": 205.04,"Action":"ShootAtPlayer"},
+
+    {"Time": 205.29, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 205.29, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 205.38,"Action":"ShootAtPlayer"},
+
+    {"Time": 205.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 206.34,"Action":"ShootAtPlayer"},
+
+    {"Time": 206.60, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 206.60, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 206.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 207.16,"Action":"ShootAtPlayer"},
+
+    {"Time": 207.54,"Action":"ShootAtPlayer"},
+
+    {"Time": 207.88, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 207.88, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 207.91,"Action":"ShootAtPlayer"},
+
+    {"Time": 208.42,"Action":"ShootAtPlayer"},
+
+    {"Time": 208.82,"Action":"ShootAtPlayer"},
+
+    {"Time": 209.16, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 209.16, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 209.21,"Action":"ShootAtPlayer"},
+
+    {"Time": 209.64,"Action":"ShootAtPlayer"},
+
+    {"Time": 210.09,"Action":"ShootAtPlayer"},
+
+    {"Time": 210.36, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 210.36, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 210.48,"Action":"ShootAtPlayer"},
+
+    {"Time": 210.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 211.31,"Action":"ShootAtPlayer"},
+
+    {"Time": 211.58, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 211.58, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 211.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 212.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 212.61,"Action":"ShootAtPlayer"},
+
+    {"Time": 212.78, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 212.78, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 212.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 213.44,"Action":"ShootAtPlayer"},
+
+    {"Time": 213.89,"Action":"ShootAtPlayer"},
+
+    {"Time": 214.08, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 214.08, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 214.23,"Action":"ShootAtPlayer"},
+
+    {"Time": 214.72,"Action":"ShootAtPlayer"},
+
+    {"Time": 215.08,"Action":"ShootAtPlayer"},
+
+    {"Time": 215.34, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 215.34, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 215.46,"Action":"ShootAtPlayer"},
+
+    {"Time": 215.96,"Action":"ShootAtPlayer"},
+
+    {"Time": 216.39,"Action":"ShootAtPlayer"},
+
+    {"Time": 216.68,"Action":"ShootAtPlayer"},
+
+    {"Time": 216.68, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 216.68, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 217.22,"Action":"ShootAtPlayer"},
+
+    {"Time": 217.71,"Action":"ShootAtPlayer"},
+
+    {"Time": 217.97, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 217.97, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 217.99,"Action":"ShootAtPlayer"},
+
+    {"Time": 218.47,"Action":"ShootAtPlayer"},
+
+    {"Time": 218.88,"Action":"ShootAtPlayer"},
+
+    {"Time": 219.24, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 219.24, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 219.26,"Action":"ShootAtPlayer"},
+
+    {"Time": 219.74,"Action":"ShootAtPlayer"},
+
+    {"Time": 220.18,"Action":"ShootAtPlayer"},
+
+    {"Time": 220.38, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 220.38, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 220.51,"Action":"ShootAtPlayer"},
+
+    {"Time": 220.97,"Action":"ShootAtPlayer"},
+
+    {"Time": 221.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 221.67, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 221.67, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 221.69,"Action":"ShootAtPlayer"},
+
+    {"Time": 222.30,"Action":"ShootAtPlayer"},
+
+    {"Time": 222.66,"Action":"ShootAtPlayer"},
+
+    {"Time": 222.97, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 222.97, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 222.99,"Action":"ShootAtPlayer"},
+
+    {"Time": 223.51,"Action":"ShootAtPlayer"},
+
+    {"Time": 224.15,"Action":"ShootAtPlayer"},
+
+    {"Time": 224.24, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 224.24, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 224.51,"Action":"ShootAtPlayer"},
+
+    {"Time": 225.19,"Action":"ShootAtPlayer"},
+
+    {"Time": 225.51, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 225.51, "Action": "LerpToY", "Amt": 3},
+
+    {"Time": 225.80,"Action":"ShootAtPlayer"},
+
+    {"Time": 226.41,"Action":"ShootAtPlayer"},
+
+    {"Time": 226.76, "Action": "LerpToX", "Amt": 6},
+
+    {"Time": 226.76, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 227.00,"Action":"ShootAtPlayer"},
+
+    {"Time": 227.65,"Action":"ShootAtPlayer"},
+
+    {"Time": 228.03, "Action": "LerpToX", "Amt": -6},
+
+    {"Time": 228.03, "Action": "LerpToY", "Amt": -3},
+
+    {"Time": 228.29,"Action":"ShootAtPlayer"},
+
+    {"Time": 229.00,"Action":"ShootAtPlayer"},
+
+    {"Time":230}
   ]
-}
+}  
+
+
